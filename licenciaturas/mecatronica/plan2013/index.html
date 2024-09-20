@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" href="../../../css/bulma-tooltip.min.css">
+	<link rel="stylesheet" href="../../../css/ofertaEducativa.css">
+	<script type="text/javascript" src="../../../css/bulma-toast/bulma-toast.min.js"></script>
+	<script type="text/javascript" src="../../../js/BulmaJS-master/dist/bulma.js"></script>
+
+	<title>Ingeniería en Mecatrónica</title>
+	<link rel="icon" type="image/x-icon" href="../../../archivos/favicon.ico">
+
+	<link rel="stylesheet" href="../../../css/bubbler/bubbler.min.css" />
+	<script type="text/javascript" src="../../../css/bubbler/bubbler.min.js"></script>
+
+
+	<!-- Fuentes -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+
+	<style>
+		body {
+			font-family: 'Libre Baskerville', serif;
+		}
+
+		.is-active-element i {
+			color: #8C0303;
+		}
+
+		.tabs-content li {
+			display: none;
+			list-style: none;
+		}
+
+		.tabs-content li.is-active {
+			display: block;
+		}
+
+		/* Oculta la vista para pantallas pequeñas */
+		.for-movile {
+			display: none;
+		}
+
+		/* Oculta la vista para pantallas grandes */
+		@media only screen and (max-width: 769px) {
+			.for-movile {
+				display: block;
+			}
+
+			.for-desktop {
+				display: none;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<section class="hero is-small" style="border: solid 0.1px transparent;  box-shadow: 5px 3px 30px #bcb8b5;">
+
+		<!-- Hero content: will be in the middle -->
+		<div class="hero-body" style="position: sticky;">
+			<div class="container has-text-centered">
+				<div class="columns">
+					<div class="column for-desktop">
+						<img src="../../../archivos/Img/logo_utm.png" alt="" style="height: 100px; width: auto;">
+					</div>
+
+					<div class="column for-movile">
+						<img src="../../../archivos/Img/logo_utm.png" alt="" style="height: 70px; width: auto;">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="card">
+				<div class="card-content">
+
+					<div class="is-flex is-justify-content-center pb-4">
+						<figure class="image is-128x128">
+							<img st src="../../../archivos/logos/mecatronica.jpg">
+						</figure>
+					</div>
+
+
+
+					<p class="card-header-title is-centered is-size-4-desktop is-size-5-mobile is-size-5-tablet mb-5"
+						style="color: var(--primary)">
+						Ingeniería en Mecatrónica
+					</p>
+
+					<p class="card-header-title is-centered is-size-5-desktop is-size-5-mobile is-size-5-tablet mb-5 	"
+						style="color: var(--primary);">
+						Plan 2013
+					</p>
+
+
+
+					<div class="container">
+						<table class="table is-hoverable" style="margin-left: auto;margin-right: auto;">
+
+							<thead class="has-background-white-ter">
+								<tr>
+									<th class="semestre-border">
+										<p class="is-flex is-justify-content-center">Semestre</p>
+									</th>
+									<th>
+										<p class="is-flex is-justify-content-center">Materia</p>
+									</th>
+									<th>
+										<p class="is-flex is-justify-content-center">Acciones</p>
+									</th>
+								</tr>
+							</thead>
+
+							<tbody id="temario-tbody-content">
+
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+			</div>
+	</section>
+
+	<script src="./index.js"></script>
+	<script src="../../../js/float_btn.js"></script>
+
+	<script>
+		// Obtenemos ruta de donde se encuentra el logo de la carrera
+		let logoCarrera = "../../../archivos/logos/"
+
+		// Inicializamos el botón flotante
+		bubble = inicializarBtn(logoCarrera, "mecatronica");
+		btn = new Bubbler(bubble);
+
+	</script>
+</body>
+
+</html>

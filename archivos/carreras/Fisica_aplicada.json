@@ -1,0 +1,288 @@
+{
+    "actual":{
+        "plan": "Plan 2018",
+        "contenido":{
+            "Primero": {
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo Diferencial",
+                        "archivo": "Calculo_Diferencial.pdf"
+                    },
+                    {
+                        "nombre": "Diseño y Análisis de Experimentos",
+                        "archivo": "Diseno_Y_Analisis_De_Experimentos.pdf"
+                    },
+                    {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "Historia_Del_Pensamiento_Filosofico.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica Clásica",
+                        "archivo": "Mecanica_Clasica.pdf"
+                    },
+                    {
+                        "nombre": "Tópicos de Álgebra y Geometría Analítica",
+                        "archivo": "Topicos_De_Algebra_Y_Geometria_Analitica.pdf"
+                    }
+                ]
+            },
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Álgebra Lineal",
+                        "archivo": "Algebra_Lineal.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo Integral",
+                        "archivo": "Calculo_Integral.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica Vectorial para Ingenieros",
+                        "archivo": "Mecanica_Vectorial_Para_Ingenieros.pdf"
+                    },
+                    {
+                        "nombre": "Programación Estructurada",
+                        "archivo": "Programacion_Estructurada.pdf"
+                    },
+                    {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "Teoria_General_De_Sistemas.pdf"
+                    }
+                ]
+            },
+            "Tercero": {
+                "numero": 3,
+                "materias" : [
+                    {
+                        "nombre": "Análisis Vectorial",
+                        "archivo": "Analisis_Vectorial.pdf"
+                    },
+                    {
+                        "nombre": "Ecuaciones Diferenciales Ordinarias",
+                        "archivo": "Ecuaciones_Diferenciales_Ordinarias.pdf"
+                    },
+                    {
+                        "nombre": "Electromagnetismo",
+                        "archivo": "Electromagnetismo.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Electrónica",
+                        "archivo": "Fundamentos_De_Electronica.pdf"
+                    },
+                    {
+                        "nombre": "Química General",
+                        "archivo": "Quimica_General.pdf"
+                    }
+                ]
+            },
+            "Cuarto": {
+                "numero": 4,
+                "materias" : [
+                    {
+                        "nombre": "Análisis Numérico",
+                        "archivo": "Analisis_Numerico.pdf"
+                    },
+                    {
+                        "nombre": "Dibujo Asistido por Computadora",
+                        "archivo": "Dibujo_Asistido_Por_Computadora.pdf"
+                    },
+                    {
+                        "nombre": "Física Ondulatoria",
+                        "archivo": "Fisica_Ondulatoria.pdf"
+                    },
+                    {
+                        "nombre": "Instrumentación Electrónica",
+                        "archivo": "Instrumentacion_Electronica.pdf"
+                    },
+                    {
+                        "nombre": "Métodos Matemáticos de la Física I",
+                        "archivo": "Metodos_Matematicos_De_La_Fisica_I.pdf"
+                    }
+                ]
+            },
+            "Quinto": {
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Física Moderna",
+                        "archivo": "Fisica_Moderna.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica Analítica",
+                        "archivo": "Mecanica_Analitica.pdf"
+                    },
+                    {
+                        "nombre": "Métodos Matemáticos de la Física II",
+                        "archivo": "Metodos_Matematicos_De_La_Fisica_II.pdf"
+                    },
+                    {
+                        "nombre": "Procesos de Manufactura",
+                        "archivo": "Procesos_De_Manufactura.pdf"
+                    },
+                    {
+                        "nombre": "Termodinámica",
+                        "archivo": "Termodinamica.pdf"
+                    }
+                ]
+            },
+            "Sexto": {
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Introducción a la Administración",
+                        "archivo": "Introduccion_A_La_Administracion.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica Cuántica",
+                        "archivo": "Mecanica_Cuantica.pdf"
+                    },
+                    {
+                        "nombre": "Probabilidad y Estadística",
+                        "archivo": "Probabilidad_Y_Estadistica.pdf"
+                    },
+                    {
+                        "nombre": "Química Orgánica",
+                        "archivo": "Quimica_Organica.pdf"
+                    },
+                    {
+                        "nombre": "Teoría Electromagnética",
+                        "archivo": "Teoria_Electromagnetica.pdf"
+                    }
+                ]
+            },
+            "Séptimo": {
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Elemento Finito",
+                        "archivo": "Elemento_Finito.pdf"
+                    },
+                    {
+                        "nombre": "Formulación y Evaluación de Proyectos",
+                        "archivo": "Formulacion_Y_Evaluacion_De_Proyectos.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica de Fluidos",
+                        "archivo": "Mecanica_De_Fluidos.pdf"
+                    },
+                    {
+                        "nombre": "Óptica Moderna",
+                        "archivo": "Optica_Moderna.pdf"
+                    },
+                    {
+                        "nombre": "Sensores y Transductores",
+                        "archivo": "Sensores_Y_Transductores.pdf"
+                    }
+                ]
+            },
+            "Octavo": {
+                "numero": 8,
+                "materias" : [
+                    {
+                        "nombre": "Física Estadística",
+                        "archivo": "Fisica_Estadistica.pdf"
+                    },
+                    {
+                        "nombre": "Gestión Empresarial",
+                        "archivo": "Gestion_Empresarial.pdf"
+                    },
+                    {
+                        "nombre": "Procesamiento de Señales Discretas",
+                        "archivo": "Procesamiento_De_Senales_Discretas.pdf"
+                    },
+                    {
+                        "nombre": "Productos de Ingeniería",
+                        "archivo": "Productos_De_Ingenieria.pdf"
+                    },
+                    {
+                        "nombre": "Transferencia de Calor",
+                        "archivo": "Transferencia_De_Calor.pdf"
+                    }
+                ]
+            },
+            "Noveno": {
+                "numero": 9,
+                "materias" : [
+                    {
+                        "nombre": "Ciencia de Materiales",
+                        "archivo": "Ciencia_De_Materiales.pdf"
+                    },
+                    {
+                        "nombre": "Física del Estado Sólido",
+                        "archivo": "Fisica_Del_Estado_Solido.pdf"
+                    },
+                    {
+                        "nombre": "Metodología de la Investigación",
+                        "archivo": "Metodologia_De_La_Investigacion.pdf"
+                    },
+                    {
+                        "nombre": "Modelación de Sistemas Dinámicos",
+                        "archivo": "Modelacion_De_Sistemas_Dinamicos.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Radiación y Propagación Electromagnética",
+                                "archivo": "Radiacion_Y_Propagacion_Electromagnetica.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Síntesis de Materiales",
+                                "archivo": "Sintesis_De_Materiales.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Aplicaciones Ópticas en la Industría",
+                                "archivo": "Aplicaciones_Ópticas_En_La_Industria.pdf",
+                                "optativa": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Décimo": {
+                "numero": 10,
+                "materias" : [
+                    {
+                        "nombre": "Energía y Medio Ambiente",
+                        "archivo": "Energia_Y_Medio_Ambiente.pdf"
+                    },
+                    {
+                        "nombre": "Nanotecnología",
+                        "archivo": "Nanotecnologia.pdf"
+                    },
+                    {
+                        "nombre": "Proyectos de Ingeniería Física",
+                        "archivo": "Proyectos_De_Ingenieria_Fisica.pdf"
+                    },
+                    {
+                        "nombre": "Tópicos de Física Computacional",
+                        "archivo": "Topicos_De_Fisica_Computacional.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Sistemas Complejos",
+                                "archivo": "Sistemas_Complejos.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Caracterización de Materiales",
+                                "archivo": "Caracterizacion_De_Materiales.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Óptica del Ojo Humano",
+                                "archivo": "Optica_Del_Ojo_Humano.pdf",
+                                "optativa": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+
+        }
+    }
+}

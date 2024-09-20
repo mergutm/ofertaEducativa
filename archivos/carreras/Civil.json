@@ -1,0 +1,379 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2013",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo diferencial e integral",
+                        "archivo": "CALCULO_DIFERENCIAL_E_INTEGRAL.pdf"
+                      },
+                      {
+                        "nombre": "Geometría Descriptiva",
+                        "archivo": "GEOMETRIA_DESCRIPTIVA.pdf"
+                      },
+                      {
+                        "nombre": "Programación Estructurada",
+                        "archivo": "PROGRAMACION_ESTRUCTURADA.pdf"
+                      },
+                      {
+                        "nombre": "Estática",
+                        "archivo": "ESTATICA.pdf"
+                      },
+                      {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "HISTORIA_DEL_PENSAMIENTO_FILOSOFICO.pdf"
+                      }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Álgebra lineal",
+                        "archivo": "ALGEBRA_LINEAL.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Cálculo vectorial",
+                        "archivo": "CALCULO_VECTORIAL.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Dibujo Asistido por Computadora",
+                        "archivo": "DIBUJO_ASISTIDO_POR_COMPUTADORA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Dinámica",
+                        "archivo": "DINAMICA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "TEORIA_GENERAL_DE_SISTEMAS.pdf"
+                      }
+                ]
+            },
+
+            "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Ecuaciones diferenciales",
+                            "archivo":"ECUACIONES_DIFERENCIALES.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Química",
+                            "archivo":"QUIMICA.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Topografía",
+                            "archivo":"TOPOGRAFIA.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Estructuras Isostáticas",
+                            "archivo":"ESTRUCTURAS_ISOSTATICAS.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Resistencia de Materiales I",
+                            "archivo":"RESISTENCIA_DE_MATERIALES_I.pdf"
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Métodos Numéricos",
+                            "archivo":"METODOS_NUMERICOS.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Geología",
+                            "archivo":"GEOLOGIA.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Geomática",
+                            "archivo":"GEOMATICA.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Estructuras Hiperestáticas",
+                            "archivo":"ESTRUCTURAS_HIPERESTATICAS.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Resistencia de Materiales II",
+                            "archivo":"RESITENCIA_DE_MATERIALES_II.pdf"
+                        }
+                ]
+            },
+
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Probabilidad y Estadistica",
+                        "archivo":"PROBABILIDAD_Y_ESTADISTICA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Mecánica de Suelos I",
+                        "archivo":"MECANICA_DE_SUELOS_I.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Vías Terrestres de Comunicación",
+                        "archivo":"VIAS_TERRESTRES_DE_COMUNICACION.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Estructuras de Concreto",
+                        "archivo":"ESTRUCTURAS_DE_CONCRETO.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Hidráulica",
+                        "archivo":"HIDRAULICA.pdf"
+                      }
+                ]
+            },
+
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Materiales de Construcción",
+                        "archivo":"MATERIALES_CONSTRUCCION.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Mecánica de Suelos II",
+                        "archivo":"MECANICA_DE_SUELOS_II.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Terracerías y Pavimentos",
+                        "archivo":"TERRACERIAS_Y_PAVIMENTOS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Extructuras de Acero",
+                        "archivo":"EXTRUCTURAS_DE_ACERO.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Hidráulica de Canales",
+                        "archivo":"HIDRAULICA_DE_CANALES.pdf"
+                      }
+                      
+                ]
+            },
+
+            "Séptimo":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Procesos Constructivos",
+                        "archivo":"PROCESOS_CONSTRUCTIVOS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Mecánica de Rocas",
+                        "archivo":"MECANICA_DE_ROCAS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Tecnología del Concreto y Deterioro de Estructuras",
+                        "archivo":"TECNOLOGIA_DEL_CONCRETO_Y_DETERIORO_DE_ESTRUCTURAS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Ingeniería de Sismos",
+                        "archivo":"INGENIERIA_DE_SISMOS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Hidrología",
+                        "archivo":"HIDROLOGIA.pdf"
+                      }
+                ]
+            },
+
+            "Octavo":{
+                "numero": 8,
+                "materias" : [
+                    {
+                        "nombre": "Movimientos de Tierra y Maquinaria",
+                        "archivo":"MOVIMIENTOS_DE_TIERRA_Y_MAQUINARIA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Cimentaciones",
+                        "archivo":"CIMENTACIONES.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Estructuras de Mampostería",
+                        "archivo":"ESTRUCTURAS_DE_MAMPOSTERIA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Obras Hidráulicas",
+                        "archivo":"OBRAS_HIDRAULICAS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Redes de Agua Potable y Alcantarillado",
+                        "archivo":"REDES_DE_AGUA_POTABLE_Y_ALCANTARILLADO.pdf"
+                      }
+                ]
+            },
+
+            "Noveno":{
+                "numero": 9,
+                "materias" : [
+                    {
+                        "nombre": "Diseño de Puentes",
+                        "archivo":"DISENO_DE_PUENTES.pdf"
+                        },
+
+                        {
+                        "nombre": "Costos y Presupuestos",
+                        "archivo":"COSTOS_Y_PRESUPUESTOS.pdf"
+                        },
+
+                        {
+                        "nombre": "Instalaciones Eléctricas",
+                        "archivo":"INSTALACIONES_ELECTRICAS.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre": "Diseño Avanzado de Estructuras de Concreto",
+                                "archivo":"DISENO_AVANZADO_DE_ESTRUCTURAS_DE_CONCRETO.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Contabilidad y Costos",
+                                "archivo":"CONTABILIDAD_Y_COSTOS.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Diseño Geométrico de Vialidades I",
+                                "archivo":"DISENO_GEOMETRICO_DE_VIALIDADES_I.pdf",
+                                "optativa": 1
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre": "Sismología",
+                                "archivo":"SISMOLOGIA.pdf",
+                                "optativa": 2
+                            },
+                            {                               
+                                "nombre": "Licitaciones",
+                                "archivo":"LICITACIONES.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Transporte e Ingeniería en Tránsito",
+                                "archivo":"TRANSPORTE_E_INGENIERIA_EN_TRANSITO.pdf",
+                                "optativa": 2
+                            }
+                             
+                            
+                        ]
+                    }
+                ]
+            },
+
+            "Décimo":{
+                "numero": 10,
+                "materias" : [
+                    {
+                        "nombre": "Administración de la Construcción",
+                        "archivo":"ADMINISTRACION_DE_LA_CONSTRUCCION.pdf"
+                    },
+                      
+                    {
+                        "nombre": "Desarrollo Urbano",
+                        "archivo":"DESARROLLO_URBANO.pdf"
+                    },
+                      
+                    {
+                        "nombre": "Ingeniería Ambiental",
+                        "archivo":"INGENIERIA_AMBIENTAL.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre": "Diseño Avanzado de Estructuras de Acero",
+                                "archivo":"DISENO_AVANZADO_DE_ESTRUCTURAS_DE_ACERO.pdf",
+                                "optativa": 3
+                            },
+                            
+
+                            {                               
+                                "nombre": "Dirección de Obra",
+                                "archivo":"DIRECCION_DE_OBRA.pdf",
+                                "optativa": 3
+                            },
+                            
+                            {
+                                "nombre": "Diseño de Mezclas Asfálticas",
+                                "archivo":"DISENO_DE_MEZCLAS_ASFALTICAS.pdf",
+                                "optativa": 3
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "optativa":[
+
+                            
+                            {
+                                "nombre": "Modelación y Sismicidad Inducida",
+                                "archivo":"MODELACION_Y_SISMICIDAD_INDUCIDA.pdf",
+                                "optativa": 4
+                            },
+                            {
+                                "nombre": "Evaluación de Proyectos",
+                                "archivo":"EVALUACION_DE_PROYECTOS.pdf",
+                                "optativa": 4
+
+                            },
+                                                          
+                            {
+                                "nombre": "Diseño Geométrico de Vialidades II",
+                                "archivo":"DISENO_GEOMETRICO_DE_VIALIDADES_II.pdf",
+                                "optativa": 4
+                            }
+
+                            
+                        ]
+                    }
+
+
+
+                ]
+            }
+            
+        }
+    }
+}

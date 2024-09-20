@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulma/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/ofertaEducativa.css">
+    <link rel="stylesheet" href="css/bulma-tooltip.min.css">
+    <script type="text/javascript" src="js/BulmaJS-master/dist/bulma.js"></script>
+
+    <title>Oferta Educativa</title>
+    <link rel="icon" type="image/x-icon" href="archivos_formato/favicon.ico">
+
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .propedeutico_content {
+            background-color: transparent;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section class="hero is-small" style="border: solid 0.1px transparent;  box-shadow: 5px 3px 30px #bcb8b5;">
+
+        <!-- Nav-bar -->
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns">
+                    <div class="column for-desktop">
+                        <img src="archivos/Img/logo_utm.png" alt="" style="height: 100px; width: auto;">
+                    </div>
+
+                    <div class="column for-movile">
+                        <img src="archivos/Img/logo_utm.png" alt="" style="height: 70px; width: auto;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Contenidos -->
+    <section class="section">
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <p class="card-header-title is-centered is-size-3-desktop is-size-5-mobile is-size-5-tablet mb-5"
+                        style="color: var(--primary)">
+                        Oferta Educativa
+                    </p>
+
+                    <!-- Desktop -->
+                    <div class="for-desktop">
+                        <nav class="panel  is-shadowless is-primary ">
+                            <!-- Planes de Estudio Tabs -->
+                            <p class="panel-tabs" style="font-size: 17px;">
+                                <a id="licenciatura_title" class="is-active" data-target="Licenciaturas">Licenciaturas</a>
+                                <a id="posgrado_title" data-target="Posgrados">Posgrados</a>
+                                <a id="propedeutico_title" data-target="Propedeutico">Curso propedéutico</a>
+                            </p>
+
+                            <!-- Licenciaturas -->
+                            <div class="licenciaturas" style="font-size: 15px;">
+                                <a class="panel-block " data-category="Licenciaturas" href="licenciaturas/alimentos/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Ingeniería en Alimentos
+
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas" href="licenciaturas/computacion/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Ingeniería en Computación
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas" href="licenciaturas/disenio/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Ingeniería en Diseño
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas" href="licenciaturas/electronica/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Ingeniería en Electrónica
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas" href="licenciaturas/mecatronica/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Ingeniería en Mecatrónica
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas" href="licenciaturas/industrial/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Ingeniería Industrial
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas" href="licenciaturas/fisica_aplicada/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Ingeniería en Física Aplicada
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas" href="licenciaturas/mecanica_automotriz/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Ingeniería Mecánica Automotriz
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas" href="licenciaturas/empresariales/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Licenciatura en Ciencias Empresariales
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Licenciatura en Matemáticas Aplicadas
+                                </a>
+                                <a class="panel-block" data-category="Licenciaturas" href="licenciaturas/civil/">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Ingeniería Civil
+                                </a>
+                            </div>
+                            <!-- Posgrados -->
+                            <div class="posgrados" style="font-size: 15px;"></div>
+                            <!-- Propedéutico -->
+                            <div class="propedeutico" style="font-size: 15px;" >
+                                <div class="container" >
+                                    <a class="panel-block" data-category="Propedeutico" id="propedeutico_content" style="padding: 3%;">
+
+                                        <table class="table is-hoverable" style="margin-left: auto;margin-right: auto;">
+
+                                            <thead class="has-background-white-ter">
+                                                <tr>
+                                                    <th>
+                                                        <p class="is-flex is-justify-content-center">Materia</p>
+                                                    </th>
+                                                    <th>
+                                                        <p class="is-flex is-justify-content-center">Acciones</p>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody id="temario-tbody-content">
+                                                <tr>
+                                                    <td>
+                                                        <span style="padding-right: 50px;">
+                                                            <i class="fas fa-book" aria-hidden="true" style="padding-right: 5px;"></i>
+                                                            Matemáticas para Lic. Matemáticas Aplicadas
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="is-flex is-justify-content-center">
+                                                            <p class="buttons">
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_Matematicas_LMA.pdf" target="_blank" download data-tooltip="Descargar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-download"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_Matematicas_LMA.pdf" target="_blank" data-tooltip="Visualizar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-eye"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <span style="padding-right: 50px;">
+                                                            <i class="fas fa-book" aria-hidden="true" style="padding-right: 5px;"></i>
+                                                            Diseño de Algoritmos - Propedéutico Corto
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="is-flex is-justify-content-center">
+                                                            <p class="buttons">
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_DisenoAlgoritmos_PropedeuticoCorto.pdf" target="_blank" download data-tooltip="Descargar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-download"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_DisenoAlgoritmos_PropedeuticoCorto.pdf" target="_blank" data-tooltip="Visualizar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-eye"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <span style="padding-right: 50px;">
+                                                            <i class="fas fa-book" aria-hidden="true" style="padding-right: 5px;"></i>
+                                                            Diseño de Algoritmos - Propedéutico Largo
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="is-flex is-justify-content-center">
+                                                            <p class="buttons">
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_DisenoAlgoritmos_PropedeuticoLargo.pdf" target="_blank" download data-tooltip="Descargar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-download"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_DisenoAlgoritmos_PropedeuticoLargo.pdf" target="_blank" data-tooltip="Visualizar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-eye"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <span style="padding-right: 50px;">
+                                                            <i class="fas fa-book" aria-hidden="true" style="padding-right: 5px;"></i>
+                                                            Física - Propedéutico Largo y Corto
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="is-flex is-justify-content-center">
+                                                            <p class="buttons">
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_Fisica_PropedeuticoLargoyCorto.pdf" target="_blank" download data-tooltip="Descargar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-download"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_Fisica_PropedeuticoLargoyCorto.pdf" target="_blank" data-tooltip="Visualizar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-eye"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>
+                                                        <span style="padding-right: 50px;">
+                                                            <i class="fas fa-book" aria-hidden="true" style="padding-right: 5px;"></i>
+                                                            Matemáticas para Ingenierías y Lic. en Ciencias Empresariales
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <div class="is-flex is-justify-content-center">
+                                                            <p class="buttons">
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_Matematicas_Ingenierias_y_Empresariales.pdf" target="_blank" download data-tooltip="Descargar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-download"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline"
+                                                                    href="propedeutico/archivos/propedeutico_Matematicas_Ingenierias_y_Empresariales.pdf" target="_blank" data-tooltip="Visualizar">
+                                                                    <span class="icon is-small">
+                                                                        <i class="fas fa-eye"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </p>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </a>
+
+                                </div>
+                                
+                            </div>
+                        </nav>
+                    </div>
+
+                    <!-- Dispositivos móviles -->
+                    <div class="for-movile">
+                        <nav class="panel is-primary-movile">
+                            <button class="btn-collapsible panel-heading">Licenciaturas</button>
+                            <div class="coll-content">
+                                <div class="licenciaturas" style="font-size: 15px;">
+                                    <a class="panel-block is-primary" data-category="Licenciaturas" id="ingAlimentos">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        <p class=""> Ingeniería en Alimentos </p>
+
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas"
+                                        href="licenciaturas/computacion/">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Ingeniería en Computación
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Ingeniería en Diseño
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Ingeniería en Electrónica
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Ingeniería en Mecatrónica
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Ingeniería Industrial
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Ingeniería en Física Aplicada
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Ingeniería Mecánica Automotriz
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Licenciatura en Ciencias Empresariales
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Licenciatura en Matemáticas Aplicadas
+                                    </a>
+                                    <a class="panel-block" data-category="Licenciaturas">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Ingeniería Civil
+                                    </a>
+                                </div>
+                            </div>
+                        </nav>
+                        <nav class="panel is-primary-movile">
+                            <button class="btn-collapsible panel-heading">Posgrados</button>
+                            <div class="coll-content">
+                                <div class="posgrados" style="font-size: 15px;"></div>
+                            </div>
+                        </nav>
+                        <nav class="panel">
+                            <button class="btn-collapsible panel-heading">Propedeutico</button>
+                            <div class="coll-content">
+                                <div class="propedeutico" style="font-size: 15px;">
+                                    <a class="panel-block" data-category="Propedeutico">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Lógica Matemática para Ingenierías y Empresariales
+                                    </a>
+                                    <a class="panel-block" data-category="Propedeutico">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Lógica para Lic. Matemáticas Aplicadas
+                                    </a>
+                                    <a class="panel-block" data-category="Propedeutico">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Matemáticas para Ingenierías
+                                    </a>
+                                    <a class="panel-block" data-category="Propedeutico">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Matemáticas para Ciencias Empresariales
+                                    </a>
+                                    <a class="panel-block" data-category="Propedeutico">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Matemáticas para Lic. Matemáticas Aplicadas
+                                    </a>
+                                    <a class="panel-block" data-category="Propedeutico">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Diseño de Algoritmos - Propedéutico Corto
+                                    </a>
+                                    <a class="panel-block" data-category="Propedeutico">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Diseño de Algoritmos - Propedéutico Largo
+                                    </a>
+                                    <a class="panel-block" data-category="Propedeutico">
+                                        <span class="panel-icon">
+                                            <i class="fas fa-book" aria-hidden="true"></i>
+                                        </span>
+                                        Física - Propedéutico Largo y Corto
+                                    </a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    <script type="text/javascript">
+        // Controla los tabs de la sección de oferta educativa para pantallas grandes
+        let tabs = Bulma('.panel').data('panel-tabs');
+
+        // Controla los collapsibles de la sección de oferta educativa para pantallas pequeñas
+        let collapsible = document.getElementsByClassName("btn-collapsible");
+        let i;
+        for (i = 0; i < collapsible.length; i++) {
+            collapsible[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                let content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+
+        // Cambia el color de fondo del elemento seleccionado
+        let element;
+        document.addEventListener('mousedown', e => {
+            if (e.target.matches('.panel-block')) {
+                if (element != null) {
+                    element.classList.remove('is-active');
+                }
+                element = e.target;
+                element.classList.add('is-active');
+            }
+        });
+
+        let propedeutico = document.getElementById("propedeutico_title");
+        let licenciatura = document.getElementById("licenciatura_title");
+        let posgrado = document.getElementById("posgrado_title");
+
+        // Si propedeutico tiene la clase is-active, entonces eleiminamos la clase panel-block de propedeutico_content
+        
+        //agregamos un event listener para que cuando se haga click en el elemento con id propedeutico_title, se ejecute
+        //la funcion que se encuentra dentro de la funcion
+
+        propedeutico.addEventListener("click", function () {
+            // Eliminamos la clase plan-block de propedeutico_content
+            document.getElementById("propedeutico_content").classList.remove("panel-block");
+            // Cambiamos el simbolo del cursor
+            document.getElementById("propedeutico_content").style.cursor = "default";
+        });
+
+        licenciatura.addEventListener("click", function () {
+            // Eliminamos la clase plan-block de propedeutico_content
+            document.getElementById("propedeutico_content").classList.add("panel-block");
+        });
+
+        posgrado.addEventListener("click", function () {
+            // Eliminamos la clase plan-block de propedeutico_content
+            document.getElementById("propedeutico_content").classList.add("panel-block");
+        });
+
+        
+
+    </script>
+</body>
+
+</html>

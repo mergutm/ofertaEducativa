@@ -1,0 +1,267 @@
+{
+    "actual": {
+        "plan": "Plan 2024",
+        "contenido": {
+            "Primero": {
+                "numero": 1,
+                "materias": [
+                    {
+                        "nombre": "Química General",
+                        "archivo": "Quimica_General.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Matemáticas para Ingenieros",
+                        "archivo": "Fundamentos_De_Matematicas_Para_Ingenieros.pdf"
+                    },
+                    {
+                        "nombre": "Herramientas de Computación",
+                        "archivo": "Herramientas_De_Computacion.pdf"
+                    },
+                    {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "Historia_Del_Pensamiento_Filosofico.pdf"
+                    },
+                    {
+                        "nombre": "Introducción a la Ingeniería en Alimentos",
+                        "archivo": "Introducción_A_La_Ingeniería_En_Alimentos.pdf"
+                    }
+                ]
+            },
+            "Segundo": {
+                "numero": 2,
+                "materias": [
+                    {
+                        "nombre": "Química Orgánica I",
+                        "archivo": "Quimica_Organica_I.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo Diferencial e Integral para Ingenieros",
+                        "archivo": "Calculo_Diferencial_E_Integral_Para_Ingenieros.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica Clásica",
+                        "archivo": "Mecanica_Clasica.pdf"
+                    },
+                    {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "Teoria_General_De_Sistemas.pdf"
+                    },
+                    {
+                        "nombre": "Cálculos Básicos en Ingeniería en Alimentos",
+                        "archivo": "Calculos_Basicos_En_Ingenieria_En_Alimentos.pdf "
+                    }
+                ]
+            },
+            "Tercero": {
+                "numero": 3,
+                "materias": [
+                    {
+                        "nombre": "Química Orgánica II",
+                        "archivo": "Quimica_Organica_II.pdf"
+                    },
+                    {
+                        "nombre": "Ecuaciones Diferenciales para Ingenieros",
+                        "archivo": "Ecuaciones_Diferenciales_Para_Ingenieros.pdf"
+                    },
+                    {
+                        "nombre": "Balance de Materia y Energía",
+                        "archivo": "Balance_De_Materia_Y_Energia.pdf"
+                    },
+                    {
+                        "nombre": "Microbiología de Alimentos",
+                        "archivo": "Microbiologia_De_Alimentos.pdf"
+                    }
+                ]
+            },
+            "Cuarto": {
+                "numero": 4,
+                "materias": [
+                    {
+                        "nombre": "Bioquímica",
+                        "archivo": "Bioquimica.pdf"
+                    },
+                    {
+                        "nombre": "Química de Alimentos",
+                        "archivo": "Quimica_De_Alimentos.pdf"
+                    },
+                    {
+                        "nombre": "Termodinámica",
+                        "archivo": "Termodinamica.pdf"
+                    },
+                    {
+                        "nombre": "Estadística y Quimiometría",
+                        "archivo": "Estadistica_Y_Quimiometria.pdf"
+                    },
+                    {
+                        "nombre": "Análisis Clásico de Alimentos",
+                        "archivo": "Analisis_Clasico_De_Alimentos.pdf"
+                    }
+                ]
+            },
+            "Quinto": {
+                "numero": 5,
+                "materias": [
+                    {
+                        "nombre": "Análisis Instrumental de Alimentos",
+                        "archivo": "Analisis_Instrumental_De_Alimentos.pdf"
+                    },
+                    {
+                        "nombre": "Fisicoquímica de Alimentos",
+                        "archivo": "Fisicoquimica_De_Alimentos.pdf"
+                    },
+                    {
+                        "nombre": "Transporte de Movimiento y Aplicaciones",
+                        "archivo": "Transporte_De_Movimiento_Y_Aplicaciones.pdf"
+                    },
+                    {
+                        "nombre": "Diseño y Análisis de Experimentos",
+                        "archivo": "Diseno_Y_Analisis_De_Experimentos.pdf"
+                    }
+                ]
+            },
+            "Sexto": {
+                "numero": 6,
+                "materias": [
+                    {
+                        "nombre": "Nutrición y Alimentos Funcionales",
+                        "archivo": "Nutricion_Y_Alimentos_Funcionales.pdf"
+                    },
+                    {
+                        "nombre": "Transferencia de Calor y Masa con Aplicaciones",
+                        "archivo": "Transferencia_De_Calor_Y_Masa_Con_Aplicaciones.pdf"
+                    },
+                    {
+                        "nombre": "Procesos Tecnológicos de Productos Cárnicos",
+                        "archivo": "Procesos_Tecnologicos_De_Productos_Carnicos.pdf"
+                    },
+                    {
+                        "nombre": "Taller de Evaluación Sensorial",
+                        "archivo": "Taller_De_Evaluacion_Sensorial.pdf"
+                    }
+                ]
+            },
+            "Septimo": {
+                "numero": 7,
+                "materias": [
+                    {
+                        "nombre": "Sistemas de Gestión de Calidad",
+                        "archivo": "Sistemas_De_Gestion_De_Calidad.pdf"
+                    },
+                    {
+                        "nombre": "Operaciones Unitarias con Procesos Térmicos",
+                        "archivo": "Operaciones_Unitarias_Con_Procesos_Termicos.pdf"
+                    },
+                    {
+                        "nombre": "Procesos Biotecnológicos Alimentarios",
+                        "archivo": "Procesos_Biotecnologicos_Alimentarios.pdf"
+                    },
+                    {
+                        "nombre": "Procesos Tecnológicos de Cereales",
+                        "archivo": "Procesos_Tecnologicos_De_Cereales.pdf"
+                    },
+                    {
+                        "nombre": "Herramientas Administrativas y Financieras",
+                        "archivo": "Herramientas_Administrativas_Y_Financieras.pdf"
+                    }
+                ]
+            },
+            "Octavo": {
+                "numero": 8,
+                "materias": [
+                    {
+                        "nombre": "Aseguramiento de la Calidad e Inocuidad Alimentaria",
+                        "archivo": "Aseguramiento_De_La_Calidad_E_Inocuidad_Alimentaria.pdf"
+                    },
+                    {
+                        "nombre": "Seminario de Planeación y Análisis de Negocios",
+                        "archivo": "Seminario_De_Planeacion_Y_Analisis_De_Negocios.pdf"
+                    },
+                    {
+                        "nombre": "Operaciones por Etapas de Equilibrio",
+                        "archivo": "Operaciones_Por_Etapas_De_Equilibrio.pdf"
+                    },
+                    {
+                        "nombre": "Procesos Tecnológicos de Frutas y Hortalizas",
+                        "archivo": "Procesos_Tecnologicos_De_Frutas_Y_Hortalizas.pdf"
+                    },
+                    {
+                        "nombre": "Metodología de la Investigación",
+                        "archivo": "Metodologia_De_La_Investigacion.pdf"
+                    }
+                ]
+            },
+            "Noveno": {
+                "numero": 9,
+                "materias": [
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Mercadotecnia en la Producción y Comercialización de Alimentos",
+                                "archivo": "Mercadotecnia_En_La_Produccion_Y_Comercializacion_De_Alimentos.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Higiene y Seguridad Industrial",
+                                "archivo": "Higiene_Y_Seguridad_Industrial.pdf",
+                                "optativa": 1
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Procesos de Separación Físico Mecánicos",
+                        "archivo": "Procesos_De_Separacion_Fisico_Mecanicos.pdf"
+                    },
+                    {
+                        "nombre": "Procesos Tecnológicos de Productos Lácteos",
+                        "archivo": "Procesos_Tecnologicos_De_Productos_Lacteos.pdf"
+                    },
+                    {
+                        "nombre": "Dibujo en Ingeniería",
+                        "archivo": "Dibujo_En_Ingenieria.pdf"
+                    },
+                    {
+                        "nombre": "Gestión Ambiental y Sustentabilidad",
+                        "archivo": "Gestion_Ambiental_Y_Sustentabilidad.pdf"
+                    }
+                    
+                ]
+            },
+            "Decimo": {
+                "numero": 10,
+                "materias": [
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Seminario de Ejecución y Evaluación de Negocios",
+                                "archivo": "Seminario_De_Ejecucion_Y_Evaluacion_De_Negocios.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Planeación y Control de Producción",
+                                "archivo": "Planeacion_Y_Control_De_Produccion.pdf",
+                                "optativa": 2
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Desarrollo de Nuevos Productos",
+                        "archivo": "Desarrollo_De_Nuevos_Productos.pdf"
+                    },
+                    {
+                        "nombre": "Comportamiento Organizacional y Habilidades Directivas",
+                        "archivo": "Comportamiento_Organizacional_Y_Habilidades_Directivas.pdf"
+                    },
+                    {
+                        "nombre": "Diseño de Plantas Alimentarias",
+                        "archivo": "Diseno_De_Plantas_Alimentarias.pdf"
+                    },
+                    {
+                        "nombre": "Fronteras de la Ingeniería en Alimentos",
+                        "archivo": "Fronteras_De_La_Ingenieria_En_Alimentos.pdf"
+                    }
+                    
+                ]
+            }
+        }
+    }
+}

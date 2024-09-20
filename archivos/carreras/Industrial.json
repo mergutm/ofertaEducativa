@@ -1,0 +1,287 @@
+{
+    "actual" :{
+        "plan": "Plan 2021",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo Diferencial",
+                        "archivo": "Calculo_Diferencial.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica Clásica",
+                        "archivo": "Mecanica_Clasica.pdf"
+                    },
+                    {
+                        "nombre": "Dibujo Industrial",
+                        "archivo": "Dibujo_Industrial.pdf"
+                    },
+                    {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "Historia_del_Pensamiento_Filosofico.pdf"
+                    },
+                    {
+                        "nombre": "Introducción a la Ingeniería Industrial",
+                        "archivo": "Introduccion_a_la_Ingenieria_Industrial.pdf"
+                    }
+                ]
+            },
+            "Segundo":{
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo Integral",
+                        "archivo": "Calculo_Integral.pdf"
+                    },
+                    {
+                        "nombre": "Álgebra Lineal",
+                        "archivo": "Algebra_Lineal.pdf"
+                    },
+                    {
+                        "nombre": "Electricidad Industrial",
+                        "archivo": "Electricidad_Industrial.pdf"
+                    },
+                    {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "Teoria_General_de_Sistemas.pdf"
+                    },
+                    {
+                        "nombre": "Relaciones Industriales",
+                        "archivo": "Relaciones_Industriales.pdf"
+                    }
+                ]
+            },
+            "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    {
+                        "nombre": "Ecuaciones Diferenciales",
+                        "archivo": "Ecuaciones_Diferenciales.pdf"
+                    },
+                    {
+                        "nombre": "Química General",
+                        "archivo": "Quimica_General.pdf"
+                    },
+                    {
+                        "nombre": "Electrónica Analógica",
+                        "archivo": "Electronica_Analogica.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Programación para Ingeniería",
+                        "archivo": "Fundamentos_de_Programacion_para_Ingenieria.pdf"
+                    },
+                    {
+                        "nombre": "Comunicación Efectiva",
+                        "archivo": "Comunicacion_Efectiva.pdf"
+                    }
+                ]
+            },
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                    {
+                        "nombre": "Métodos Numéricos",
+                        "archivo": "Metodos_Numericos.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Probabilidad",
+                        "archivo": "Fundamentos_de_Probabilidad.pdf"
+                    },
+                    {
+                        "nombre": "Ciencia de Materiales",
+                        "archivo": "Ciencia_de_Materiales.pdf"
+                    },
+                    {
+                        "nombre": "Derecho Laboral y Propiedad Industrial",
+                        "archivo": "Derecho_Laboral_y_Propiedad_Industrial.pdf"
+                    },
+                    {
+                        "nombre": "Termodinámica",
+                        "archivo": "Termodinamica.pdf"
+                    }
+                ]
+            },
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Estudio del Trabajo y Productividad",
+                        "archivo": "Estudio_del_Trabajo_y_Productividad.pdf"
+                    },
+                    {
+                        "nombre": "Estadística Aplicada",
+                        "archivo": "Estadistica_Aplicada.pdf"
+                    },
+                    {
+                        "nombre": "Tecnología de Materiales",
+                        "archivo": "Tecnologia_de_Materiales.pdf"
+                    },
+                    {
+                        "nombre": "Metrología y Normalización",
+                        "archivo": "Metrologia_y_Normalizacion.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica de Fluidos",
+                        "archivo": "Mecanica_de_Fluidos.pdf"
+                    }
+                ]
+            },
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Ergonomía",
+                        "archivo": "Ergonomia.pdf"
+                    },
+                    {
+                        "nombre": "Control Estadístico de Calidad",
+                        "archivo": "Control_Estadistico_de_Calidad.pdf"
+                    },
+                    {
+                        "nombre": "Mercadotecnia",
+                        "archivo": "Mercadotecnia.pdf"
+                    },
+                    {
+                        "nombre": "Procesos de Manufactura I",
+                        "archivo": ""
+                    },
+                    {
+                        "nombre": "Maquinaria y Equipo Industrial",
+                        "archivo": "Maquinaria_y_Equipo_Industrial.pdf"
+                    }
+                ]
+            },
+            "Séptimo":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Gestión Ambiental",
+                        "archivo": "Gestion_Ambiental.pdf"
+                    },
+                    {
+                        "nombre": "Planeación Organizacional",
+                        "archivo": "Planeacion_Organizacional.pdf"
+                    },
+                    {
+                        "nombre": "Administración de Recursos Materiales",
+                        "archivo": "Administracion_de_Recursos_Materiales.pdf"
+                    },
+                    {
+                        "nombre": "Procesos de Manufactura II",
+                        "archivo": "Procesos_de_Manufactura_II.pdf"
+                    },
+                    {
+                        "nombre": "Contabilidad y Costos",
+                        "archivo": "Contabilidad_y_Costos.pdf"
+                    }
+                ]
+            },
+            "Octavo":{
+                "numero": 8,
+                "materias" : [
+                    {
+                        "nombre": "Higiene y Seguridad Industrial",
+                        "archivo": "Higiene_y_Seguridad_Industrial.pdf"
+                    },
+                    {
+                        "nombre": "Logística y Cadena de Suministros",
+                        "archivo": "Logistica_y_Cadena_de_Suministros.pdf"
+                    },
+                    {
+                        "nombre": "Planeación y Control de la Producción",
+                        "archivo": "Planeacion_y_Control_de_la_Produccion.pdf"
+                    },
+                    {
+                        "nombre": "Sistemas de Manufactura",
+                        "archivo": "Sistemas_de_Manufactura.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería Económica",
+                        "archivo": "Ingenieria_Economica.pdf"
+                    }
+                ]
+            },
+            "Noveno":{
+                "numero": 9,
+                "materias" : [
+                    {
+                        "nombre": "Planeación de Instalaciones",
+                        "archivo": "Planeacion_de_Instalaciones.pdf"
+                    },
+                    {
+                        "nombre": "Investigación Operativa",
+                        "archivo": "Investigacion_Operativa.pdf"
+                    },
+                    {
+                        "nombre": "Gestión de Sistemas de Calidad",
+                        "archivo": "Gestion_de_Sistemas_de_Calidad.pdf"
+                    },
+                    {
+                        "nombre": "Seminario de Tesis",
+                        "archivo": "Seminario_de_Tesis.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Manufactura Asistida por Computadora",
+                                "archivo": "Optativa_I_Manufactura_Asistida_por_Computadora.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Dirección General",
+                                "archivo": "Optativa_I_Direccion_General.pdf",
+                                "optativa": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            "Décimo":{
+                "numero": 10,
+                "materias" : [
+                    {
+                        "nombre": "Automatización para Ingeniería Industrial",
+                        "archivo": "Automatizacion_para_Ingenieria_Industrial.pdf"
+                    },
+                    {
+                        "nombre": "Mantenimiento Industrial",
+                        "archivo": "Mantenimiento_Industrial.pdf"
+                    },
+                    {
+                        "nombre": "Formulación y Evaluación de Proyectos",
+                        "archivo": "Formulacion_y_Evaluacion_de_Proyectos.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Proyecto de Manufactura",
+                                "archivo": "Optativa_II_Proyecto_de_Manufactura.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Gestión Industrial",
+                                "archivo": "Optativa_II_Gestion_Industrial.pdf",
+                                "optativa": 2
+                            }
+                        ]
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Simulación Industrial",
+                                "archivo": "Optativa_III_Simulación_Industrial.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Comercio Exterior y Logística Internacional",
+                                "archivo": "Optativa_III_Comercio_Exterior_y_Logistica_Internacional.pdf",
+                                "optativa": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+} 

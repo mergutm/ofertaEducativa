@@ -1,0 +1,375 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2013",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo diferencial e integral",
+                        "archivo": "CALCULO_DIFERENCIAL_E_INTEGRAL.pdf"
+                      },
+                      {
+                        "nombre": "Dibujo asistido por computadora",
+                        "archivo": "DIBUJO_ASISTIDO_POR_COMPUTADORA.pdf"
+                      },
+                      {
+                        "nombre": "Expresión oral y escrita",
+                        "archivo": "EXPRESION_ORAL_Y_ESCRITA.pdf"
+                      },
+                      {
+                        "nombre": "Historia del pensamiento filosófico",
+                        "archivo": "HISTORIA_DEL_PENSAMIENTO_FILOSOFICO.pdf"
+                      },
+                      {
+                        "nombre": "Programación Estructurada",
+                        "archivo": "PROGRAMACION_ESTRUCTURADA.pdf"
+                      }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Álgebra lineal",
+                        "archivo": "ALGEBRA_LINEAL.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Cálculo vectorial",
+                        "archivo": "CALCULO_VECTORIAL.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Fundamentos de probabilidad y estadística",
+                        "archivo": "FUNDAMENTOS_DE_PROBABILIDAD_Y_ESTADISTICA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Programación orientada a objetos",
+                        "archivo": "PROGRAMACION_ORIENTADA_A_OBJETOS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Teoría general de sistemas",
+                        "archivo": "TEORIA_GENERAL_DE_SISTEMAS.pdf"
+                      }
+                ]
+            },
+
+            "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Ecuaciones diferenciales",
+                            "archivo":"ECUACIONES_DIFERENCIALES.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Electromagnetismo",
+                            "archivo":"ELECTROMAGNETISMO.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Estática",
+                            "archivo":"ESTATICA.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Ingeniería de materiales",
+                            "archivo":"INGENIERIA_DE_MATERIALES.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Métodos numéricos",
+                            "archivo":"METODOS_NUMERICOS.pdf"
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Circuitos electricos I",
+                            "archivo":"CIRCUITOS_ELECTRICOS_I.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Dinámica",
+                            "archivo":"DINAMICA.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Mecanica de Materiales",
+                            "archivo":"MECANICA_DE_MATERIALES.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Métodos matemáticos para ingeniería",
+                            "archivo":"METODOS_MATEMATICOS_PARA_INGENIERIA.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Procesos de manufactura",
+                            "archivo":"PROCESOS_DE_MANUFACTURA.pdf"
+                        }
+                ]
+            },
+
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Circuitos eléctricos II",
+                        "archivo":"CIRCUITOS_ELECTRICOS_II.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Electrónica analógica",
+                        "archivo":"ELECTRONICA_ANALOGICA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Electrónica digital",
+                        "archivo":"ELECTRONICA_DIGITAL.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Mecanismos",
+                        "archivo":"MECANISMOS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Metrología y transductores",
+                        "archivo":"METROLOGIA_Y_TRANSDUCTORES.pdf"
+                      }
+                ]
+            },
+
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Circuitos digitales reconfigurables",
+                        "archivo":"CIRCUITOS_DIGITALES_RECONFIGURABLES.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Diseño de elementos de máquinas",
+                        "archivo":"DISENO_DE_ELEMENTOS_DE_MAQUINAS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Electrónica de potencia",
+                        "archivo":"ELECTRONICA_DE_POTENCIA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Mecánica de fluidos",
+                        "archivo":"MECANICA_DE_FLUIDOS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Modelado y simulación de sistemas dinámicos",
+                        "archivo":"MODELADO_Y_SIMULACION_DE_SISTEMAS_DINAMICOS.pdf"
+                      }
+                      
+                ]
+            },
+
+            "Séptimo":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Control clásico",
+                        "archivo":"CONTROL_CLASICO.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Máquinas eléctricas",
+                        "archivo":"MAQUINAS_ELECTRICAS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Microcontroladores",
+                        "archivo":"MICROCONTROLADORES.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Neumatica e hidraulica",
+                        "archivo":"NEUMATICA_E_HIDRAULICA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Termodinámica y transferencia de calor",
+                        "archivo":"TERMODINAMICA_Y_TRANSFERENCIA_DE_CALOR.pdf"
+                      }
+                ]
+            },
+
+            "Octavo":{
+                "numero": 8,
+                "materias" : [
+                    {
+                        "nombre": "Autómatas programables",
+                        "archivo":"AUTOMATAS_PROGRAMABLES.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Control moderno",
+                        "archivo":"CONTROL_MODERNO.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Diseño mecatrónico",
+                        "archivo":"DISENO_MECATRONICO.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Procesamiento Digital de Señales",
+                        "archivo":"PROCESAMIENTO_DIGITAL_DE_SENALES.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Robótica de manipuladores",
+                        "archivo":"ROBOTICA_DE_MANIPULADORES.pdf"
+                      }
+                ]
+            },
+
+            "Noveno":{
+                "numero": 9,
+                "materias" : [
+                    {
+                        "nombre": "Administración para ingenieros",
+                        "archivo":"ADMINISTRACION_PARA_INGENIEROS.pdf"
+                        },
+
+                        {
+                        "nombre": "Proyecto integrador de ingeniería mecatrónica",
+                        "archivo":"PROYECTO_INTEGRADOR_DE_INGENIERIA_MECATRONICA.pdf"
+                        },
+
+                        {
+                        "nombre": "Seminario de investigación",
+                        "archivo":"SEMINARIO_DE_INVESTIGACION.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre": "Control avanzado",
+                                "archivo":"CONTROL_AVANZADO.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Elementos finitos aplicados a la ingeniería",
+                                "archivo":"ELEMENTOS_FINITOS_APLICADOS_A_LA_INGENIERIA.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Fundamentos de inteligencia artificial",
+                                "archivo":"FUNDAMENTOS_DE_INTELIGENCIA_ARTIFICIAL.pdf",
+                                "optativa": 1
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre": "Control de máquinas de CD mediante convertidores CD-CD",
+                                "archivo":"CONTROL_DE_MAQUINAS_DE_CD_MEDIANTE_CONVERTIDORES_CD-CD.pdf",
+                                "optativa": 2
+                            },
+                            {                               
+                                "nombre": "Control de vibraciones mecánicas",
+                                "archivo":"CONTROL_DE_VIBRACIONES_MECANICAS.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Técnicas de clustering para el diagnóstico de procesos",
+                                "archivo":"TECNICAS_DE_CLUSTERING_PARA_EL_DIAGNOSTICO_DE_PROCESOS.pdf",
+                                "optativa": 2
+
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+
+            "Décimo":{
+                "numero": 10,
+                "materias" : [
+                    {
+                        "nombre": "Ecología y desarrollo sostenible",
+                        "archivo":"ECOLOGIA_Y_DESARROLLO_SOSTENIBLE.pdf"
+                    },
+                      
+                    {
+                        "nombre": "Formulacion y evaluacion de proyectos",
+                        "archivo":"FORMULACION_Y_EVALUACION_DE_PROYECTOS.pdf"
+                    },
+                      
+                    {
+                        "nombre": "Manufactura avanzada",
+                        "archivo":"MANUFACTURA_AVANZADA.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre": "Control de máquinas de CA",
+                                "archivo":"CONTROL_DE_MAQUINAS_DE_CA.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Control de vibraciones mecánicas",
+                                "archivo":"CONTROL_DE_VIBRACIONES_MECANICAS.pdf",
+                                "optativa": 3
+                            },                            
+                            {
+                                "nombre": "Diagnóstico y supervisión de procesos",
+                                "archivo":"DIAGNOSTICO_Y_SUPERVISION_DE_PROCESOS.pdf",
+                                "optativa": 3
+                            }
+                            
+                        ]
+                    },
+
+                    {
+                        "nombre": "(Optativa IV): Administración de la Calidad",
+                        "archivo":"ADMINISTRACION_DE_LA_CALIDAD.pdf"
+                    },                    
+                    {
+                        "nombre": "(Optativa IV): Nanotecnología",
+                        "archivo":"NANOTECNOLOGIA.pdf"
+                    },
+                    {
+                        "nombre": "(Optativa IV): Procesamiento digital de imágenes",
+                        "archivo":"PROCESAMIENTO_DIGITAL_DE_IMAGENES.pdf"
+                    },                      
+                    {
+                        "nombre": "(Optativa IV): Recursos y necesidades de México",
+                        "archivo":"RECURSOS_Y_NECESIDADES_DE_MEXICO.pdf"
+                    },
+                    {
+                        "nombre": "(Optativa IV): Robótica móvil",
+                        "archivo":"ROBOTICA_MOVIL.pdf"
+                    },
+                    {
+                        "nombre": "(Optativa IV): Topicos selectos de mecatrónica",
+                        "archivo":"TOPICOS_SELECTOS_DE_BIOMECATRONICA.pdf"
+                    }
+
+
+                ]
+            }
+            
+        }
+    }
+}

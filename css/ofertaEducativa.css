@@ -1,0 +1,121 @@
+:root {
+  --primary: #5a0c0c;
+  --link: #006493;
+  --info: #fcdfa6;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+/* Oculta la vista para pantallas pequeñas */
+.for-movile {
+  display: none;
+}
+
+/* Oculta la vista para pantallas grandes */
+@media only screen and (max-width: 769px) {
+  .for-movile {
+    display: block;
+  }
+
+  .for-desktop {
+    display: none;
+  }
+}
+
+/* Pantallas pequeñas collapsibles*/
+.btn-collapsible {
+  border: none;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.active,
+.btn-collapsible:hover {
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.btn-collapsible:after {
+  content: "\002B";
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.coll-content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: transparent;
+  border: none;
+}
+
+.panel-tabs {
+  align-items: flex-end;
+  display: flex;
+  font-size: 0.875em;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.panel.is-primary .panel-block.is-active .panel-icon {
+  color: var(--primary);
+}
+
+.panel.is-primary-movile {
+  background-color: transparent;
+}
+
+.panel.is-primary .panel-tabs a.is-active {
+  border-bottom-color: var(--primary);
+}
+
+.panel-tabs a.is-active {
+  color: var(--primary);
+}
+
+.info-modal {
+  background-color: var(--info);
+}
+
+.semestre-border {
+  border-bottom: 2px solid hsl(0, 0%, 71%) !important;
+}
+
+.semestre {
+  background-color: #ffdf9ba7;
+  border-bottom: 2px solid hsl(0, 0%, 71%) !important;
+}
+
+.btn-active {
+  background-color: #ffdf9ba7;
+}
+
+.is-semestre-text {
+  position: relative;
+  top: 85px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  font-style: italic;
+  font-size: medium;
+}
+
+.is-active-element i {
+  color: var(--primary);
+}
