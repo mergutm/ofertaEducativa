@@ -1,97 +1,97 @@
 .bubbler-wrapper {
-  position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  z-index: 1000;
-}
-
-.bubbler-wrapper div {
-  width: 3.4rem;
-  height: 3.4rem;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: white;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  cursor: pointer;
-}
-
-.bubbler-wrapper .bubbler-menu-loader {
-  color: white;
-  background: #5a0c0c;
-  transform: scale(1.1);
-  order: 1;
-}
-
-.bubbler-wrapper div:not(:last-child) {
-  margin-bottom: 0.6rem;
-}
-
-.bubbler-wrapper .bubbler-menu-item {
-  opacity: 0;
-  transform: translateY(20px) scale(0.8);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  pointer-events: none;
-}
-
-.bubbler-wrapper:hover .bubbler-menu-item {
-  opacity: 1;
-  transform: translateY(0) scale(1);
-  pointer-events: auto;
-}
-
-.bubbler-wrapper .bubbler-menu-item-label-wrapper {
-  position: absolute;
-  right: 100%;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-right: 1rem;
-  white-space: nowrap;
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-
-.bubbler-wrapper .bubbler-menu-item:hover .bubbler-menu-item-label-wrapper {
-  opacity: 1;
-  transform: translateY(-50%) translateX(-0.5rem);
-}
-
-.bubbler-wrapper .bubbler-menu-item-label {
-  background: #333;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-size: 0.875rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.bubbler-wrapper .bubbler-menu-item:hover {
-  transform: scale(1.1);
-  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
-}
-
-.bubbler-wrapper .bubbler-menu-loader:hover {
-  transform: scale(1.2);
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(90, 12, 12, 0.4);
+	position: fixed;
+	bottom: 1.5rem;
+	right: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 1000;
   }
-  70% {
-    box-shadow: 0 0 0 10px rgba(90, 12, 12, 0);
+  
+  .bubbler-wrapper div {
+	width: 3.4rem;
+	height: 3.4rem;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	border-radius: 50%;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	cursor: pointer;
   }
-  100% {
-    box-shadow: 0 0 0 0 rgba(90, 12, 12, 0);
+  
+  .bubbler-wrapper .bubbler-menu-loader {
+	color: white;
+	background: #5a0c0c;
+	transform: scale(1.1);
+	order: 1;
   }
-}
-
-.bubbler-wrapper .bubbler-menu-loader {
-  animation: pulse 2s infinite;
-}
+  
+  .bubbler-wrapper div:not(:last-child) {
+	margin-bottom: 0.6rem;
+  }
+  
+  .bubbler-wrapper .bubbler-menu-item {
+	opacity: 0;
+	transform: translateY(20px) scale(0.8);
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	pointer-events: none;
+  }
+  
+  .bubbler-wrapper:hover .bubbler-menu-item {
+	opacity: 1;
+	transform: translateY(0) scale(1);
+	pointer-events: auto;
+  }
+  
+  .bubbler-wrapper .bubbler-menu-item-label-wrapper {
+	position: absolute;
+	right: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-right: 1rem;
+	white-space: nowrap;
+	opacity: 0;
+	transition: all 0.3s ease;
+  }
+  
+  .bubbler-wrapper .bubbler-menu-item:hover .bubbler-menu-item-label-wrapper {
+	opacity: 1;
+	transform: translateY(-50%) translateX(-0.5rem);
+  }
+  
+  .bubbler-wrapper .bubbler-menu-item-label {
+	background: #333;
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+	font-size: 0.875rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bubbler-wrapper .bubbler-menu-item:hover {
+	transform: scale(1.1);
+	box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .bubbler-wrapper .bubbler-menu-loader:hover {
+	transform: scale(1.2);
+  }
+  
+  @keyframes pulse {
+	0% {
+	  box-shadow: 0 0 0 0 rgba(90, 12, 12, 0.4);
+	}
+	70% {
+	  box-shadow: 0 0 0 10px rgba(90, 12, 12, 0);
+	}
+	100% {
+	  box-shadow: 0 0 0 0 rgba(90, 12, 12, 0);
+	}
+  }
+  
+  .bubbler-wrapper .bubbler-menu-loader {
+	animation: pulse 2s infinite;
+  }
