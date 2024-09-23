@@ -1,0 +1,197 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Modelación matemática",
+                        "archivo": "291101_MODELACION_MATEMATICA.PDF"
+                      },
+                      {
+                        "nombre": "Inteligencia artificial",
+                        "archivo": "291102_INTELIGENCIA_ARTIFICIAL.PDF"
+                      },
+                      { 
+                        "nombre": "Optativa I",
+                        "optativas": {
+                        "numero": 1,
+                        "materias" : [
+                                {
+                                    "nombre": "Temas de problemas inversos y mal planteados",
+                                    "archivo": "351104PS_FILTRADO_DE_SEÑALES.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de ecuaciones diferenciales parciales",
+                                    "archivo": "351105LN_PROCESAMIENTO_DEL_HABLA.PDF"
+                                },
+                                {
+                                    "nombre": "Espacios de Hilbert y métodos para ecuaciones diferenciales parciales",
+                                    "archivo": "351106RA_MINERIA_DE_DATOS.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de problemas inversos de la Física Matemática",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de topología",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de teoría de continuos I",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Hiperespacios de continuos",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de teoría de continuos II",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                }
+                            ]
+                        }
+                    }
+                    
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Ciencia de datos",
+                        "archivo": "291201_CIENCIA_DE_DATOS.PDF"
+                    },
+                    { 
+                        "nombre": "Optativa II",
+                        "optativas": {
+                        "numero": 2,
+                        "materias" : [
+                                {
+                                    "nombre": "Temas de problemas inversos y mal planteados",
+                                    "archivo": "351104PS_FILTRADO_DE_SEÑALES.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de ecuaciones diferenciales parciales",
+                                    "archivo": "351105LN_PROCESAMIENTO_DEL_HABLA.PDF"
+                                },
+                                {
+                                    "nombre": "Espacios de Hilbert y métodos para ecuaciones diferenciales parciales",
+                                    "archivo": "351106RA_MINERIA_DE_DATOS.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de problemas inversos de la Física Matemática",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de topología",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de teoría de continuos I",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Hiperespacios de continuos",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de teoría de continuos II",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                }
+                            ]
+                        }
+                    }
+
+                ]
+            },
+
+             
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Cómputo cuántico",
+                            "archivo":"291301_COMPUTO_CUANTICO.PDF" 
+                        },
+                        { 
+                        "nombre": "Optativa III",
+                        "optativas": {
+                        "numero": 3,
+                        "materias" : [
+                                {
+                                    "nombre": "Temas de problemas inversos y mal planteados",
+                                    "archivo": "351104PS_FILTRADO_DE_SEÑALES.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de ecuaciones diferenciales parciales",
+                                    "archivo": "351105LN_PROCESAMIENTO_DEL_HABLA.PDF"
+                                },
+                                {
+                                    "nombre": "Espacios de Hilbert y métodos para ecuaciones diferenciales parciales",
+                                    "archivo": "351106RA_MINERIA_DE_DATOS.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de problemas inversos de la Física Matemática",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de topología",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de teoría de continuos I",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Hiperespacios de continuos",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                },
+                                {
+                                    "nombre": "Temas de teoría de continuos II",
+                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                                }
+                            ]
+                        }
+                    }     
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Seminario de tesis I",
+                            "archivo":"291401_SEMINARIO_DE_TESIS_I.PDF"
+                        }                      
+
+                ]
+            },
+
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de tesis II ",
+                        "archivo":"291501_SEMINARIO_DE_TESIS_II.PDF"
+                    }
+                ]
+            },
+
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de tesis III",
+                        "archivo":"291601_SEMINARIO_DE_TESIS_III.PDF"
+                    }        
+                ]
+            }                          
+        }
+    }
+}

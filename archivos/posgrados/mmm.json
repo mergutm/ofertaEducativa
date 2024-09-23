@@ -1,0 +1,61 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Introducción al cómputo cientifíco",
+                        "archivo": "221101 _Introduccion al Computo_Cientifico.PDF"
+                      },
+                      {
+                        "nombre": "Modelación estadística",
+                        "archivo": "221102_Modelacion_estadistica.PDF"
+                      },
+                      {
+                      "nombre": "Técnicas  de modelación matemática",
+                      "archivo": "221103_Tecnicas_de_modelacion_matematica.PDF"
+                    }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Construcción de modelos matemáticos",
+                        "archivo": "221201_Construccion_de_modelos_matematicos.PDF"
+                    }
+                    
+                ]
+            },
+
+     
+        
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Seminario de Tesis I",
+                            "archivo":"221301_Seminario_de_tesis_I.PDF" 
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Seminario de Tesis IV",
+                            "archivo":"221401_Seminario_de_tesis_II.PDF"
+                        }                       
+
+                ]
+            }                         
+        }
+    }
+}

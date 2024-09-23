@@ -158,6 +158,14 @@ body {
     transition: all var(--transition-duration) var(--transition-timing);
 }
 
+.is-semestrep-text {
+    top: 5px;
+    position: relative;
+    font-style: italic;
+    font-size: 1rem;
+    transition: all var(--transition-duration) var(--transition-timing);
+}
+
 
 /* Accessibility */
 

@@ -1,0 +1,78 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Matemáticas",
+                        "archivo": "210101_Matematicas.PDF"
+                      },
+                      {
+                        "nombre": "Lógica Reconfigurable",
+                        "archivo": "210102 _Logica _Reconfigurable.PDF"
+                      },
+                      {
+                      "nombre": "Microprocesadores",
+                      "archivo": "210103_Microprocesadores.PDF"
+                    },
+                    {
+                        "nombre": "Control lineal",
+                        "archivo": "210104 _Control_lineal.PDF"
+                      },
+                      {
+                        "nombre": "Seminario de Investigación",
+                        "archivo": "210105_Seminario_de_Investigacion.PDF"
+                      }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Arquitectura de computadoras",
+                        "archivo": "210201_Arquitectura_de_Computadoras.PDF"
+                    },
+                      
+                    {
+                        "nombre": "Metodología de diseño",
+                        "archivo": "210202_Metodologias_de_Diseño.PDF"
+                    },
+                    {
+                        "nombre": "Programación de Interfaces",
+                        "archivo": "210203 _Programacion_de_Interfaces.PDF"
+                    }
+                    
+                ]
+            },
+
+     
+        
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Seminario de Tesis I",
+                            "archivo":"210301_Seminario_de_Tesis _I.PDF" 
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Seminario de Investigación II",
+                            "archivo":"210401 _Seminario_de_Tesis_II.PDF"
+                        }                        
+
+                ]
+            }                         
+        }
+    }
+}

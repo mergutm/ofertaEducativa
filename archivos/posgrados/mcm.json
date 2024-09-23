@@ -1,0 +1,78 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Síntesis de Materiales",
+                        "archivo": "300101_SINTESIS_DE_MATERIALES.PDF"
+                      },
+                      {
+                        "nombre": "Tópicos Selectos de Matemáticas",
+                        "archivo": "300102_TOPICOS_SELECTOS_DE_MATEMATICAS.PDF"
+                      },
+                      {
+                      "nombre": "Química de Materiales",
+                      "archivo": "300103_QUIMICA_DE_MATERIALES.PDF"
+                    },
+                    {
+                        "nombre": "Seminario de Tesis I",
+                        "archivo": "300104_SEMINARIO_DE_TESIS_I.PDF"
+                      }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Física del Estado Sólido",
+                        "archivo": "300201_FISICA_DEL_ESTADO_SOLIDO.PDF"
+                    },
+                      
+                    {
+                        "nombre": "Fisicoquímica de los Materiales",
+                        "archivo": "300202_FISICOQUIMICA_DE_LOS_MATERIALES.PDF"
+                    },
+                    {
+                        "nombre": "Seminario de Tesis II",
+                        "archivo": "300203 _SEMINARIO _DE_TESIS_II.PDF"
+                    }
+                    
+                ]
+            },
+
+     
+        
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Técnicas de Caracterización de Materiales",
+                            "archivo":"300301_TECNICAS_DE_CARACTERIZACION_DE_MATERIALES.PDF" 
+                        },
+                        {
+                            "nombre": "Seminario de Tesis III",
+                            "archivo":"300302_SEMINARIO_DE_TESIS_III.PDF" 
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Seminario de Investigación IV",
+                            "archivo":"300401_SEMINARIO_DE_TESIS_IV.PDF"
+                        }                        
+
+                ]
+            }                         
+        }
+    }
+}

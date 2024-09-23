@@ -1,0 +1,116 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de Tesis I",
+                        "archivo": "341101_SEMINARIO_DE_TESIS I.PDF"
+                      },
+                      {
+                        "nombre": "Inteligencia Artificial",
+                        "archivo": "341102_INTELIGENCIA_ARTIFICIAL.PDF"
+                      },
+                      {
+                      "nombre": "Aprendizaje Máquina",
+                      "archivo": "341103_APRENDIZAJE_MAQUINA.PDF"
+                    },
+                    {
+                        "nombre": "Programación Lógica y Funcional",
+                        "archivo": "341104_PROGRAMACION_LOGICA_Y_FUNCIONAL.PDF"
+                      }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de Tesis II",
+                        "archivo": "341201_SEMINARIO_DE_TESIS_II.PDF"
+                    },
+                      
+                    {
+                        "nombre": "Conocimiento y Razonamiento",
+                        "archivo": "341202_CONOCIMIENTO_Y_RAZONAMIENTO.PDF"
+                    },
+                    {
+                        "nombre": "Aprendizaje Profundo",
+                        "archivo": "341203_APRENDIZAJE_PROFUNDO.PDF"
+                    },
+                    {
+                        "nombre": "Procesamiento de Imágenes",
+                        "archivo": "341204PS_PROCESAMIENTO_DE_IMAGENES.PDF"
+                    },
+                    {
+                        "nombre": "Lingüística Computacional",
+                        "archivo": "341205LN _LINGUISTICA_COMPUTACIONAL.PDF"
+                    },
+                    {
+                        "nombre": "Razonamiento Automático",
+                        "archivo": "341206RA_RAZONAMIENTO_AUTOMATICO.PDF"
+                    },
+
+                    {
+                        "nombre": "Cómputo Cientifíco en Problemas Geoespaciales",
+                        "archivo": "341208GC_APRENDIZAJE_AUTOMATICO_EN_PROBLEMAS_GEOESPACIALES.PDF"
+                    },
+                    {
+                        "nombre": "Aprendizaje Automático en Problemas Geoespaciales",
+                        "archivo": "341208GC_APRENDIZAJE_AUTOMATICO_EN_PROBLEMAS_GEOESPACIALES.PDF"
+                    }
+                    
+                ]
+            },
+
+     
+        
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Seminario de Tesis III",
+                            "archivo":"341301_SEMINARIO_DE_TESIS_III.PDF" 
+                        },
+                        {
+                            "nombre": "Análisis de Datos",
+                            "archivo":"341302_ANALISIS_DE_DATOS.PDF" 
+                        },
+                        {
+                            "nombre": "Procesamientode Imágenes con Redes Neuronales",
+                            "archivo":"341304PS _VISION _COMPUTACIONAL.PDF" 
+                        },
+                        {
+                            "nombre": "Razonamiento no Clásico",
+                            "archivo":"341306RA _RAZONAMIENTO _NO _CLÁSICO.PDF" 
+                        }
+                        {
+                            "nombre": "Visulación de Datos Aplicada a Aprendizaje Automático",
+                            "archivo":"341307GC_VISUALIZACION _DE_DATOS_APLICADA_A_APRENDIZAJE_AUTOMÁTICO.PDF" 
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Seminario de Tesis IV",
+                            "archivo":"341401 _SEMINARIO_DE_TESIS IV.PDF"
+                        },
+                        {
+                            "nombre": "Algoritmos y Complejidad",
+                            "archivo":"341402_ALGORITMOS_Y_COMPLEJIDAD.PDF"
+                        }
+                        
+
+                ]
+            }                         
+        }
+    }
+}

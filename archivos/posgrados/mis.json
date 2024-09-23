@@ -1,0 +1,85 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Maderas, Derivados y Fibras ",
+                        "archivo": "132101_Ingenieria_de_Requisitos.PDF"
+                      },
+                      {
+                        "nombre": "Gestión de Proyectos de Software",
+                        "archivo": "132102_Gestion_de_Proyectos_de_software.pdf"
+                      },
+                      {
+                      "nombre": "Seminario de Tesis I",
+                      "archivo": "132103_Seminario_de_Tesis I.pdf"
+                    }
+
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Especificación formal",
+                        "archivo": "132201_Especificacion_Formal.PDF"
+                    },
+                      
+                    {
+                        "nombre": "Minería de Datos",
+                        "archivo": "132202_Mineria_de_Datos.PDF"
+                    },
+                    {
+                        "nombre": "Seminario de Tesis II",
+                        "archivo": "132203_Seminario_de_Tesis II.PDF"
+                    }
+                    
+                ]
+            },
+
+     
+        
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Aseguramiento de la Calidad del Software",
+                            "archivo":"132301_Aseguramiento_de_la_Calidad_del_Software.PDF" 
+                        },
+                        {
+                            "nombre": "Medición del Software",
+                            "archivo":"132302_Medición_del_Software.PDF" 
+                        },
+                        {
+                            "nombre": "Seminario de Tesis III",
+                            "archivo":"132303_Seminario_de_Tesis III.PDF" 
+                        }
+                        
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Proyecto de Investigación",
+                            "archivo":"132401_Proyecto_de_Investigacion.PDF"
+                        },
+                        {
+                            "nombre": "Seminario de Tesis IV",
+                            "archivo":"132402_Seminario_de_Tesis_IV.PDF"
+                        }
+                        
+
+                ]
+            }                         
+        }
+    }
+}

@@ -1,0 +1,280 @@
+{
+    "actual": {
+        "plan": "Plan 2009",
+        "contenido": {
+            "1o": {
+                "numero": 1,
+                "materias": [{
+                        "nombre": "Tópicos Avanzados de Matemáticas",
+                        "archivo": "270101_Tópicos_Avanzados_de_Matemáticas.PDF"
+                    },
+                    {
+                        "nombre": "Seminario de Investigación I",
+                        "archivo": "270102_Seminario_de_Investigacion_I.PDF"
+                    },
+                    {
+                        "nombre": "Optativa I",
+                        "optativas": {
+                            "numero": 1,
+                            "materias": [{
+                                    "nombre": "Introduccion al Control no Lineal",
+                                    "archivo": "270701_Introducción_al_control_no_lineal.PDF"
+
+                                },
+                                {
+                                    "nombre": "Control Lineal",
+                                    "archivo": "270702_Control_lineal.PDF"
+
+                                },
+                                {
+                                    "nombre": "Control no Lineal",
+                                    "archivo": "270703_Control_no_lineal.PDF"
+
+                                },
+                                {
+                                    "nombre": "Control Lineal y no Lineal Aplicado a Electrónica de Potencia",
+                                    "archivo": "270704_Control_lineal_y_no_lineal_aplicado_a_electrónica_de_potencia.PDF"
+
+                                },
+                                {
+                                    "nombre": "Tópicos Selectos de Electrónica de Potencia",
+                                    "archivo": "270705_Topicos_selectos_de_electronica_de_potencia.PDF"
+
+                                },
+                                {
+                                    "nombre": "Electrónica de Potencia",
+                                    "archivo": "270706_Electrónica_de_potencia.PDF"
+
+                                },
+                                {
+                                    "nombre": "Inteligencia Artificial",
+                                    "archivo": "270707_Inteligencia_artificial.PDF"
+
+                                },
+                                {
+                                    "nombre": "Procesamiento de Imágenes",
+                                    "archivo": "270708_Procesamiento_de_imagenes.PDF"
+
+                                },
+                                {
+                                    "nombre": "Programación de Interfaces",
+                                    "archivo": "270709_Programacion_de_interfaces.PDF"
+
+                                },
+                                {
+                                    "nombre": "Arquitectura de Computadoras",
+                                    "archivo": "270710_Arquitectura_de_computadoras.PDF"
+
+                                },
+                                {
+                                    "nombre": "Reconocimiento de Patrones",
+                                    "archivo": "270711_Reconocimiento_de_patrones.PDF"
+
+                                },
+                                {
+                                    "nombre": "Visión por Computadora",
+                                    "archivo": "270712_Visión_por_computadora.PDF"
+
+                                }
+
+                            ]
+                        }
+                    }
+                ]
+            },
+
+            "2o": {
+                "numero": 2,
+                "materias": [{
+                        "nombre": "Modelado y Simulación de Sistemas",
+                        "archivo": "270201_Modelado_y_Simulacion_de_Sistemas.PDF"
+                    },
+
+                    {
+                        "nombre": "Seminario de Investigación II",
+                        "archivo": "C270202_Seminario_de_Investigacion_II.pdf"
+                    },
+                    {
+                        "nombre": "Optativa II",
+                        "optativas": {
+                            "numero": 2,
+                            "materias": [{
+                                    "nombre": "Introducción al Control no Lineal",
+                                    "archivo": "270701_Introduccion_al_control_no_lineal.PDF"
+
+                                },
+                                {
+                                    "nombre": "Control Lineal",
+                                    "archivo": "270702_Control_lineal.PDF"
+
+                                },
+                                {
+                                    "nombre": "Control no Lineal",
+                                    "archivo": "270703_Control_no_lineal.PDF"
+
+                                },
+                                {
+                                    "nombre": "Control Lineal y no Lineal Aplicado a Electrónica de Potencia",
+                                    "archivo": "270704_Control_lineal_y_no_lineal_aplicado_a_electronica_de_potencia.PDF"
+
+                                },
+                                {
+                                    "nombre": "Tópicos Selectos de Electrónica de Potencia",
+                                    "archivo": "270705_Topicos_selectos_de_electrónica_de_potencia.PDF"
+
+                                },
+                                {
+                                    "nombre": "Electrónica de Potencia",
+                                    "archivo": "270706_Electronica_de_potencia.PDF"
+
+                                },
+                                {
+                                    "nombre": "Inteligencia Artificial",
+                                    "archivo": "270707_Inteligencia_artificial.PDF"
+
+                                },
+                                {
+                                    "nombre": "Procesamiento de Imágenes",
+                                    "archivo": "270708_Procesamiento_de_imagenes.PDF"
+
+                                },
+                                {
+                                    "nombre": "Programación de Interfaces",
+                                    "archivo": "270709_Programacion_de_interfaces.PDF"
+
+                                },
+                                {
+                                    "nombre": "Arquitectura de Computadoras",
+                                    "archivo": "270710_Arquitectura_de_computadoras.PDF"
+
+                                },
+                                {
+                                    "nombre": "Reconocimiento de Patrones",
+                                    "archivo": "270711_Reconocimiento_de_patrones.PDF"
+
+                                },
+                                {
+                                    "nombre": "Visión por Computadora",
+                                    "archivo": "270712_Vision_por_computadora.PDF"
+
+                                }
+                            ]
+                        }
+
+                    }
+
+                ]
+            },
+
+
+
+            "3o": {
+                "numero": 3,
+                "materias": [
+
+                    {
+                        "nombre": "Seminario de Tesis I",
+                        "archivo": "270301_Seminario_de_Tesis_I.PDF"
+                    }
+
+                ]
+            },
+
+            "4o": {
+                "numero": 4,
+                "materias": [{
+                    "nombre": "Seminario de Tesis II",
+                    "archivo": "270401_Seminario_de_Tesis II.PDF"
+                }]
+            },
+
+            "5o": {
+                "numero": 5,
+                "materias": [{
+                        "nombre": "Seminario de Tesis III",
+                        "archivo": "270501_Seminario_de_Tesis_III.PDF"
+                    }
+
+
+                ]
+            },
+
+            "6o": {
+                "numero": 6,
+                "materias": [{
+                        "nombre": "Seminario de Tesis IV",
+                        "archivo": "270601_Seminario_de_Tesis_IV.PDF"
+                    }
+
+
+
+                ]
+            },
+            "Optativas": {
+                "numero": 7,
+                "materias": [{
+                        "nombre": "Introduccion al Control no Lineal",
+                        "archivo": "270701_Introducción_al_control_no_lineal.PDF"
+
+                    },
+                    {
+                        "nombre": "Control Lineal",
+                        "archivo": "270702_Control_lineal.PDF"
+
+                    },
+                    {
+                        "nombre": "Control no Lineal",
+                        "archivo": "270703_Control_no_lineal.PDF"
+
+                    },
+                    {
+                        "nombre": "Control Lineal y no Lineal Aplicado a Electrónica de Potencia",
+                        "archivo": "270704_Control_lineal_y_no_lineal_aplicado_a_electrónica_de_potencia.PDF"
+
+                    },
+                    {
+                        "nombre": "Tópicos Selectos de Electrónica de Potencia",
+                        "archivo": "270705_Topicos_selectos_de_electronica_de_potencia.PDF"
+
+                    },
+                    {
+                        "nombre": "Electrónica de Potencia",
+                        "archivo": "270706_Electrónica_de_potencia.PDF"
+
+                    },
+                    {
+                        "nombre": "Inteligencia Artificial",
+                        "archivo": "270707_Inteligencia_artificial.PDF"
+
+                    },
+                    {
+                        "nombre": "Procesamiento de Imágenes",
+                        "archivo": "270708_Procesamiento_de_imagenes.PDF"
+
+                    },
+                    {
+                        "nombre": "Programación de Interfaces",
+                        "archivo": "270709_Programacion_de_interfaces.PDF"
+
+                    },
+                    {
+                        "nombre": "Arquitectura de Computadoras",
+                        "archivo": "270710_Arquitectura_de_computadoras.PDF"
+
+                    },
+                    {
+                        "nombre": "Reconocimiento de Patrones",
+                        "archivo": "270711_Reconocimiento_de_patrones.PDF"
+
+                    },
+                    {
+                        "nombre": "Visión por Computadora",
+                        "archivo": "270712_Visión_por_computadora.PDF"
+
+                    }
+                ]
+            }
+
+        }
+    }
+}

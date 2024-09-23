@@ -1,0 +1,71 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Procesos de Manufactura",
+                        "archivo": "190101_Procesos_de_Manufactura.PDF"
+                      },
+                      {
+                        "nombre": "Diseño, Manufactura e Ingeniería asistida por Computadora ",
+                        "archivo": "190102_Diseño_Manufactura_e_Ingenieria_asistida_por_Computadora.PDF"
+                      },
+                      {
+                      "nombre": "Ingeniería de Materiales",
+                      "archivo": "190103_Ingenieria_de_Materiales.PDF"
+                    },
+                    {
+                        "nombre": "Administración de la Manufactura",
+                        "archivo": "190104_Administracion_de_la_Manufactura.PDF"
+                      }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Diseño y Desarrollo de Productos",
+                        "archivo": "190201_Diseño_y_Desarrollo_de_Productos.PDF"
+                    },
+                      
+                    {
+                        "nombre": "Tecnología de la Información en la Manufactura",
+                        "archivo": "190202_Tecnologia_de_la_Informacion_en_la_Manufactura.PDF"
+                    } 
+                    
+                ]
+            },
+
+     
+        
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Proyecto de Tesis I",
+                            "archivo":"190301_Proyecto_de_Tesis_I.PDF" 
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Proyecto de Tesis II",
+                            "archivo":"190401_Proyecto_de_Tesis_II.PDF"
+                        }
+                        
+
+                ]
+            }                         
+        }
+    }
+}

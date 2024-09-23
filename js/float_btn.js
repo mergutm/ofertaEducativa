@@ -13,12 +13,17 @@ function inicializarBtn(path, carrera) {
 
     url_carrera = url_actual;
 
+    //console.log("url_actual = ", url_actual);
+    //console.log("url_carrera = ", url_carrera);
+
 
     if (carrera == "diseño") {
         url_imagen = "'" + path + "disenio" + ".jpg' ";
     } else {
         // Dirección del logo de la carrera
         url_imagen = "'" + path + url_carrera + ".jpg' ";
+
+        //console.log("url_imagen = ", url_imagen);
     }
 
     // Primera letra en mayúscula
@@ -32,10 +37,19 @@ function inicializarBtn(path, carrera) {
     // 			: "Ingeniería en " + url_actual
     // 		: "Licenciatura en " + url_actual;
 
+    console.log("url_actual = ", url_actual);
+
+
     if (url_actual != "Matematicas" || url_actual != "Empresariales") {
         if (url_actual == "Civil" || url_actual == "Automotriz" || url_actual == "Industrial") {
             label = url_actual == "Automotriz" ? "Mecánica Automotriz" : url_actual;
             label_carrera = "Ingeniería " + label;
+        } else if (url_actual == "Deosia") {
+            console.log("url_actual Deosia = ", url_actual);
+            if (url_actual == "Deosia") {
+                label = "DEOSIA";
+                label_carrera = "" + label;
+            }
         } else {
             label = url_actual == "Fisica" ? "Física Aplicada" : url_actual;
             label_carrera = "Ingeniería en " + label;
@@ -75,9 +89,12 @@ function inicializarBtn(path, carrera) {
                     href = "/updateOfertaEducativa/licenciaturas/" + "fisica_aplicada";
                 } else if (carrera == "automotriz") {
                     href = "/updateOfertaEducativa/licenciaturas/" + "mecanica_automotriz";
+                } else if (carrera == "deosia") {
+                    href = "/updateOfertaEducativa/posgrados/" + "deosia";
                 } else {
                     href = "/updateOfertaEducativa/licenciaturas/" + url_carrera;
                 }
+
                 window.location.href = href;
             },
         },

@@ -1,0 +1,219 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Tópicos Avanzados de Matemáticas",
+                        "archivo": "270101_Tópicos_Avanzados_de_Matemáticas.pdf"
+                      },
+                      {
+                        "nombre": "Seminario de Investigación I",
+                        "archivo": "270102_Seminario_de_Investigación_I.pdf"
+                      },
+                      {
+                        "optativa":[
+                            {
+                                "nombre": "Introducción al Control no Lineal",
+                                "archivo":"270701_Introducción_al_control_no_lineal.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Control Lineal",
+                                "archivo":"270702_Control_lineal.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Control no Lineal",
+                                "archivo":"270703_Control_no_lineal.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Control Lineal y no Lineal aplicado a Electrónica de Potencia",
+                                "archivo":"270704_Control_lineal_y_no_lineal_aplicado_a_electrónica_de_potencia.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Tópicos Selectos de Electrónica de Potencia",
+                                "archivo":"270705_Topicos_selectos_de_electrónica_de_potencia.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Electrónica de Potencia",
+                                "archivo":"270706_Electrónica_de_potencia.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Inteligencia Artificial",
+                                "archivo":"270707_Inteligencia_artificial.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Procesamiento de Imágenes",
+                                "archivo":"270708_Procesamiento_de_imágenes.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Programación de interfaces",
+                                "archivo":"270709_Programación_de_interfaces.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Arquitectura de computadoras",
+                                "archivo":"270710_Arquitectura_de_computadoras.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Reconocimiento de patrones",
+                                "archivo":"270711_Reconocimiento_de_patrones.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Visión por computadora",
+                                "archivo":"270712_Visión_por_computadora.pdf",
+                                "optativa": 1
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Modelado y Simulación de Sistemas",
+                        "archivo": "270201_Modelado_y_Simulación_de_Sistemas.pdf"
+                    },
+                      
+                    {
+                        "nombre": "Seminario de Investigación II",
+                        "archivo": "C270202_Seminario_de_Investigación_II.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre": "Introducción al Control no Lineal",
+                                "archivo":"270701_Introducción_al_control_no_lineal.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Control Lineal",
+                                "archivo":"270702_Control_lineal.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Control no Lineal",
+                                "archivo":"270703_Control_no_lineal.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Control Lineal y no Lineal aplicado a Electrónica de Potencia",
+                                "archivo":"270704_Control_lineal_y_no_lineal_aplicado_a_electrónica_de_potencia.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Tópicos Selectos de Electrónica de Potencia",
+                                "archivo":"270705_Topicos_selectos_de_electrónica_de_potencia.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Electrónica de Potencia",
+                                "archivo":"270706_Electrónica_de_potencia.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Inteligencia Artificial",
+                                "archivo":"270707_Inteligencia_artificial.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Procesamiento de Imágenes",
+                                "archivo":"270708_Procesamiento_de_imágenes.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Programación de Interfaces",
+                                "archivo":"270709_Programación_de_interfaces.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Arquitectura de Computadoras",
+                                "archivo":"270710_Arquitectura_de_computadoras.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Reconocimiento de Patrones",
+                                "archivo":"270711_Reconocimiento_de_patrones.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Visión por Computadora",
+                                "archivo":"270712_Visión_por_computadora.pdf",
+                                "optativa": 2
+                            }
+                        ]
+
+                    }
+
+                ]
+            },
+
+     
+        
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Seminario de Tesis I",
+                            "archivo":"270301_Seminario_de_Tesis_I.pdf" 
+                        }
+                        
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Seminario de Tesis II",
+                            "archivo":"270401_Seminario_de_Tesis II.pdf"
+                        }
+                        
+
+                ]
+            },
+
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de Tesis III",
+                        "archivo":"270501_Seminario_de_Tesis_III.pdf"
+                      }
+                      
+      
+                ]
+            },
+
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de Tesis IV",
+                        "archivo":"270601_Seminario_de_Tesis_IV.pdf"
+                      }
+                      
+
+                      
+                ]
+            }                          
+        }
+    }
+}

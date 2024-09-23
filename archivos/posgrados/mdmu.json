@@ -1,0 +1,109 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2013",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Maderas, Derivados y Fibras",
+                        "archivo": "230101_Maderas_Derivadas_y_Fibras.PDF"
+                      },
+                      {
+                        "nombre": "Resistencia de Fibras Maderables",
+                        "archivo": "230102_Resistencia_de_Fibras_Maderables.PDF"
+                      },
+                      {
+                        "nombre": "Ergonomía de Mobiliario y su Entorno ",
+                        "archivo": "230103_Ergonomía_de_Mobiliario_y_su_Entorno.PDF"
+                      },
+                      {
+                        "nombre": "CAD Básico",
+                        "archivo": "230104_CAD_Basico.PDF"
+                      },
+                      {
+                        "nombre": "Taller de Experimentación I",
+                        "archivo": "230105_Taller_de_Experimentacion_I.PDF"
+                      },
+                      {
+                        "nombre": "Proyecto I",
+                        "archivo": "230106_Proyecto_I.PDF"
+                      }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Procesos Constructivos",
+                        "archivo": "230201_Procesos_Constructivos.PDF"
+                      },
+                      
+                       {
+                        "nombre": "Sistemas CAD/CAM",
+                        "archivo": "230201_Procesos_Constructivos.PDF"
+                      },
+                      
+                       {
+                        "nombre": "Taller de Experimentación II",
+                        "archivo": "230204_Taller_ de_Experimentacion_II.PDF"
+                      },
+                      
+                       {
+                        "nombre": "Proyecto II",
+                        "archivo": "230205_Proyecto_II.PDF"
+                      },
+                      
+                       {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "TEORIA_GENERAL_DE_SISTEMAS.PDF"
+                      }
+                ]
+            },
+
+            "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Diseño sustentable",
+                            "archivo":"230301_Diseño_sustentable.PDF"
+                        },
+                        
+                        {
+                            "nombre": "Aplicación CAE",
+                            "archivo":"230302_Aplicacion_CAE.PDF"
+                        },
+                        
+                        {
+                            "nombre": "Mercadotecnia y Comercialización",
+                            "archivo":"230303_Mercadotecnia_y_Comercializacion.PDF"
+                        },
+                        
+                        {
+                            "nombre": "Proyecto III",
+                            "archivo":"230304_Proyecto_III.PDF"
+                        }
+                        
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Proyecto IV",
+                            "archivo":"230401_Proyecto_IV.PDF"
+                        }
+                        
+                ]
+            }
+
+
+            
+        }
+    }
+}
