@@ -1,38 +1,38 @@
 let datos;
 
-fetch("../../../archivos/carreras/Alimentos.json")
-  .then((response) => response.json())
-  .then((data) => {
-    datos = data;
-    const contenido = data.actual.contenido;
-    const tbody = document.getElementById("temario-tbody-content");
+fetch("../../../archivos/carreras/Quimica.json")
+    .then((response) => response.json())
+    .then((data) => {
+            datos = data;
+            const contenido = data.actual.contenido;
+            const tbody = document.getElementById("temario-tbody-content");
 
-    const semestres = Object.keys(contenido).filter(
-      (key) => contenido[key].numero <= 8
-    );
+            const semestres = Object.keys(contenido).filter(
+                (key) => contenido[key].numero <= 6
+            );
 
-    // itera sobre cada key (semestre) del objeto contenido (hasta 8vo semestre)
-    semestres.forEach((key) => {
-      const numSemestre = contenido[key].numero;
-      const semestre = contenido[key].materias;
+            // itera sobre cada key (semestre) del objeto contenido (hasta 8vo semestre)
+            semestres.forEach((key) => {
+                const numSemestre = contenido[key].numero;
+                const semestre = contenido[key].materias;
 
-      const tablaMaterias = semestre
-        .map(
-          (m, i) => `<tr${
+                const tablaMaterias = semestre
+                    .map(
+                        (m, i) => `<tr${
             i == semestre.length - 1 ? 'class="semestre-border"' : ""
           }>
                     <td >${m.nombre}</td>
                     <td>
                         <div class="is-flex is-justify-content-center">
                             <p class="buttons">
-                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline" href="../archivos/planes/plan_2015/${
+                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline" href="../archivos/planes/plan_2024/${
                                   m.archivo
                                 }" target="_blank" download data-tooltip="Descargar">
                                     <span class="icon is-small">
                                         <i class="fas fa-download"></i>
                                     </span>
                                 </a>
-                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline" href="../archivos/planes/plan_2015/${
+                                <a class="button is-small has-tooltip-arrow has-tooltip-multiline" href="../archivos/planes/plan_2024/${
                                   m.archivo
                                 }" target="_blank" data-tooltip="Visualizar">
                                     <span class="icon is-small">
@@ -43,12 +43,12 @@ fetch("../../../archivos/carreras/Alimentos.json")
                         </div>
                     </td>
                 </tr>`
-        )
-        .join("");
+                    )
+                    .join("");
 
-      tbody.insertAdjacentHTML(
-        "beforebegin",
-        `<tr ${
+                tbody.insertAdjacentHTML(
+                    "beforebegin",
+                    `<tr ${
           numSemestre % 2 != 0
             ? 'class="has-background-warning-light semestre-border"'
             : 'class="has-background-white-ter semestre-border""'
@@ -62,21 +62,21 @@ fetch("../../../archivos/carreras/Alimentos.json")
             </td>
         </tr>
         ${tablaMaterias}`
-      );
-    });
+                );
+            });
 
-    // Para 9no y 10mo semestre
-    const semestresOptativas = Object.keys(contenido).filter(
-      (key) => contenido[key].numero > 8
-    );
+            // Para 9no y 10mo semestre
+            const semestresOptativas = Object.keys(contenido).filter(
+                (key) => contenido[key].numero > 6
+            );
 
-    semestresOptativas.forEach((key) => {
-      const numSemestre = contenido[key].numero;
-      const semestre = contenido[key].materias;
+            semestresOptativas.forEach((key) => {
+                        const numSemestre = contenido[key].numero;
+                        const semestre = contenido[key].materias;
 
-      const tablaMaterias = semestre
-        .map(
-          (m, i) => `<tr ${
+                        const tablaMaterias = semestre
+                            .map(
+                                (m, i) => `<tr ${
             i == semestre.length - 1 ? 'class="semestre-border"' : ""
           }>
                     <td ${
@@ -94,23 +94,24 @@ fetch("../../../archivos/carreras/Alimentos.json")
                                 ${
                                   m.nombre == undefined
                                     ? `<div>
-                                            <button id="se_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(1,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Serie Empresarial">
+                                            <button id="ps_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(1,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Producción Sostenible de Alimentos Seguros">
                                                 <span class="icon is-small">
-                                                    <i class="has-text-weight-bold"> SE </i>
+                                                    <i class="has-text-weight-bold"> PS </i>
                                                 </span>
                                             </button>
-                                            <button id="si_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(2,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Serie Industrial">
+                                            <button id="ma_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(2,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Manejo del Agua y Tratamiento de Residuos Sólidos	">
                                                 <span class="icon is-small">
-                                                  <i class="has-text-weight-bold"> SI </i>
+                                                  <i class="has-text-weight-bold"> MA </i>
                                                 </span>
                                             </button>
+
                                         </div>`
                                     : ""
                                 }
                                 <a class="button is-small has-tooltip-arrow has-tooltip-multiline" ${
                                   m.nombre == undefined
                                     ? `id="dwn_${m.optativa[0].optativa}" target="_blank" download`
-                                    : `href="../archivos/planes/plan_2015/${m.archivo}" target="_blank" download`
+                                    : `href="../archivos/planes/plan_2024/${m.archivo}" target="_blank" download`
                                 } download data-tooltip="Descargar">
                                     <span class="icon is-small">
                                         <i class="fas fa-download"></i>
@@ -119,7 +120,7 @@ fetch("../../../archivos/carreras/Alimentos.json")
                                 <a class="button is-small has-tooltip-arrow has-tooltip-multiline" ${
                                   m.nombre == undefined
                                     ? `id="vw_${m.optativa[0].optativa}" target="_blank"`
-                                    : `href="../archivos/planes/plan_2015/${m.archivo}" target="_blank"`
+                                    : `href="../archivos/planes/plan_2024/${m.archivo}" target="_blank"`
                                 }  data-tooltip="Visualizar">
                                     <span class="icon is-small">
                                       <i class="fas fa-eye"></i>
@@ -156,89 +157,99 @@ fetch("../../../archivos/carreras/Alimentos.json")
 // IA -> 1
 // IS -> 2
 function cambioOptativa(optativa, id, semestre, e) {
-  console.log(id);
   const textoElement = document.getElementById(id);
 
   const idOrignal = id.split("op")[1];
 
-  const btnSE = document.getElementById(`se_${idOrignal}`);
-  const btnSI = document.getElementById(`si_${idOrignal}`);
+  const btnPS = document.getElementById(`ps_${idOrignal}`);
+  const btnMA = document.getElementById(`ma_${idOrignal}`);
+
 
   // establece el nuevo boton activo con la clase is-active
-  if (btnSE.id == e.id) {
-    btnSE.classList.add("is-active");
-    btnSE.classList.add("btn-active");
-    btnSI.classList.remove("is-active");
-    btnSI.classList.remove("btn-active");
-  } else {
-    btnSI.classList.add("is-active");
-    btnSI.classList.add("btn-active");
-    btnSE.classList.remove("is-active");
-    btnSE.classList.remove("btn-active");
-  }
+  if (btnPS.id == e.id) {
+    btnPS.classList.add("is-active");
+    btnPS.classList.add("btn-active");
+    btnMA.classList.remove("is-active");
+    btnMA.classList.remove("btn-active");
+  
+  
+  } 
+  else if (btnMA.id == e.id) 
+  {
+    btnMA.classList.add("is-active");
+    btnMA.classList.add("btn-active");
+    btnPS.classList.remove("is-active");
+    btnPS.classList.remove("btn-active");
+  
+  
+  }  
 
   const dwnElement = document.getElementById(`dwn_${idOrignal}`);
   const vwElement = document.getElementById(`vw_${idOrignal}`);
-  const rutaInicial = "../archivos/planes/plan_2015/";
+  const rutaInicial = "../archivos/planes/plan_2024/";
+ 
+// opt I
+if(idOrignal == 1){
+  textoElement.innerHTML = "(Optativa " +romano(parseInt(idOrignal)) +  "): " + 
+    datos.actual.contenido[semestre].materias[3].optativa[optativa -1].nombre;
+  dwnElement.href =
+    rutaInicial +
+    datos.actual.contenido[semestre].materias[3].optativa[optativa -1].archivo;
+  vwElement.href =
+    rutaInicial +
+    datos.actual.contenido[semestre].materias[3].optativa[optativa -1].archivo;
+  
+} 
+// opt II
+else if(idOrignal == 2){
+  textoElement.innerHTML = "(Optativa " +romano(parseInt(idOrignal)) +  "): " + 
+    datos.actual.contenido[semestre].materias[4].optativa[optativa -1].nombre;
+  dwnElement.href =
+    rutaInicial +
+    datos.actual.contenido[semestre].materias[4].optativa[optativa -1].archivo;
+  vwElement.href =
+    rutaInicial +
+    datos.actual.contenido[semestre].materias[4].optativa[optativa -1].archivo;
+} 
+// opt III
+else if(idOrignal == 3){
+  textoElement.innerHTML = "(Optativa " +romano(parseInt(idOrignal)) +  "): " + 
+    datos.actual.contenido[semestre].materias[5].optativa[optativa -1].nombre;
+  dwnElement.href =
+    rutaInicial +
+    datos.actual.contenido[semestre].materias[5].optativa[optativa -1].archivo;
+  vwElement.href =
+    rutaInicial +
+    datos.actual.contenido[semestre].materias[5].optativa[optativa -1].archivo;
+} 
 
-  if (optativa == 1) {
-    switch (id) {
-      case "op1":
-      case "op3":
-        textoElement.innerHTML =
-          datos.actual.contenido[semestre].materias[0].optativa[0].nombre;
+// opt IV
+else if(idOrignal == 4){
+  textoElement.innerHTML = "(Optativa " +romano(parseInt(idOrignal)) +  "): " + 
+    datos.actual.contenido[semestre].materias[4].optativa[optativa -1].nombre;
+  dwnElement.href =
+    rutaInicial +
+    datos.actual.contenido[semestre].materias[4].optativa[optativa -1].archivo;
+  vwElement.href =
+    rutaInicial +
+    datos.actual.contenido[semestre].materias[4].optativa[optativa -1].archivo;
+} 
 
-        dwnElement.href =
-          rutaInicial +
-          datos.actual.contenido[semestre].materias[0].optativa[0].archivo;
-        vwElement.href =
-          rutaInicial +
-          datos.actual.contenido[semestre].materias[0].optativa[0].archivo;
-        break;
-
-      case "op2":
-      case "op4":
-        textoElement.innerHTML =
-          datos.actual.contenido[semestre].materias[0].optativa[0].nombre;
-
-        dwnElement.href =
-          rutaInicial +
-          datos.actual.contenido[semestre].materias[0].optativa[0].archivo;
-        vwElement.href =
-          rutaInicial +
-          datos.actual.contenido[semestre].materias[0].optativa[0].archivo;
-        break;
-    }
-  } else {
-    switch (id) {
-      case "op1":
-      case "op3":
-        textoElement.innerHTML =
-          datos.actual.contenido[semestre].materias[0].optativa[1].nombre;
-
-        dwnElement.href =
-          rutaInicial +
-          datos.actual.contenido[semestre].materias[0].optativa[1].archivo;
-        vwElement.href =
-          rutaInicial +
-          datos.actual.contenido[semestre].materias[0].optativa[1].archivo;
-        break;
-
-      case "op2":
-      case "op4":
-        textoElement.innerHTML =
-          datos.actual.contenido[semestre].materias[0].optativa[1].nombre;
-
-        dwnElement.href =
-          rutaInicial +
-          datos.actual.contenido[semestre].materias[0].optativa[1].archivo;
-        vwElement.href =
-          rutaInicial +
-          datos.actual.contenido[semestre].materias[0].optativa[1].archivo;
-        break;
-    }
-  }
 }
+
+
+function romano(n){
+  switch(n){
+    case 1: return "I";break;
+    case 2: return "II";break;
+    case 3: return "III";break;
+    case 4: return "IV";break;
+    case 5: return "V";break;
+    case 6: return "VI";break;
+  }
+
+}
+
 
 // Toast
 let mostrar = false;
