@@ -232,16 +232,9 @@
                         "archivo": "Modelacion_Matematica.pdf"
                     },
                     {
-                        "optativa": [
-
-                            {
+                        "optativa": [{
                                 "nombre": "Minería de Datos Estáticos",
                                 "archivo": "Optativa_II_Mineria_De_Datos_Estaticos.pdf",
-                                "optativa": 2
-                            },
-                            {
-                                "nombre": "Estimación de parámetros",
-                                "archivo": "Optativa_II_Estimacion_De_Parametros.pdf",
                                 "optativa": 2
                             },
                             {
@@ -250,13 +243,18 @@
                                 "optativa": 2
                             },
                             {
-                                "nombre": "Geometría computacional",
-                                "archivo": "Optativa_II_Geometria_Computacional.pdf",
+                                "nombre": "Introducción a la Teoría de Aproximación",
+                                "archivo": "Optativa_II_Introduccion_A_La_Teoria_De_Aproximacion.pdf",
                                 "optativa": 2
                             },
                             {
-                                "nombre": "Introducción a la Teoría de Aproximación",
-                                "archivo": "Optativa_II_Introduccion_A_La_Teoria_De_Aproximacion.pdf",
+                                "nombre": "Estimación de parámetros",
+                                "archivo": "Optativa_II_Estimacion_De_Parametros.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Geometría computacional",
+                                "archivo": "Optativa_II_Geometria_Computacional.pdf",
                                 "optativa": 2
                             },
                             {

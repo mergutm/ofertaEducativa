@@ -2,7 +2,7 @@
     "actual": {
         "plan": "Plan 2009",
         "contenido": {
-            "1o": {
+            "Primero": {
                 "numero": 1,
                 "materias": [{
                         "nombre": "Tópicos Avanzados de Matemáticas",
@@ -83,7 +83,7 @@
                 ]
             },
 
-            "2o": {
+            "Segundo": {
                 "numero": 2,
                 "materias": [{
                         "nombre": "Modelado y Simulación de Sistemas",
@@ -168,7 +168,7 @@
 
 
 
-            "3o": {
+            "Tercero": {
                 "numero": 3,
                 "materias": [
 
@@ -180,7 +180,7 @@
                 ]
             },
 
-            "4o": {
+            "Cuarto": {
                 "numero": 4,
                 "materias": [{
                     "nombre": "Seminario de Tesis II",
@@ -188,7 +188,7 @@
                 }]
             },
 
-            "5o": {
+            "Quinto": {
                 "numero": 5,
                 "materias": [{
                         "nombre": "Seminario de Tesis III",
@@ -199,7 +199,7 @@
                 ]
             },
 
-            "6o": {
+            "Sexto": {
                 "numero": 6,
                 "materias": [{
                         "nombre": "Seminario de Tesis IV",

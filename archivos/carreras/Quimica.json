@@ -17,7 +17,7 @@
                         "archivo": "Ciencia_Tecnologia_y_Sociedad.pdf"
                     },
                     {
-                        "nombre": "Fundamento de la Ciencia Química Sostenible",
+                        "nombre": "Fundamentos de la Ciencia Química Sostenible",
                         "archivo": "Fundamentos_de_la_Ciencia_Quimica_Sostenible.pdf"
                     },
                     {
@@ -181,7 +181,7 @@
                         "archivo": "Ingenieria_en_Proyectos.pdf"
                     },
                     {
-                        "nombre": "Ingenieria Termodinamica de Equilibrio",
+                        "nombre": "Ingenieria Termodinámica de Equilibrio",
                         "archivo": "Ingenieria_Termodinamica_de_Equilibrio.pdf"
                     },
                     {
@@ -201,7 +201,7 @@
                         "archivo": "Liderazgo_Organizacional.pdf"
                     },
                     {
-                        "nombre": "Modelación y optimización de Procesos Sostenibles",
+                        "nombre": "Modelación y Optimización de Procesos Sostenibles",
                         "archivo": "Modelacion_y_Opt_Proc_Sust.pdf"
                     },
                     {
@@ -247,7 +247,7 @@
                     }
                 ]
             },
-            "": {
+            "Noveno": {
                 "numero": 9,
                 "materias": [{
                         "nombre": "Estancia Profesional",

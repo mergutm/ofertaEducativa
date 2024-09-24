@@ -65,9 +65,9 @@ fetch("../../../archivos/carreras/Quimica.json")
                 );
             });
 
-            // Para 9no y 10mo semestre
+            // Para 7o y 8o semestre
             const semestresOptativas = Object.keys(contenido).filter(
-                (key) => contenido[key].numero > 6
+                (key) => (contenido[key].numero > 6 & contenido[key].numero <= 8)
             );
 
             semestresOptativas.forEach((key) => {
@@ -151,6 +151,98 @@ fetch("../../../archivos/carreras/Quimica.json")
             ${tablaMaterias}`
       );
     });
+
+
+
+    // Para 7o y 8o semestre
+    const semestresPracticas = Object.keys(contenido).filter(
+      (key) => contenido[key].numero == 9
+    );
+
+    semestresPracticas.forEach((key) => {
+              const numSemestre = contenido[key].numero;
+              const semestre = contenido[key].materias;
+
+              const tablaMaterias = semestre
+                  .map(
+                      (m, i) => `<tr ${
+    i == semestre.length - 1 ? 'class="semestre-border"' : ""
+    }>
+          <td ${
+            m.nombre == undefined
+              ? `id=op${m.optativa[0].optativa}`
+              : ""
+          }>${
+    m.nombre == undefined
+    ? `Optativa ${m.optativa[0].optativa}`
+    : m.nombre
+    }</td>
+          <td>
+              <div class="is-flex is-justify-content-center">
+                  <p class="buttons">
+                      ${
+                        m.nombre == undefined
+                          ? `<div>
+                                  <button id="ps_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(1,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Producción Sostenible de Alimentos Seguros">
+                                      <span class="icon is-small">
+                                          <i class="has-text-weight-bold"> PS </i>
+                                      </span>
+                                  </button>
+                                  <button id="ma_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(2,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Manejo del Agua y Tratamiento de Residuos Sólidos	">
+                                      <span class="icon is-small">
+                                        <i class="has-text-weight-bold"> MA </i>
+                                      </span>
+                                  </button>
+
+                              </div>`
+                          : ""
+                      }
+                      <a class="button is-small has-tooltip-arrow has-tooltip-multiline" ${
+                        m.nombre == undefined
+                          ? `id="dwn_${m.optativa[0].optativa}" target="_blank" download`
+                          : `href="../archivos/planes/plan_2024/${m.archivo}" target="_blank" download`
+                      } download data-tooltip="Descargar">
+                          <span class="icon is-small">
+                              <i class="fas fa-download"></i>
+                          </span>
+                      </a>
+                      <a class="button is-small has-tooltip-arrow has-tooltip-multiline" ${
+                        m.nombre == undefined
+                          ? `id="vw_${m.optativa[0].optativa}" target="_blank"`
+                          : `href="../archivos/planes/plan_2024/${m.archivo}" target="_blank"`
+                      }  data-tooltip="Visualizar">
+                          <span class="icon is-small">
+                            <i class="fas fa-eye"></i>
+                          </span>
+                      </a>
+                  </p>
+              </div>
+          </td>
+      </tr>`
+    )
+    .join("");
+
+    tbody.insertAdjacentHTML(
+    "beforebegin",
+    `<tr ${
+    numSemestre % 2 != 0
+    ? 'class="has-background-warning-light semestre-border"'
+    : 'class="has-background-white-ter semestre-border""'
+    }>
+      <td rowspan="${semestre.length + 1}" ${
+    numSemestre % 2 == 0
+    ? 'class="has-background-warning-light semestre-border"'
+    : 'class="has-background-white-ter semestre-border""'
+    }>
+    <p class="is-semestrep-text" >${key}</p>
+      </td>
+    </tr>
+    ${tablaMaterias}`
+    );
+    });
+
+
+
   })
   .catch((error) => console.error(error));
 
