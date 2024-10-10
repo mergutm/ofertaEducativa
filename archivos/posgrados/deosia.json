@@ -2,84 +2,20 @@
     "actual": {
         "plan": "Plan 2009",
         "contenido": {
-            "Primero": {
+            "1o": {
                 "numero": 1,
                 "materias": [{
                         "nombre": "Tópicos Avanzados de Matemáticas",
-                        "archivo": "270101_Tópicos_Avanzados_de_Matemáticas.PDF"
+                        "archivo": "270101_Topicos_Avanzados_de_Matematicas.PDF"
                     },
                     {
                         "nombre": "Seminario de Investigación I",
                         "archivo": "270102_Seminario_de_Investigacion_I.PDF"
                     },
                     {
-                        "nombre": "Optativa I",
-                        "optativas": {
-                            "numero": 1,
-                            "materias": [{
-                                    "nombre": "Introduccion al Control no Lineal",
-                                    "archivo": "270701_Introducción_al_control_no_lineal.PDF"
-
-                                },
-                                {
-                                    "nombre": "Control Lineal",
-                                    "archivo": "270702_Control_lineal.PDF"
-
-                                },
-                                {
-                                    "nombre": "Control no Lineal",
-                                    "archivo": "270703_Control_no_lineal.PDF"
-
-                                },
-                                {
-                                    "nombre": "Control Lineal y no Lineal Aplicado a Electrónica de Potencia",
-                                    "archivo": "270704_Control_lineal_y_no_lineal_aplicado_a_electrónica_de_potencia.PDF"
-
-                                },
-                                {
-                                    "nombre": "Tópicos Selectos de Electrónica de Potencia",
-                                    "archivo": "270705_Topicos_selectos_de_electronica_de_potencia.PDF"
-
-                                },
-                                {
-                                    "nombre": "Electrónica de Potencia",
-                                    "archivo": "270706_Electrónica_de_potencia.PDF"
-
-                                },
-                                {
-                                    "nombre": "Inteligencia Artificial",
-                                    "archivo": "270707_Inteligencia_artificial.PDF"
-
-                                },
-                                {
-                                    "nombre": "Procesamiento de Imágenes",
-                                    "archivo": "270708_Procesamiento_de_imagenes.PDF"
-
-                                },
-                                {
-                                    "nombre": "Programación de Interfaces",
-                                    "archivo": "270709_Programacion_de_interfaces.PDF"
-
-                                },
-                                {
-                                    "nombre": "Arquitectura de Computadoras",
-                                    "archivo": "270710_Arquitectura_de_computadoras.PDF"
-
-                                },
-                                {
-                                    "nombre": "Reconocimiento de Patrones",
-                                    "archivo": "270711_Reconocimiento_de_patrones.PDF"
-
-                                },
-                                {
-                                    "nombre": "Visión por Computadora",
-                                    "archivo": "270712_Visión_por_computadora.PDF"
-
-                                }
-
-                            ]
-                        }
+                        "nombre": "Optativa I"
                     }
+                        
                 ]
             },
 
@@ -92,77 +28,12 @@
 
                     {
                         "nombre": "Seminario de Investigación II",
-                        "archivo": "C270202_Seminario_de_Investigacion_II.pdf"
+                        "archivo": "C270202_Seminario_de_Investigacion_II.PDF"
                     },
                     {
-                        "nombre": "Optativa II",
-                        "optativas": {
-                            "numero": 2,
-                            "materias": [{
-                                    "nombre": "Introducción al Control no Lineal",
-                                    "archivo": "270701_Introduccion_al_control_no_lineal.PDF"
-
-                                },
-                                {
-                                    "nombre": "Control Lineal",
-                                    "archivo": "270702_Control_lineal.PDF"
-
-                                },
-                                {
-                                    "nombre": "Control no Lineal",
-                                    "archivo": "270703_Control_no_lineal.PDF"
-
-                                },
-                                {
-                                    "nombre": "Control Lineal y no Lineal Aplicado a Electrónica de Potencia",
-                                    "archivo": "270704_Control_lineal_y_no_lineal_aplicado_a_electronica_de_potencia.PDF"
-
-                                },
-                                {
-                                    "nombre": "Tópicos Selectos de Electrónica de Potencia",
-                                    "archivo": "270705_Topicos_selectos_de_electrónica_de_potencia.PDF"
-
-                                },
-                                {
-                                    "nombre": "Electrónica de Potencia",
-                                    "archivo": "270706_Electronica_de_potencia.PDF"
-
-                                },
-                                {
-                                    "nombre": "Inteligencia Artificial",
-                                    "archivo": "270707_Inteligencia_artificial.PDF"
-
-                                },
-                                {
-                                    "nombre": "Procesamiento de Imágenes",
-                                    "archivo": "270708_Procesamiento_de_imagenes.PDF"
-
-                                },
-                                {
-                                    "nombre": "Programación de Interfaces",
-                                    "archivo": "270709_Programacion_de_interfaces.PDF"
-
-                                },
-                                {
-                                    "nombre": "Arquitectura de Computadoras",
-                                    "archivo": "270710_Arquitectura_de_computadoras.PDF"
-
-                                },
-                                {
-                                    "nombre": "Reconocimiento de Patrones",
-                                    "archivo": "270711_Reconocimiento_de_patrones.PDF"
-
-                                },
-                                {
-                                    "nombre": "Visión por Computadora",
-                                    "archivo": "270712_Vision_por_computadora.PDF"
-
-                                }
-                            ]
-                        }
+                        "nombre": "Optativa II"                      
 
                     }
-
                 ]
             },
 
@@ -212,7 +83,8 @@
             },
             "Optativas": {
                 "numero": 7,
-                "materias": [{
+                "materias": [
+                    {
                         "nombre": "Introduccion al Control no Lineal",
                         "archivo": "270701_Introducción_al_control_no_lineal.PDF"
 

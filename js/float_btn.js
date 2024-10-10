@@ -44,12 +44,60 @@ function inicializarBtn(path, carrera) {
         if (url_actual == "Civil" || url_actual == "Automotriz" || url_actual == "Industrial") {
             label = url_actual == "Automotriz" ? "Mecánica Automotriz" : url_actual;
             label_carrera = "Ingeniería " + label;
+        } else if (url_actual == "Dcpnya") {
+            label = "DCPNYA";
+            label_carrera = "" + label;
         } else if (url_actual == "Deosia") {
-            console.log("url_actual Deosia = ", url_actual);
-            if (url_actual == "Deosia") {
-                label = "DEOSIA";
-                label_carrera = "" + label;
-            }
+            label = "DEOSIA";
+            label_carrera = "" + label;
+        } else if (url_actual == "Dia") {
+            label = "DIA";
+            label_carrera = "" + label;
+        } else if (url_actual == "Dmm") {
+            label = "DMM";
+            label_carrera = "" + label;
+        } else if (url_actual == "Dr") {
+            label = "DR";
+            label_carrera = "" + label;
+        } else if (url_actual == "Man") {
+            label = "MAN";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mcd") {
+            label = "MCD";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mcm") {
+            label = "MCM";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mcpnyal") {
+            label = "MCPNYA";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mcpnya") {
+            label = "MCPNYA";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mdmu") {
+            label = "MDMU";
+            label_carrera = "" + label;
+        } else if (url_actual == "Meosia") {
+            label = "MEOSIA";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mia") {
+            label = "MIA";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mis") {
+            label = "MIS";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mmi") {
+            label = "MMI";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mmm") {
+            label = "MMM";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mr") {
+            label = "MR";
+            label_carrera = "" + label;
+        } else if (url_actual == "Mtam") {
+            label = "MTAM";
+            label_carrera = "" + label;
         } else {
             label = url_actual == "Fisica" ? "Física Aplicada" : url_actual;
             label_carrera = "Ingeniería en " + label;
@@ -67,7 +115,7 @@ function inicializarBtn(path, carrera) {
             icon: '<i class="fa-solid fa-house" aria-hidden="true" style="font-size: 0.73em;"></i>',
             label: "Regresar al listado de carreras",
             callback: () => {
-                window.location.href = "/updateOfertaEducativa/";
+                window.location.href = "https://mixteco.utm.mx/~ofertaeducativa/";
                 //http://192.100.170.152/updateOfertaEducativa/licenciaturas/mecatronica/
             },
         },
@@ -80,19 +128,19 @@ function inicializarBtn(path, carrera) {
                 // Si la carrera es diseño redireccionamos a la página de diseño
                 href = "";
                 if (carrera == "diseño") {
-                    href = "/updateOfertaEducativa/licenciaturas/" + "disenio";
+                    href = "https://mixteco.utm.mx/~ofertaeducativa/licenciaturas/" + "disenio";
                 } else if (carrera == "empresariales") {
-                    href = "/updateOfertaEducativa/licenciaturas/" + "empresariales";
+                    href = "https://mixteco.utm.mx/~ofertaeducativa/licenciaturas/" + "empresariales";
                 } else if (carrera == "quimica") {
-                    href = "/updateOfertaEducativa/licenciaturas/" + "quimica";
+                    href = "https://mixteco.utm.mx/~ofertaeducativa/licenciaturas/" + "quimica";
                 } else if (carrera == "fisica") {
-                    href = "/updateOfertaEducativa/licenciaturas/" + "fisica_aplicada";
+                    href = "https://mixteco.utm.mx/~ofertaeducativa/licenciaturas/" + "fisica_aplicada";
                 } else if (carrera == "automotriz") {
-                    href = "/updateOfertaEducativa/licenciaturas/" + "mecanica_automotriz";
-                } else if (carrera == "deosia") {
-                    href = "/updateOfertaEducativa/posgrados/" + "deosia";
+                    href = "https://mixteco.utm.mx/~ofertaeducativa/licenciaturas/" + "mecanica_automotriz";
+                } else if (carrera == "dcpnya" || carrera == "deosia" || carrera == "dia" || carrera == "dmm" || carrera == "dr" || carrera == "man" || carrera == "mcd" || carrera == "mcm" || carrera == "mcpnyal" || carrera == "mcpnya" || carrera == "mdmu" || carrera == "meosia" || carrera == "mia" || carrera == "mis" || carrera == "mmi" || carrera == "mmm" || carrera == "mr" || carrera == "mtam") {
+                    href = "https://mixteco.utm.mx/~ofertaeducativa/posgrados/" + carrera;
                 } else {
-                    href = "/updateOfertaEducativa/licenciaturas/" + url_carrera;
+                    href = "https://mixteco.utm.mx/~ofertaeducativa/licenciaturas/" + url_carrera;
                 }
 
                 window.location.href = href;

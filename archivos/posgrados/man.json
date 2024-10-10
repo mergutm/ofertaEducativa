@@ -1,18 +1,18 @@
 
 {
     "actual" : {
-        "plan": "Plan 2009",
+        "plan": "Plan 2019",
         "contenido":{
             "Primero":{
                 "numero": 1,
                 "materias" : [
                     {
                         "nombre": "Administración Estratégica de la Empresa Familiar",
-                        "archivo": "153101_ADMON_ESTRATEGICA_DE_LA_EMPRESA_F..PDF"
+                        "archivo": "153101_ADMON_ESTRATEGICA_DE_LA_EMPRESA_F.PDF"
                       },
                       {
                         "nombre": "Organización y Administración de Recursos Humanos ",
-                        "archivo": "153102_ORGANIZACION_Y_ADMINON_DE_R.H..PDF"
+                        "archivo": "153102_ORGANIZACION_Y_ADMINON_DE_R.H.PDF"
                       },
                       {
                       "nombre": "Liderazgo y Cultura Organizacional",
@@ -64,12 +64,7 @@
                             "archivo":"153302_SEMINARIO_DE_INVESTIGACION_EN_CEA_III.PDF" 
                         },
                         {
-                            "nombre": "Formulación y Evaluación de Proyectos de Inversión",
-                            "archivo":"153303ID_FORMULACIÓN_Y_EVALUACION_DE_PROYECTOS_DE_INVERSION.PDF" 
-                        },
-                        {
-                            "nombre": "Administración Estratégica de la Cadena de Valor",
-                            "archivo":"153304CE_ADMINISTRACION_ESTRATEGICA_DE_LA_CADENA_DE_VALOR.PDF" 
+                            "nombre": "Optativa I"
                         }
                 ]
             },
@@ -83,17 +78,34 @@
                             "archivo":"153401_SEMINARIO_DE_INVESTIGACION_EN_CEA_IV.PDF"
                         },
                         {
-                            "nombre": "Apoyos Financieros para el Emprendimiento",
+                            "nombre": "Optativa II"
+                        }
+                        
+
+                ]
+            },    
+            "Optativas":{
+                "numero": 5,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Formulación y Evaluación de Proyectos de Inversión",
+                            "archivo":"153401_SEMINARIO_DE_INVESTIGACION_EN_CEA_IV.PDF"
+                        },
+                        {
+                            "nombre": "Administración Estratégica de la Cadena de Valor",
                             "archivo":"153402ID_APOYOS_FINANCIEROS.PDF"
+                        },
+                        {
+                            "nombre": "Apoyos Financieros para el Emprendimiento",
+                            "archivo":"153403CE_DIRECCION_ESTRATEGICA_Y_COMPLEJIDAD.PDF"
                         },
                         {
                             "nombre": "Dirección Estratégica y Competitividad",
                             "archivo":"153403CE_DIRECCION_ESTRATEGICA_Y_COMPLEJIDAD.PDF"
                         }
-                        
-
                 ]
-            }                         
+            }                      
         }
     }
 }

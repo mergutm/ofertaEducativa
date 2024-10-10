@@ -1,7 +1,7 @@
 
 {
     "actual" : {
-        "plan": "Plan 2009",
+        "plan": "Plan 2020",
         "contenido":{
             "Primero":{
                 "numero": 1,
@@ -9,52 +9,11 @@
                     {
                         "nombre": "Modelación matemática",
                         "archivo": "291101_MODELACION_MATEMATICA.PDF"
-                      },
-                      {
+                    },
+                    {
                         "nombre": "Inteligencia artificial",
                         "archivo": "291102_INTELIGENCIA_ARTIFICIAL.PDF"
-                      },
-                      { 
-                        "nombre": "Optativa I",
-                        "optativas": {
-                        "numero": 1,
-                        "materias" : [
-                                {
-                                    "nombre": "Temas de problemas inversos y mal planteados",
-                                    "archivo": "351104PS_FILTRADO_DE_SEÑALES.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de ecuaciones diferenciales parciales",
-                                    "archivo": "351105LN_PROCESAMIENTO_DEL_HABLA.PDF"
-                                },
-                                {
-                                    "nombre": "Espacios de Hilbert y métodos para ecuaciones diferenciales parciales",
-                                    "archivo": "351106RA_MINERIA_DE_DATOS.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de problemas inversos de la Física Matemática",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de topología",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de teoría de continuos I",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Hiperespacios de continuos",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de teoría de continuos II",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                }
-                            ]
-                        }
-                    }
-                    
+                    }                                       
                 ]
             },
 
@@ -66,44 +25,7 @@
                         "archivo": "291201_CIENCIA_DE_DATOS.PDF"
                     },
                     { 
-                        "nombre": "Optativa II",
-                        "optativas": {
-                        "numero": 2,
-                        "materias" : [
-                                {
-                                    "nombre": "Temas de problemas inversos y mal planteados",
-                                    "archivo": "351104PS_FILTRADO_DE_SEÑALES.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de ecuaciones diferenciales parciales",
-                                    "archivo": "351105LN_PROCESAMIENTO_DEL_HABLA.PDF"
-                                },
-                                {
-                                    "nombre": "Espacios de Hilbert y métodos para ecuaciones diferenciales parciales",
-                                    "archivo": "351106RA_MINERIA_DE_DATOS.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de problemas inversos de la Física Matemática",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de topología",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de teoría de continuos I",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Hiperespacios de continuos",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de teoría de continuos II",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                }
-                            ]
-                        }
+                        "nombre": "Optativa I"
                     }
 
                 ]
@@ -119,45 +41,8 @@
                             "archivo":"291301_COMPUTO_CUANTICO.PDF" 
                         },
                         { 
-                        "nombre": "Optativa III",
-                        "optativas": {
-                        "numero": 3,
-                        "materias" : [
-                                {
-                                    "nombre": "Temas de problemas inversos y mal planteados",
-                                    "archivo": "351104PS_FILTRADO_DE_SEÑALES.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de ecuaciones diferenciales parciales",
-                                    "archivo": "351105LN_PROCESAMIENTO_DEL_HABLA.PDF"
-                                },
-                                {
-                                    "nombre": "Espacios de Hilbert y métodos para ecuaciones diferenciales parciales",
-                                    "archivo": "351106RA_MINERIA_DE_DATOS.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de problemas inversos de la Física Matemática",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de topología",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de teoría de continuos I",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Hiperespacios de continuos",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                },
-                                {
-                                    "nombre": "Temas de teoría de continuos II",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                }
-                            ]
-                        }
-                    }     
+                        "nombre": "Optativa II"                        
+                        }     
                 ]
             },
 
@@ -168,7 +53,10 @@
                         {
                             "nombre": "Seminario de tesis I",
                             "archivo":"291401_SEMINARIO_DE_TESIS_I.PDF"
-                        }                      
+                        },
+                        {
+                            "nombre": "Optativa III"
+                        }                           
 
                 ]
             },
@@ -191,7 +79,93 @@
                         "archivo":"291601_SEMINARIO_DE_TESIS_III.PDF"
                     }        
                 ]
-            }                          
+            },       
+            "Optativas":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Ecuaciones Diferenciales Parciales",
+                        "archivo": "291701ED_ECUACIONES_DIFERENCIALES_PARCIALES.PDF"
+                    },
+                    {
+                        "nombre": "Biología Matemática",
+                        "archivo": "291702ED_BIOLOGIA_MATEMATICA.PDF"
+                    },
+                    {
+                        "nombre": "Problemas Inversos",
+                        "archivo": "291703ED_PROBLEMAS_INVERSOS.PDF"
+                    },
+                    {
+                        "nombre": "Análisis Funcional",
+                        "archivo": "291704ED_ANALISIS_FUNCIONAL.PDF"
+                    },
+                    {
+                        "nombre": "Espacios de Sobolev y Aplicaciones",
+                        "archivo": "291705ED_ESPACIOS_DE_SOBOLEV.PDF"
+                    },
+                    {
+                        "nombre": "Lattices de Banach y Operadores Positivos",
+                        "archivo": "291706OA_LATTICES_DE_BANACH_Y_OPERADORES_POSITIVOS.PDF"
+                    },
+                    {
+                        "nombre": "Espacios de Complejidad de Algoritmos",
+                        "archivo": "291707OA_ESPACIOS_DE_COMPLEJIDAD_DE_ALGORITMOS.PDF"
+                    },
+                    {
+                        "nombre": "Análisis Asimétrico",
+                        "archivo": "291708OA_ANALISIS_ASIMETRICO.PDF"
+                    },
+                    {
+                        "nombre": "Introducción a la Teoría de Aproximación",
+                        "archivo": "291709OA_INTRODUCCION_A_LA_TEORIA_DE_APROXIMACION.PDF"
+                    },
+                    {
+                        "nombre": "Optimización Aplicada",
+                        "archivo": "291710OA_OPTIMIZACION_APLICADA.PDF"
+                    },
+                    {
+                        "nombre": "Modelación Financiera Aplicada",
+                        "archivo": "291711EE_MODELACION_FINANCIERA_AVANZADA.PDF"
+                    },
+                    {
+                        "nombre": "Procesos Estocásticos Avanzados",
+                        "archivo": "291712EE_PROCESOS_ESTOCASTICOS_AVANZADO.PDF"
+                    },
+                    {
+                        "nombre": "Análisis Multivariado",
+                        "archivo": "291713EE_ANALISIS_MULTIVARIADO.PDF"
+                    },
+                    {
+                        "nombre": "Series de Tiempo",
+                        "archivo": "291714EE_SERIES_DE_TIEMPO.PDF"
+                    },
+                    {
+                        "nombre": "Estadística Bayesiana",
+                        "archivo": "291715EE_ESTADISTICA_BAYESIANA.PDF"
+                    },
+                    {
+                        "nombre": "Ecuaciones en Diferencias",
+                        "archivo": "291716TS_ECUACIONES_EN_DIFERENCIAS.PDF"
+                    },
+                    {
+                        "nombre": "Dinámica Topológica Avanzada",
+                        "archivo": "291717TS_DINAMICA_TOPOLOGICA_AVANZADA.PDF"
+                    },
+                    {
+                        "nombre": "Dinámica Colectiva",
+                        "archivo": "291718TS_DINAMICA_COLECTIVA.PDF"
+                    },
+                    {
+                        "nombre": "Modelos Matemáticos en Biología Mediante Sistemas Dinámicos Discretos",
+                        "archivo": "291719TS_MODELOS_MATEMATICOS_EN_BIOLOGIA.PDF"
+                    },
+                    {
+                        "nombre": "Modelos Matemáticos en Economía y Finanzas Mediante Sistemas Dinámicos Discretos",
+                        "archivo": "291720TS_MODELOS_MATEMTICOS_EN_ECONOMIA.PDF.PDF"
+                    }                    
+
+                ]
+            }                        
         }
     }
 }

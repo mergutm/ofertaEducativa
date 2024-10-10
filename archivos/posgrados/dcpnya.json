@@ -1,7 +1,7 @@
 
 {
     "actual" : {
-        "plan": "Plan 2009",
+        "plan": "Plan 2022",
         "contenido":{
             "Primero":{
                 "numero": 1,
@@ -21,7 +21,6 @@
                     
                 ]
             },
-
             "Segundo": {
                 "numero": 2,
                 "materias" : [
@@ -42,7 +41,6 @@
                 ]
             },
 
-             
                 "Tercero":{
                 "numero": 3,
                 "materias" : [
@@ -66,6 +64,9 @@
             "Cuarto":{
                 "numero": 4,
                 "materias" : [
+                        {
+                            "nombre": "Optativa"
+                        },
                                             
                         {
                             "nombre": "Seminario Predoctoral",
@@ -73,25 +74,9 @@
                         },
                         {
                             "nombre": "Laboratorio de Investigación IV",
-                            "archivo":"331402_LABORATORIO_DE_INVESTIGACION IV.PDF"
-                        },
-                        {
-                            "nombre": "Biocatálisis Aplicada a Alimentos y Productos Naturales",
-                            "archivo":"331403BA_BIOCATALISIS_APLICADA.PDF"
-                        },
-
-                        {
-                            "nombre": "Estereoquímica de Principios Bioactivos",
-                            "archivo":"331403EP_ESTEREOQUIMICA_DE_PRINCIPIOS.PDF"
-                        },
-                        {
-                            "nombre": "Estereoquímica de Productos Naturales",
-                            "archivo":"331403EP_ESTEREOQUIMICA_DE_PRODUCTOS_NATURALES.PDF"
-                        },
-                        {
-                            "nombre": "Técnicas Avanzadas de Análisis en Sistemas Biológicos",
-                            "archivo":"331403TA_TECNICAS_AVANZADAS_DE_ANALISIS.PDF"
+                            "archivo":"331402_LABORATORIO_DE_INVESTIGACION_IV.PDF"
                         }
+
                 ]
             },
 
@@ -114,6 +99,7 @@
             "Sexto":{
                 "numero": 6,
                 "materias" : [
+
                     {
                         "nombre": "Seminario Doctoral",
                         "archivo":"331601_SEMINARIO_DOCTORAL.PDF"
@@ -121,9 +107,34 @@
                     {
                         "nombre": "Laboratorio de Investigación VI",
                         "archivo":"331602_LABORATORIO_DE_INVESTIGACION_VI.PDF"
+                    }  
+                ]
+            },   
+            "Optativas":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "LGAC 1. Estudio de Principios Bioactivos a Partir de Fuentes Naturales"
+                    },
+                    {
+                        "nombre": "Formulación y Transporte de Principios Bioactivas",
+                        "archivo":"331403EP_FORMULACION_Y_TRANSPORTE_PRINCIPIOS_BIOACTIVOS.PDF"
+                    },
+                    {
+                        "nombre": "Estereoquímica de Productos Naturales",
+                        "archivo":"331403EP_ESTEREOQUIMICA_DE_PRODUCTOS_NATURALES.PDF"
+                    },
+                    {
+                        "nombre": "LGAC 2. Ingeniería de Procesos Biotecnológicos Sustentables "
+                    },
+                    {
+                        "nombre": "Biocatálisis Aplicada a Alimentos y Productos Naturales",
+                        "archivo":"331403BA_BIOCATALISIS_APLICADA.PDF"
+                    },
+                    {
+                        "nombre": "Técnicas Avanzadas de Análisis en Sistemas Biológicos",
+                        "archivo":"331403TA_TECNICAS_AVANZADAS_DE_ANALISIS.PDF"
                     }
-                      
-
                       
                 ]
             }                          

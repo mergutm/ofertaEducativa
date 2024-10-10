@@ -1,6 +1,6 @@
 {
     "actual" : {
-        "plan": "Plan 2009",
+        "plan": "Plan 2022",
         "contenido": {
             "Primero": {
                 "numero": 1,
@@ -18,28 +18,7 @@
                         "archivo": "351103_DATOS_E_INFORMACION.PDF"
                     },
                     { 
-                        "nombre": "Optativa I",
-                        "optativas": {
-                        "numero": 1,
-                        "materias" : [
-                                {
-                                    "nombre": "Filtrado de señales",
-                                    "archivo": "351104PS_FILTRADO_DE_SEÑALES.PDF"
-                                },
-                                {
-                                    "nombre": "Procesamiento del habla",
-                                    "archivo": "351105LN_PROCESAMIENTO_DEL_HABLA.PDF"
-                                },
-                                {
-                                    "nombre": "Minería de datos",
-                                    "archivo": "351106RA_MINERIA_DE_DATOS.PDF"
-                                },
-                                {
-                                    "nombre": "Sistema de información geográfica",
-                                    "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
-                                }
-                            ]
-                        }
+                        "nombre": "Optativa I"
                     }
                 ]
             },
@@ -53,32 +32,7 @@
                     },
                   
                     { 
-                        "nombre": "Optativa II",
-                        "optativas": {
-                            "numero": 2,
-                            "materias" : [
-                                {
-                                    "nombre": "Procesamiento avanzado de imágenes",
-                                    "archivo": "351202PS_PROCESAMIENTO_AVANZADO.PDF"
-                                },
-                                {
-                                    "nombre": "Computación flexible",
-                                    "archivo": "351203PS_COMPUTACION_FLEXIBLE.PDF"
-                                },
-                                {
-                                    "nombre": "Temas selectos de lingüistica computacional",
-                                    "archivo": "351204LN_TEMAS_SELECTOS_DE_LINGUISTICA.PDF"
-                                },
-                                {
-                                    "nombre": "Análisis de datos y modelos de aprendizaje máquina",
-                                    "archivo": "351204LN_TEMAS_SELECTOS_DE_LINGUISTICA.PDF"
-                                },
-                                {
-                                    "nombre": "Optimización númerica con aplicaciones geoespaciales",
-                                    "archivo": "351206GC_OPTIMIZACION_NUMERICA.PDF"
-                                }
-                            ]
-                        }
+                        "nombre": "Optativa II"                      
                     }
                 ]
             },
@@ -94,36 +48,7 @@
                         },
    
                         { 
-                            "nombre": "Optativa III",
-                            "optativas": {
-                                "numero": 3,
-                                "materias" : [
-                                    {
-                                        "nombre": "Temas selectos de visión por computadora",
-                                        "archivo":"351302PS_TEMAS_SELECTOS.PDF" 
-                                    },
-                                    {
-                                        "nombre": "Cómputo paralelo y distribuido",
-                                        "archivo":"351303PS_COMPUTO_PARALELO.PDF" 
-                                    },
-                                    {
-                                        "nombre": "Cómputo paralelo y distribuido",
-                                        "archivo":"351303PS_COMPUTO_PARALELO.PDF" 
-                                    },
-                                    {
-                                        "nombre": "Temas selectos de procesamiento de lenguaje natural",
-                                        "archivo":"351304LN_TEMAS_SELECTOS_DE_PROCESAMIENTO.PDF" 
-                                    },
-                                    {
-                                        "nombre": "Modelos especializados de aprendizaje máquina",
-                                        "archivo":"351305RA_MODELOS_ESPECIALIZADOS.PDF" 
-                                    },
-                                    {
-                                        "nombre": "Aprendizaje automático en redes complejas",
-                                        "archivo":"351306GC_APRENDIZAJE_AUTOMATICO.PDF" 
-                                    }
-                                ]
-                            }
+                            "nombre": "Optativa III"
                         }       
                 ]
             },
@@ -158,7 +83,72 @@
                         "archivo":"351601_SEMINARIO_DE_TESIS_IV.PDF"
                     }        
                 ]
-            }                          
+            },  
+            "Optativas": {
+                "numero": 7,
+                "materias": [
+                    {
+                        "nombre": "Filtrado de señales",
+                        "archivo": "351104PS_FILTRADO_DE_SEÑALES.PDF"
+                    },
+                    {
+                        "nombre": "Procesamiento del habla",
+                        "archivo": "351105LN_PROCESAMIENTO_DEL_HABLA.PDF"
+                    },
+                    {
+                        "nombre": "Minería de datos",
+                        "archivo": "351106RA_MINERIA_DE_DATOS.PDF"
+                    },
+                    {
+                        "nombre": "Sistema de información geográfica",
+                        "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
+                    },
+                    {
+                        "nombre": "Procesamiento avanzado de imágenes",
+                        "archivo": "351202PS_PROCESAMIENTO_AVANZADO.PDF"
+                    },
+                    {
+                        "nombre": "Computación flexible",
+                        "archivo": "351203PS_COMPUTACION_FLEXIBLE.PDF"
+                    },
+                    {
+                        "nombre": "Temas selectos de lingüistica computacional",
+                        "archivo": "351204LN_TEMAS_SELECTOS_DE_LINGUISTICA.PDF"
+                    },
+                    {
+                        "nombre": "Análisis de datos y modelos de aprendizaje máquina",
+                        "archivo": "351204LN_TEMAS_SELECTOS_DE_LINGUISTICA.PDF"
+                    },
+                    {
+                        "nombre": "Optimización númerica con aplicaciones geoespaciales",
+                        "archivo": "351206GC_OPTIMIZACION_NUMERICA.PDF"
+                    },
+                    {
+                        "nombre": "Temas selectos de visión por computadora",
+                        "archivo":"351302PS_TEMAS_SELECTOS.PDF" 
+                    },
+                    {
+                        "nombre": "Cómputo paralelo y distribuido",
+                        "archivo":"351303PS_COMPUTO_PARALELO.PDF" 
+                    },
+                    {
+                        "nombre": "Cómputo paralelo y distribuido",
+                        "archivo":"351303PS_COMPUTO_PARALELO.PDF" 
+                    },
+                    {
+                        "nombre": "Temas selectos de procesamiento de lenguaje natural",
+                        "archivo":"351304LN_TEMAS_SELECTOS_DE_PROCESAMIENTO.PDF" 
+                    },
+                    {
+                        "nombre": "Modelos especializados de aprendizaje máquina",
+                        "archivo":"351305RA_MODELOS_ESPECIALIZADOS.PDF" 
+                    },
+                    {
+                        "nombre": "Aprendizaje automático en redes complejas",
+                        "archivo":"351306GC_APRENDIZAJE_AUTOMATICO.PDF" 
+                    }
+                ]
+            }                        
         }
     }
 }

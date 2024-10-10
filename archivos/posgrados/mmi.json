@@ -1,26 +1,30 @@
 
 {
     "actual" : {
-        "plan": "Plan 2009",
+        "plan": "Plan 2007",
         "contenido":{
             "Primero":{
                 "numero": 1,
                 "materias" : [
                     {
-                        "nombre": "Seminario de Tesis I",
-                        "archivo": "341101_SEMINARIO_DE_TESIS I.PDF"
+                        "nombre": "Diseño de Medios Impresos",
+                        "archivo": "160101_Diseño_de_Medios_Impresos.PDF"
                       },
                       {
-                        "nombre": "Inteligencia Artificial",
-                        "archivo": "341102_INTELIGENCIA_ARTIFICIAL.PDF"
+                        "nombre": "Introducción a la Tecnología de Audio y Video",
+                        "archivo": "160102_Introduccion_a_la_Tecnologia_de_Audio_y_Video.PDF"
                       },
                       {
-                      "nombre": "Aprendizaje Máquina",
-                      "archivo": "341103_APRENDIZAJE_MAQUINA.PDF"
+                        "nombre": "Administración de Proyectos de Medios",
+                        "archivo": "160103_Administracion_de_Proyectos_de_Medios.PDF"
+                      },
+                      {
+                      "nombre": "Introducción a la Interacción Humano-Computadora",
+                      "archivo": "160104_Introduccion_a_la_Interaccion_Humano-Computadora.PDF"
                     },
                     {
-                        "nombre": "Programación Lógica y Funcional",
-                        "archivo": "341104_PROGRAMACION_LOGICA_Y_FUNCIONAL.PDF"
+                        "nombre": "Introducción a la Metodología de la Investigación",
+                        "archivo": "160105_Introduccion_a_la_Metodologia_de_la_Investigacion.PDF"
                       }
                 ]
             },
@@ -29,38 +33,25 @@
                 "numero": 2,
                 "materias" : [
                     {
-                        "nombre": "Seminario de Tesis II",
-                        "archivo": "341201_SEMINARIO_DE_TESIS_II.PDF"
+                        "nombre": "Creatividad con Audio y Video",
+                        "archivo": "160201_Creatividad_con_Audio_y_Video.PDF"
                     },
                       
                     {
-                        "nombre": "Conocimiento y Razonamiento",
-                        "archivo": "341202_CONOCIMIENTO_Y_RAZONAMIENTO.PDF"
+                        "nombre": "Introducción al Desarrollo Técnico de Sistemas Interactivos",
+                        "archivo": "160202_Introduccion_al_Desarrollo_Tecnico_de_Sistemas_Interactivos.PDF"
                     },
                     {
-                        "nombre": "Aprendizaje Profundo",
-                        "archivo": "341203_APRENDIZAJE_PROFUNDO.PDF"
+                        "nombre": "Mercadotecnia",
+                        "archivo": "160203_Mercadotecnia.PDF"
                     },
                     {
-                        "nombre": "Procesamiento de Imágenes",
-                        "archivo": "341204PS_PROCESAMIENTO_DE_IMAGENES.PDF"
+                        "nombre": "Interacción Humano-Computadora I",
+                        "archivo": "160204_Interaccion_Humano-Computadora I.PDF"
                     },
                     {
-                        "nombre": "Lingüística Computacional",
-                        "archivo": "341205LN _LINGUISTICA_COMPUTACIONAL.PDF"
-                    },
-                    {
-                        "nombre": "Razonamiento Automático",
-                        "archivo": "341206RA_RAZONAMIENTO_AUTOMATICO.PDF"
-                    },
-
-                    {
-                        "nombre": "Cómputo Cientifíco en Problemas Geoespaciales",
-                        "archivo": "341208GC_APRENDIZAJE_AUTOMATICO_EN_PROBLEMAS_GEOESPACIALES.PDF"
-                    },
-                    {
-                        "nombre": "Aprendizaje Automático en Problemas Geoespaciales",
-                        "archivo": "341208GC_APRENDIZAJE_AUTOMATICO_EN_PROBLEMAS_GEOESPACIALES.PDF"
+                        "nombre": "Metedología de la Investigación",
+                        "archivo": "160205_Metodologia_de_la_Investigacion.PDF"
                     }
                     
                 ]
@@ -73,24 +64,24 @@
                 "materias" : [
                     
                         {
-                            "nombre": "Seminario de Tesis III",
-                            "archivo":"341301_SEMINARIO_DE_TESIS_III.PDF" 
+                            "nombre": "Interacción Humano-Computadora II",
+                            "archivo":"160301_Interaccion_Humano_Computadora_II.PDF" 
                         },
                         {
-                            "nombre": "Análisis de Datos",
-                            "archivo":"341302_ANALISIS_DE_DATOS.PDF" 
+                            "nombre": "Seminario de Tesis I",
+                            "archivo":"160302_Seminario_de_Tesis_I.PDF" 
                         },
                         {
-                            "nombre": "Procesamientode Imágenes con Redes Neuronales",
-                            "archivo":"341304PS _VISION _COMPUTACIONAL.PDF" 
+                            "nombre": "Optativa I"
+                            
                         },
                         {
-                            "nombre": "Razonamiento no Clásico",
-                            "archivo":"341306RA _RAZONAMIENTO _NO _CLÁSICO.PDF" 
-                        }
+                            "nombre": "Optativa II"
+                             
+                        },
                         {
-                            "nombre": "Visulación de Datos Aplicada a Aprendizaje Automático",
-                            "archivo":"341307GC_VISUALIZACION _DE_DATOS_APLICADA_A_APRENDIZAJE_AUTOMÁTICO.PDF" 
+                            "nombre": "Optativa III"
+                        
                         }
                 ]
             },
@@ -100,17 +91,40 @@
                 "materias" : [
                                             
                         {
-                            "nombre": "Seminario de Tesis IV",
-                            "archivo":"341401 _SEMINARIO_DE_TESIS IV.PDF"
-                        },
-                        {
-                            "nombre": "Algoritmos y Complejidad",
-                            "archivo":"341402_ALGORITMOS_Y_COMPLEJIDAD.PDF"
+                            "nombre": "Seminario de Tesis II",
+                            "archivo":"160401_Seminario_de_Tesis_II.PDF"
                         }
+  
                         
 
                 ]
-            }                         
+            },     
+            "Optativas":{
+                "numero": 5,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Diseño Interactivo",
+                            "archivo":"160501_Diseño_Interactivo.PDF"
+                        },
+                        {
+                            "nombre": "Animación",
+                            "archivo":"160502_Animacion.PDF"
+                        },
+                        {
+                            "nombre": "Programación Avanzada",
+                            "archivo":"160503_Programacion_Avanzada.PDF"
+                        },
+                        {
+                            "nombre": "Programación Digital de Imágenes y Sonido",
+                            "archivo":"160504_Procesamiento_Digital_de_Imagenes_y_Sonido.PDF"
+                        },
+                        {
+                            "nombre": "Temas Selectos en Medios Interactivos",
+                            "archivo":"160505_Temas_Selectos_en_Medios_Interactivos.PDF"
+                        }
+                ]
+            }                      
         }
     }
 }

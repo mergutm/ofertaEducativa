@@ -1,7 +1,7 @@
 
 {
     "actual" : {
-        "plan": "Plan 2009",
+        "plan": "Plan 2020",
         "contenido":{
             "Primero":{
                 "numero": 1,
@@ -40,6 +40,9 @@
                     {
                         "nombre": "Seminario de Tesis II",
                         "archivo": "300203 _SEMINARIO _DE_TESIS_II.PDF"
+                    },
+                    {
+                        "nombre": "Optativa I"                        
                     }
                     
                 ]
@@ -58,6 +61,9 @@
                         {
                             "nombre": "Seminario de Tesis III",
                             "archivo":"300302_SEMINARIO_DE_TESIS_III.PDF" 
+                        },
+                        {
+                            "nombre": "Optativa II"                        
                         }
                 ]
             },
@@ -72,7 +78,66 @@
                         }                        
 
                 ]
-            }                         
+            },     
+            "Optativas":{
+                "numero": 5,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Cinética de Reacciones Químicas",
+                            "archivo":"300501_CINETICA_DE_REA.PDF"
+                        },
+                        {
+                            "nombre": "Luminiscencia en Materiales Sólidos",
+                            "archivo":"300502_LUMNINISCENCIA_EN_MATERIALES_SOLIDOS.PDF"
+                        },
+                        {
+                            "nombre": "Interacción de la Luz con la Materia",
+                            "archivo":"300503_INTERACCION_DE_LA_LUZ_CON_LA_MATERIA.PDF"
+                        },
+                        {
+                            "nombre": "Introducción a la Superconductividad",
+                            "archivo":"300504_INTRODUCCION_A_SUPERCONDUCTIVIDAD.PDF"
+                        },
+                        {
+                            "nombre": "Sistemas dispersos en Ciencia de Materiales",
+                            "archivo":"300505_SISTEMAS_DISPERSOS_EN_CIENCIA_DE_MATERIALES.PDF"
+                        },
+                        {
+                            "nombre": "Sistemas dispersos en Ciencia de Materiales",
+                            "archivo":"300505_SISTEMAS_DISPERSOS_EN_CIENCIA_DE_MATERIALES.PDF"
+                        },
+                        {
+                            "nombre": "Polímero",
+                            "archivo": "300506_POLIMEROS.PDF"
+                        },
+                        {
+                            "nombre": "Caracterización Óptica de Películas Delgadas",
+                            "archivo": "300507_CARACTERIZACION_OPTICA_DE_PELICULAS_DELGADAS.PDF"
+                        },
+                        {
+                            "nombre": "Cerámica Electrónica",
+                            "archivo": "300508_CERAMICA_ELECTRONICA.PDF"
+                        },
+                        {
+                            "nombre": "Semiconductores y Dieléctricos",
+                            "archivo": "300509_SEMICONDUCTORES_Y_DIELECTRICOS.PDF"
+                        },
+                        {
+                            "nombre": "Espectroscopía Vibracional",
+                            "archivo": "300510_ESPECTROSCOPIA_VIBRACIONAL.PDF"
+                        },
+                        {
+                            "nombre": "Polímeros Supramoleculares en Solución",
+                            "archivo": "300511_POLIMEROS_SUPRAMOLECULARES.PDF"
+                        },
+                        {
+                            "nombre": "Propiedades Magnéticas de Materiales",
+                            "archivo": "300512_PROPIEDADES MAGNETICAS_DE_MATERIALES.PDF"
+                        }                                                    
+
+                ]
+            }                       
         }
     }
 }

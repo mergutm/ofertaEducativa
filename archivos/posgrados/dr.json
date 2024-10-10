@@ -1,7 +1,7 @@
 
 {
     "actual" : {
-        "plan": "Plan 2009",
+        "plan": "Plan 2011",
         "contenido":{
             "Primero":{
                 "numero": 1,
@@ -15,30 +15,8 @@
                         "archivo": "280101_Seminario_de_Tesis_I.PDF"
                       },
                       { 
-                        "nombre": "Optativa I",
-                        "optativas": {
-                        "numero": 1,
-                        "materias" : [
-                                {
-                                    "nombre": "Robótica Inteligente",
-                                    "archivo": "280701_Robotica_Inteligente.PDF"
-                                },
-                                {
-                                    "nombre": "Visión por computadora",
-                                    "archivo": "280702_Vision_por_computadora.PDF"
-                                },
-                                {
-                                    "nombre": "Sistemas de diálogo multimodal",
-                                    "archivo": "280703_Sistema_de_diqlogo_multimodal.PDF"
-                                },
-                                {
-                                    "nombre": "Tópicos selectos de mécanica",
-                                    "archivo": "280704 Topicos_selectos_de_Mecanicaecanica.PDF"
-                                }
-                            ]
-                        }
-                    }  
-                    
+                        "nombre": "Optativa I"
+                    }            
                     
                 ]
             },
@@ -55,28 +33,7 @@
                         "archivo": "280202_Topicos_selectos_de_programacion.PDF"
                     },
                     { 
-                        "nombre": "Optativa II",
-                        "optativas": {
-                        "numero": 2,
-                        "materias" : [
-                                {
-                                    "nombre": "Robótica Inteligente",
-                                    "archivo": "280701_Robotica_Inteligente.PDF"
-                                },
-                                {
-                                    "nombre": "Visión por computadora",
-                                    "archivo": "280702_Vision_por_computadora.PDF"
-                                },
-                                {
-                                    "nombre": "Sistemas de diálogo multimodal",
-                                    "archivo": "280703_Sistema_de_diqlogo_multimodal.PDF"
-                                },
-                                {
-                                    "nombre": "Tópicos selectos de mécanica",
-                                    "archivo": "280704 Topicos_selectos_de_Mecanicaecanica.PDF"
-                                }
-                            ]
-                        }
+                        "nombre": "Optativa II"
                     } 
 
                 ]
@@ -129,14 +86,30 @@
             },
             
             "Optativas":{
-                "numero": 6,
+                "numero": 7,
                 "materias" : [
-                    {
-                        "nombre": "Seminario de tesis e investigación VI",
-                        "archivo":"280601_Seminario_de_Tesis_VI.PDF"
-                    }        
+                    
+                        {
+                            "nombre": "Robótica Inteligente",
+                            "archivo": "280701_Robotica_Inteligente.PDF"
+                        },
+                        {
+                            "nombre": "Visión por computadora",
+                            "archivo": "280702_Vision_por_computadora.PDF"
+                        },
+                        {
+                            "nombre": "Sistemas de diálogo multimodal",
+                            "archivo": "280703_Sistema_de_dialogo_multimodal.PDF"
+                        },
+                        {
+                            "nombre": "Tópicos selectos de mécanica",
+                            "archivo": "280704_Topicos_selectos_de_Mecanica.PDF"
+                        }           
+                        
+                         
                 ]
             }
+            
 
         }
     }

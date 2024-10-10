@@ -1,106 +1,142 @@
-
 {
-    "actual" : {
-        "plan": "Plan 2013",
-        "contenido":{
-            "Primero":{
+    "actual": {
+        "plan": "Plan 2017",
+        "contenido": {
+            "Primero": {
                 "numero": 1,
-                "materias" : [
-                    {
+                "materias": [{
                         "nombre": "Química de Productos Naturales",
                         "archivo": "180101_QUÍMICA_DE_PRODUCTOS_NATURALES.PDF"
-                      },
-                      {
+                    },
+                    {
                         "nombre": "Alimentos Funcionales",
                         "archivo": "GEOMETRIA_DESCRIPTIVA.PDF"
-                      },
-                      {
+                    },
+                    {
                         "nombre": "Análisis Químico Cuantitativo",
                         "archivo": "180103_ANÁLISIS_QUÍMICO_CUANTITATIVO.PDF"
-                      },
-                      {
+                    },
+                    {
                         "nombre": "Laboratorio de Investigación I",
                         "archivo": "180104_LABORATORIO_DE_INVESTIGACIÓN_I.PDF"
-                      },
-                      {
+                    },
+                    {
                         "nombre": "Seminario Para Elaboración  y Registro de Protocolo de Tesis",
                         "archivo": "180105_SEMINARIO_PARA_ELABORACIÓN_Y_REGISTRO_DE_PROTOCOLO_DE_TESIS.PDF"
-                      }
+                    }
                 ]
             },
-            
+
             "Segundo": {
                 "numero": 2,
-                "materias" : [
-                    {
+                "materias": [{
                         "nombre": "Métodos Instrumentales Modernos",
                         "archivo": "180201_MÉTODOS_INSTRUMENTALES_MODERNOS.PDF"
-                      },
-                      
-                       {
+                    },
+
+                    {
                         "nombre": "Laboratorio de Investigación II",
                         "archivo": "180202_LABORATORIO_DE_INVESTIGACION_II.PDF"
-                      },
-                      
-                       {
-                        "nombre": "Procesado de Alimentos",
-                        "archivo": "180202_PROCESADO_DE_ALIMENTOS.PDF"
-                      },
-                      
-                       {
-                        "nombre": "Bioprocesos y Tecnología Enzimática",
-                        "archivo": "180203_BIOPROCESOS_Y_TECNOLOGÍA_ENZIMÁTICA.PDF"
-                      },
-                      
-                       {
+                    },
+                    {
                         "nombre": "Seminario de Proyecto de Tesis I",
                         "archivo": "180205_SEMINARIO_DE_PROYECTO_DE_TESIS_I.PDF"
-                      },
-                      {
+                    },
+                    {
+                        "optativa": [{
+                                "nombre": "Quimiometría",
+                                "archivo": "180206_QUIMIOMETRIA.PDF",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Procesado de Alimentos",
+                                "archivo": "180202_PROCESADO_DE_ALIMENTOS.PDF",
+                                "optativa": 1
+                            }
+                        ]
+                    },
+                    {
+                        "optativa": [{
+                                "nombre": "Elucidación Estructural",
+                                "archivo": "180207_ELUCIDACION_ESTRUCTURAL.PDF",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Bioprocesos y Tecnología Enzimática",
+                                "archivo": "180203_BIOPROCESOS_Y_TECNOLOGÍA_ENZIMÁTICA.PDF",
+                                "optativa": 2
+                            }
+                        ]
+                    }
+
+                ]
+            },
+
+            "Tercero": {
+                "numero": 3,
+                "materias": [
+
+                    {
+                        "nombre": "Laboratorio de Investigación III",
+                        "archivo": "180301_LABORATORIO_DE_INVESTIGACIÓN_III.PDF"
+                    },
+
+                    {
+                        "nombre": "Seminario de Proyecto de Tesis II",
+                        "archivo": "180302_SEMINARIO_DE_PROYECTO_DE_TESIS_II.PDF"
+                    }
+
+
+                ]
+            },
+
+            "Cuarto": {
+                "numero": 4,
+                "materias": [
+
+                    {
+                        "nombre": "Laboratorio de Investigación IV",
+                        "archivo": "180401_LABORATORIO_DE_INVESTIGACIÓN_IV.PDF"
+                    },
+
+                    {
+                        "nombre": "Trabajo de tesis",
+                        "archivo": "180402_TRABAJO_DE_TESIS.PDF"
+                    }
+
+                ]
+            },
+            "Optativas": {
+                "numero": 5,
+                "materias": [
+
+                    {
+                        "LGAC 1": "Estudio de principios bioactivos a partir de fuentes naturales"
+                    },
+                    {
                         "nombre": "Quimiometría",
                         "archivo": "180206_QUIMIOMETRIA.PDF"
-                      },
-                      {
+                    },
+                    {
                         "nombre": "Elucidación Estructural",
                         "archivo": "180207_ELUCIDACION_ESTRUCTURAL.PDF"
-                      }
-                ]
-            },
-
-            "Tercero":{
-                "numero": 3,
-                "materias" : [
-                    
-                        {
-                            "nombre": "Laboratorio de Investigación III",
-                            "archivo":"180301_LABORATORIO_DE_INVESTIGACIÓN_III.PDF"
-                        },
-                        
-                        {
-                            "nombre": "Seminario de Proyecto de Tesis II",
-                            "archivo":"180302_SEMINARIO_DE_PROYECTO_DE_TESIS_II.PDF"
-                        }
-                        
+                    },
+                    {
+                        "LGAC 2": "Estudio de principios bioactivos a partir de fuentes naturales"
+                    },
+                    {
+                        "nombre": "Procesado de Alimentos",
+                        "archivo": "180202_PROCESADO_DE_ALIMENTOS.PDF"
+                    },
+                    {
+                        "nombre": "Bioprocesos y Tecnología Enzimática",
+                        "archivo": "180203_BIOPROCESOS_Y_TECNOLOGÍA_ENZIMÁTICA.PDF"
+                    }
 
                 ]
-            },
 
-            "Cuarto":{
-                "numero": 4,
-                "materias" : [
-                                            
-                        {
-                            "nombre": "Laboratorio de Investigación IV",
-                            "archivo":"180401_LABORATORIO_DE_INVESTIGACIÓN_IV.PDF"
-                        },
-                        
-                        {
-                            "nombre": "Trabajo de tesis",
-                            "archivo":"180402_TRABAJO_DE_TESIS.PDF"
-                        }
-                        
-                ]
-            }                           
+            }
+
         }
     }
 }

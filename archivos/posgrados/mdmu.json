@@ -1,7 +1,7 @@
 
 {
     "actual" : {
-        "plan": "Plan 2013",
+        "plan": "Plan 2011",
         "contenido":{
             "Primero":{
                 "numero": 1,
@@ -45,6 +45,10 @@
                         "nombre": "Sistemas CAD/CAM",
                         "archivo": "230201_Procesos_Constructivos.PDF"
                       },
+                      {
+                       "nombre": "Administración Estratégica",
+                       "archivo":"230203_Administracion_Estrategica.PDF"   
+                      },
                       
                        {
                         "nombre": "Taller de Experimentación II",
@@ -54,12 +58,8 @@
                        {
                         "nombre": "Proyecto II",
                         "archivo": "230205_Proyecto_II.PDF"
-                      },
-                      
-                       {
-                        "nombre": "Teoría General de Sistemas",
-                        "archivo": "TEORIA_GENERAL_DE_SISTEMAS.PDF"
                       }
+                  
                 ]
             },
 
@@ -97,13 +97,29 @@
                         {
                             "nombre": "Proyecto IV",
                             "archivo":"230401_Proyecto_IV.PDF"
+                        },
+                        {
+                          "nombre": "Optativa I"
+                          
                         }
                         
                 ]
-            }
-
-
-            
+            },
+            "Optativas":{
+            "numero": 5,
+             "materias" : [                     
+                {
+                  "nombre": "Diseño de Muebles",
+                  "archivo": "230501_Diseño_de_Muebles.PDF"
+                },
+                {
+                  "nombre": "Manufactura de Muebles",
+                  "archivo": "230502_Manufactura_de_Muebles.PDF"
+                }
+                
+                      
+              ]
+            }           
         }
     }
 }

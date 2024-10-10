@@ -116,7 +116,7 @@ fetch("../../../archivos/posgrados/deosia.json")
                                 <a class="button is-small has-tooltip-arrow has-tooltip-multiline" ${
                                   m.nombre == undefined
                                     ? `id="dwn_${m.optativa[0].optativa}" target="_blank" download`
-                                    : `href="../archivos/planes/plan_2020/${m.archivo}" target="_blank" download`
+                                    : `href="../archivos/planes/plan_2009/${m.archivo}" target="_blank" download`
                                 } download data-tooltip="Descargar">
                                     <span class="icon is-small">
                                         <i class="fas fa-download"></i>
@@ -125,7 +125,7 @@ fetch("../../../archivos/posgrados/deosia.json")
                                 <a class="button is-small has-tooltip-arrow has-tooltip-multiline" ${
                                   m.nombre == undefined
                                     ? `id="vw_${m.optativa[0].optativa}" target="_blank"`
-                                    : `href="../archivos/planes/plan_2020/${m.archivo}" target="_blank"`
+                                    : `href="../archivos/planes/plan_2009/${m.archivo}" target="_blank"`
                                 }  data-tooltip="Visualizar">
                                     <span class="icon is-small">
                                       <i class="fas fa-eye"></i>
@@ -200,7 +200,7 @@ function cambioOptativa(optativa, id, semestre, e) {
 
   const dwnElement = document.getElementById(`dwn_${idOrignal}`);
   const vwElement = document.getElementById(`vw_${idOrignal}`);
-  const rutaInicial = "../archivos/planes/plan_2020/";
+  const rutaInicial = "../archivos/planes/plan_2009/";
  
 // opt I
 if(idOrignal == 1){

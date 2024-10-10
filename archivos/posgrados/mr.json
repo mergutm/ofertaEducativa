@@ -1,14 +1,14 @@
 
 {
     "actual" : {
-        "plan": "Plan 2009",
+        "plan": "Plan 2018",
         "contenido":{
             "Primero":{
                 "numero": 1,
                 "materias" : [
                     {
                         "nombre": "Fundamentos matemáticos para la Robótica I",
-                        "archivo": "160101_Diseño_de_Medios_Impresos.PDF"
+                        "archivo": "252101_Fundamentos_Matematicos_para_la_Robotica_I.PDF"
                       },
                       {
                         "nombre": "Robótica de manipuladores ",
@@ -38,49 +38,29 @@
                     },
                       
                     {
-                        "nombre": "Aprendizaje Automático",
-                        "archivo": "252201Il_Aprendizaje_Automático.PDF"
-                    },
-                    {
                         "nombre": "Robótica Movil",
                         "archivo": "252202_Robotica_Movil.PDF"
                     },
-                    {
-                        "nombre": "Desarrollo de Software Interactivo",
-                        "archivo": "252202Il_Desarrollo_de_Software_Interactivo.PDF"
-                    },
+
                     {
                         "nombre": "Procesamiento Digital de Imágenes",
                         "archivo": "252203_Procesamiento_Digital_de_ImagenesL.PDF"
                     },
-                    {
-                        "nombre": "Aprendizaje Profundo",
-                        "archivo": "252203Il_Aprendizaje_Profundo.PDF"
-                    },
+
 
                     {
                         "nombre": "Seminario de Tesis II: Antecedentes y Marco Teórico",
                         "archivo": "252204_Seminario_de_Tesis_II_Antecedentes_y_Marco_Teorico.PDF"
                     },
+
                     {
-                        "nombre": "Análisis y Síntesis de Mecanismos Planos y Reconfigurables",
-                        "archivo": "252207CD_Analisis_y_Sintesis_de_Mecanismos_planos_y_Reconfigurables.PDF"
-                    },
-                    {
-                        "nombre": "Control Inteligente",
-                        "archivo": "252211RI_Control_Inteligente.PDF"
-                    },
-                    {
-                        "nombre": "Métodos de Computación Flexible",
-                        "archivo": "252212RI_Metodos_de_Computacion_Flexible.PDF"
+                        "nombre": "Optativa I"
                     }
+
 
                     
                 ]
             },
-
-     
-        
                 "Tercero":{
                 "numero": 3,
                 "materias" : [
@@ -90,20 +70,10 @@
                             "archivo":"252301_Seminario_de_Tesis_III_Implementacion.PDF" 
                         },
                         {
-                            "nombre": "Agentes Inteligentes",
-                            "archivo":"252304Il_Agentes_Inteligentes.PDF" 
+                            "nombre": "Optativa II"
                         },
                         {
-                            "nombre": "Interfaces Hombre-Robot",
-                            "archivo":"252305Il_Interfaces_Hombre_Robot.PDF" 
-                        },
-                        {
-                            "nombre": "Fundamentos de Biomecánica",
-                            "archivo":"252308CD_Fundamentos_de_Biomecanica.PDF" 
-                        }
-                        {
-                            "nombre": "Modelado y Optimización de Sistemas Robóticos",
-                            "archivo":"252309CD_Modelado_Optimizacion_de_Sistemas_Roboticos.PDF" 
+                            "nombre": "Optativa III"
                         }
                 ]
             },
@@ -114,12 +84,77 @@
                                             
                         {
                             "nombre": "Seminario de Tesis IV: Redacción de Artículo y Presentación de Tesis",
-                            "archivo":"341401 _SEMINARIO_DE_TESIS IV.PDF"
+                            "archivo":"252401_Seminario_de_Tesis_IV.PDF"
                         }
-                        
-
                 ]
-            }                         
+            },   
+            "Optativas":{
+                "numero": 5,
+                "materias" : [
+                                            
+                    {
+                        "nombre": "Aprendizaje Automático",
+                        "archivo": "252201Il_Aprendizaje_Automático.PDF"
+                    },
+                    {
+                        "nombre": "Desarrollo de Software Interactivo",
+                        "archivo": "252202Il_Desarrollo_de_Software_Interactivo.PDF"
+                    },
+                    {
+                        "nombre": "Aprendizaje Profundo",
+                        "archivo": "252203Il_Aprendizaje_Profundo.PDF"
+                    },
+                    {
+                        "nombre": "Agentes Inteligentes",
+                        "archivo":"252304Il_Agentes_Inteligentes.PDF" 
+                    },
+                    {
+                        "nombre": "Interfaces Hombre-Robot",
+                        "archivo":"252305Il_Interfaces_Hombre_Robot.PDF" 
+                    },
+                    {
+                        "nombre": "Tópicos Selectos de Control",
+                        "archivo":"252206CD_Topicos_Selectos_de_Control.PDF" 
+                    },
+                    {
+                        "nombre": "Análisis y Síntesis de Mecanismos Planos y Reconfigurables",
+                        "archivo": "252207CD_Analisis_y_Sintesis_de_Mecanismos_planos_y_Reconfigurables.PDF"
+                    },
+                    {
+                        "nombre": "Fundamentos de Biomecánica",
+                        "archivo":"252308CD_Fundamentos_de_Biomecanica.PDF" 
+                    },
+                    {
+                        "nombre": "Modelado y Optimización de Sistemas Robóticos",
+                        "archivo":"252309CD_Modelado_Optimizacion_de_Sistemas_Roboticos.PDF" 
+                    },
+                    {
+                        "nombre": "Robots Paralelos - Cinemática y Dinámica",
+                        "archivo":"252310CD_Robots_Paralelos-Cinematica_y_Dinamica.PDF" 
+                    },
+
+                    {
+                        "nombre": "Control Inteligente",
+                        "archivo": "252211RI_Control_Inteligente.PDF"
+                    },
+                    {
+                        "nombre": "Métodos de Computación Flexible",
+                        "archivo": "252212RI_Metodos_de_Computacion_Flexible.PDF"
+                    },
+                    {
+                        "nombre": "Robótica Probabilística",
+                        "archivo": "252313RI_Robotica_Probabilistica.PDF"
+                    },
+                    {
+                        "nombre": "Entorno Inteligente",
+                        "archivo": "252314RI_Entorno_Inteligente.PDF"
+                    },
+                    {
+                        "nombre": "Visión por Computadora",
+                        "archivo": "252315RI_Vision_por_Computadora.PDF"
+                    }
+                ]
+            }                          
         }
     }
 }
