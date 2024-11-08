@@ -13,44 +13,124 @@
     <link rel="stylesheet" href="css/bulma-tooltip.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <style>
-        .propedeutico_content {
-            background-color: transparent;
+        :root {
+            --utm-primary: #5a0c0c;
+            --utm-secondary: #8B0000;
         }
-        
-        .tabs li.is-active a {
-            color: #5a0c0c !important;
+
+        body {
+            background-color: #ffffff;
+            font-family: 'Libre Baskerville', serif;
         }
-        
+
+        .hero {
+            background: white;
+            color: white;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero img {
+            height: 90px;
+        }
+
+        .tabs.is-boxed li.is-active a {
+            background-color: var(--utm-primary);
+            color: white !important;
+            border: none;
+        }
+
+        .tabs.is-boxed a {
+            transition: all 0.2s ease;
+            border: none;
+            color: #4a4a4a;
+        }
+
+        .tabs.is-boxed a:hover {
+            background-color: #f5f5f5;
+        }
+
+        .card {
+            border: none;
+            box-shadow: none;
+            margin-top: -3rem;
+            background: transparent;
+        }
+
+        .panel-block {
+            border: 1px solid #f0f0f0;
+            border-radius: 8px;
+            margin: 5px 0;
+            padding: 1.2rem;
+            background: white;
+            transition: all 0.2s ease;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #363636;
+        }
+
+        .panel-block:hover {
+            background-color: #fafafa;
+            transform: translateY(-2px);
+            border-color: var(--utm-primary);
+        }
+
+        .panel-block .panel-icon {
+            color: var(--utm-primary);
+            margin-right: 1rem;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            border: 1px solid #f0f0f0;
+        }
+
+        .table {
+            background: transparent;
+        }
+
+        .button {
+            transition: all 0.2s ease;
+            border: none;
+            background-color: #f5f5f5;
+        }
+
+        .button:hover {
+            background-color: var(--utm-primary);
+            color: white;
+        }
+
+        .title {
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+
         @media screen and (max-width: 768px) {
             .tabs ul {
-                flex-direction: column;
+                background-color: transparent;
+                padding: 0.5rem;
             }
+
             .tabs li {
-                width: 100%;
+                margin: 3px 0;
             }
-            .tabs a {
-                border-bottom: 1px solid #dbdbdb;
-            }
-            .column.is-half-tablet {
-                width: 100%;
-            }
-        }
-        
-        .panel-block {
-            transition: background-color 0.3s ease;
-        }
-        
-        .panel-block:hover {
-            background-color: #f5f5f5;
         }
     </style>
 </head>
 
 <body>
-    <section class="hero is-small" style="border: solid 0.1px transparent; box-shadow: 5px 3px 30px #bcb8b5;">
+
+    <section class="hero" style="margin-bottom: 2rem;">
         <div class="hero-body">
             <div class="container has-text-centered">
-                <img src="archivos/Img/logo_utm.png" alt="" style="height: 100px; width: auto;">
+                <img src="archivos/Img/logo_utm.png" alt="Logo UTM">
             </div>
         </div>
     </section>
@@ -59,14 +139,14 @@
         <div class="container">
             <div class="card">
                 <div class="card-content">
-                    <h1 class="title is-3 has-text-centered mb-5" style="color: #5a0c0c;">
+                    <h2 class="title is-3 has-text-centered mb-6" style="color: var(--utm-primary);">
                         Oferta Educativa
-                    </h1>
+                    </h2>
                     <div class="tabs is-centered is-boxed">
                         <ul>
-                            <li class="is-active"><a data-target="Licenciaturas" class="is-size-5-desktop is-size-6-touch has-text-weight-bold">Licenciaturas</a></li>
-                            <li><a data-target="Posgrados" class="is-size-5-desktop is-size-6-touch has-text-weight-bold">Posgrados</a></li>
-                            <li><a data-target="Propedeutico" class="is-size-5-desktop is-size-6-touch has-text-weight-bold">Curso propedéutico</a></li>
+                            <li class="is-active"><a data-target="Licenciaturas" class="is-size-5-desktop is-size-6-touch">Licenciaturas</a></li>
+                            <li><a data-target="Posgrados" class="is-size-5-desktop is-size-6-touch">Posgrados</a></li>
+                            <li><a data-target="Propedeutico" class="is-size-5-desktop is-size-6-touch">Curso propedéutico</a></li>
                         </ul>
                     </div>
 
@@ -138,11 +218,17 @@
                     <div id="Posgrados" class="content-tab is-hidden">
                         <div class="columns is-multiline">
                             <div class="column is-half-tablet is-one-third-desktop">
-                                <a href="posgrados/man/" class="panel-block is-block">
-                                    <span class="panel-icon"><i class="fas fa-briefcase"></i></span> Maestría en Administración de Negocios
+                                <a href="posgrados/man/" class="panel-block">
+                                    <span class="panel-icon"><i class="fas fa-briefcase"></i></span>
+                                    <span>Maestría en Administración de Negocios</span>
                                 </a>
                             </div>
-
+                            <div class="column is-half-tablet is-one-third-desktop">
+                                <a href="posgrados/meosia" class="panel-block">
+                                    <span class="panel-icon"><i class="fas fa-bolt"></i></span>
+                                    <span>Maestría en Electrónica, Opción: Sistemas Inteligentes Aplicados</span>
+                                </a>
+                            </div>
                             <div class="column is-half-tablet is-one-third-desktop">
                                 <a href="#" class="panel-block is-block">
                                     <span class="panel-icon"><i class="fas fa-laptop-code"></i></span> Maestría en Ciencia de Datos (no disponible)
@@ -150,7 +236,6 @@
                             </div>
                             <div class="column is-half-tablet is-one-third-desktop">
                                 <a href="posgrados/mcm" class="panel-block is-block">
-
                                     <span class="panel-icon"><i class="fas fa-screwdriver-wrench"></i></span> Maestría en Ciencias de Materiales
                                 </a>
                             </div>
@@ -162,11 +247,6 @@
                             <div class="column is-half-tablet is-one-third-desktop">
                                 <a href="posgrados/mdmu" class="panel-block is-block">
                                     <span class="panel-icon"><i class="fas fa-couch"></i></span> Maestría en Diseño de Muebles
-                                </a>
-                            </div>
-                            <div class="column is-half-tablet is-one-third-desktop">
-                                <a href="posgrados/meosia" class="panel-block is-block">
-                                    <span class="panel-icon"><i class="fas fa-bolt"></i></span> Maestría en Electrónica, Opción: Sistemas Inteligentes Aplicados
                                 </a>
                             </div>
                             <div class="column is-half-tablet is-one-third-desktop">
