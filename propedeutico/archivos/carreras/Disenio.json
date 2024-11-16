@@ -1,0 +1,287 @@
+{
+    "actual": {
+        "plan": "Plan 2017",
+        "contenido": {
+            "Primero":{
+                "numero":1,
+                "materias": [
+                    {
+                        "nombre": "Elementos Básicos del Diseño",
+                        "archivo": "Elementos_Basicos_del_Diseno.pdf"
+                    },
+                    {
+                        "nombre": "Bases del Dibujo",
+                        "archivo": "Bases_del_Dibujo.pdf"
+                    },
+                    {
+                        "nombre": "Programación",
+                        "archivo": "Programacion.pdf"
+                    },
+                    {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "Historia_del_Pensamiento_Filosofico.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo Diferencial e Integral",
+                        "archivo": "Calculo_diferencial_e_integral.pdf"
+                    }
+                ]
+            },
+            "Segundo":{
+                "numero":2,
+                "materias": [
+                    {
+                        "nombre": "Historia del Arte",
+                        "archivo": "Historia_del_arte.pdf"
+                    },
+                    {
+                        "nombre": "Geometría Descriptiva",
+                        "archivo": "Geometria_descriptiva.pdf"
+                    },
+                    {
+                        "nombre": "Estática",
+                        "archivo": "Estatica.pdf"
+                    },
+                    {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "Teoria_General_de_Sistemas.pdf"
+                    },
+                    {
+                        "nombre": "Álgebra Lineal",
+                        "archivo": "Algebra_lineal.pdf"
+                    }
+                ]
+            },
+            "Tercero":{
+                "numero":3,
+                "materias": [
+                    {
+                        "nombre": "Modelos",
+                        "archivo": "Modelos.pdf"
+                    },
+                    {
+                        "nombre": "Dibujo Técnico",
+                        "archivo": "Dibujo_Tecnico.pdf"
+                    },
+                    {
+                        "nombre": "Dinámica",
+                        "archivo": "Dinamica.pdf"
+                    },
+                    {
+                        "nombre": "Metodología para la Ingeniería en Diseño",
+                        "archivo": "Metodologia_para_la_Ingenieria_en_Diseno.pdf"
+                    },
+                    {
+                        "nombre": "Ecuaciones Diferenciales",
+                        "archivo": "Ecuaciones_difenciales.pdf"
+                    }
+                ]
+            },
+            "Cuarto":{
+                "numero":4,
+                "materias": [
+                    {
+                        "nombre": "Ergonomía",
+                        "archivo": "Ergonomia.pdf"
+                    },
+                    {
+                        "nombre": "Dibujo Asistido por Computadora CAD",
+                        "archivo": "Dibujo_Asistido_por_Computadora.pdf"
+                    },
+                    {
+                        "nombre": "Resistencia de Materiales",
+                        "archivo": "Resistencia_de_Materiales.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Física Ondulatoria",
+                        "archivo": "Fundamentos_de_Fisica_Ondulatoria.pdf"
+                    },
+                    {
+                        "nombre": "Métodos Numéricos",
+                        "archivo": "Metodos_Numericos.pdf"
+                    }
+                ]
+            },
+            "Quinto":{
+                "numero":5,
+                "materias": [
+                    {
+                        "nombre": "Química de los Materiales",
+                        "archivo": "Quimica_de_los_materiales.pdf"
+                    },
+                    {
+                        "nombre": "Ilustración Analógica y Digital",
+                        "archivo": "Ilustracion_Analogica_y_Digital.pdf"
+                    },
+                    {
+                        "nombre": "Sistemas Constructivos",
+                        "archivo": "Sistemas_Constructivos.pdf"
+                    },
+                    {
+                        "nombre": "Termodinámica",
+                        "archivo": "Termodinamica.pdf"
+                    },
+                    {
+                        "nombre": "Sistemas de Impresión",
+                        "archivo": "Sistemas_de_Impresion.pdf"
+                    }
+                ]
+            },
+            "Sexto":{
+                "numero":6,
+                "materias": [
+                    {
+                        "nombre": "Manufactura en Madera",
+                        "archivo": "Manufactura_en_Madera.pdf"
+                    },
+                    {
+                        "nombre": "Análisis y Diseño de Estructuras",
+                        "archivo": "Analisis_y_diseno_de_estructuras.pdf"
+                    },
+                    {
+                        "nombre": "Proyecto Arquitectónico I",
+                        "archivo": "Proyecto_Arquitectonico_I.pdf"
+                    },
+                    {
+                        "nombre": "Elementos de Máquinas",
+                        "archivo": "Elementos_de_maquinas.pdf"
+                    },
+                    {
+                        "nombre": "Estadística",
+                        "archivo": "Estadistica.pdf"
+                    }
+                ]
+            },
+            "Séptimo":{
+                "numero":7,
+                "materias": [
+                    {
+                        "nombre": "Manufactura en Metales",
+                        "archivo": "Manufactura_en_metales.pdf  "
+                    },
+                    {
+                        "nombre": "Comunicación Visual",
+                        "archivo": "Comunicacion_Visual.pdf"
+                    },
+                    {
+                        "nombre": "Proyecto Arquitectónico II",
+                        "archivo": "Proyecto_Arquitectonico_II.pdf"
+                    },
+                    {
+                        "nombre": "Circuitos Eléctricos y Electrónicos",
+                        "archivo": "Circuitos_electricos_y_electronicos.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería y Manufactura Asistido por Computadora CAE-CAM",
+                        "archivo": "Ingenieria_y_manufactura_asistido_por_computadora.pdf"
+                    }
+                ]
+            },
+            "Octavo":{
+                "numero":8,
+                "materias": [
+                    {
+                        "nombre": "Manufactura en Polímeros",
+                        "archivo": "Manufactura_en_polimeros.pdf"
+                    },
+                    {
+                        "nombre": "Editorial",
+                        "archivo": "Editorial.pdf"
+                    },
+                    {
+                        "nombre": "Diseño Urbano y de Paisaje",
+                        "archivo": "Diseno_urbano_y_del_paisaje.pdf"
+                    },
+                    {
+                        "nombre": "Costo y Tiempo en la Edificación",
+                        "archivo": "Costo_y_Tiempo_en_la_edificacion.pdf"
+                    },
+                    {
+                        "nombre": "Administración y Dirección",
+                        "archivo": "Administracion_y_direccion.pdf"
+                    }
+                ]
+            },
+            "Noveno":{
+                "numero":9,
+                "materias": [
+                    {
+                        "nombre": "Manufactura en Cerámica y Vidrio",
+                        "archivo": "Manufactura_en_ceramica_y_vidrio.pdf"
+                    },
+                    {
+                        "nombre": "Identidad Corporativa",
+                        "archivo": "Identidad_Corporativa.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Proyecto de Ingeniería en Diseño I: Imagen",
+                                "archivo": "Proyecto_de_ID-Optativa_I_Imagen.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Proyecto de Ingeniería en Diseño I: Objetos",
+                                "archivo": "Proyecto_de_ID-Optativa_I_Objetos.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Proyecto de Ingeniería en Diseño I: Espacios",
+                                "archivo": "Proyecto_de_ID-Optativa_I_Espacios.pdf",
+                                "optativa": 1
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Desarrollo de Producto I",
+                        "archivo": "Desarrollo_de_producto_I.pdf"
+                    },
+                    {
+                        "nombre": "Contabilidad y Finanzas",
+                        "archivo": "Contabilidad_y_Finanzas.pdf"
+                    }
+                ]
+            },
+            "Décimo":{
+                "numero":10,
+                "materias": [
+                    {
+                        "nombre": "Manufactura en Textil",
+                        "archivo": "Manufactura_en_Textil.pdf"
+                    },
+                    {
+                        "nombre": "Multimedios Digitales",
+                        "archivo": "Multimedios_digitales.pdf"
+                    },
+                    {
+                        "optativa": [
+                            {
+                                "nombre":"Proyecto de Ingeniería en Diseño II: Imagen",
+                                "archivo": "Proyecto_de_ID-Optativa_II_Imagen.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Proyecto de Ingeniería en Diseño II: Objetos",
+                                "archivo": "Proyecto_de_ID-Optativa_II_Objetos.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Proyecto de Ingeniería en Diseño II: Espacios",
+                                "archivo": "Proyecto_de_ID-Optativa_II_Espacios.pdf",
+                                "optativa": 2
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Desarrollo de Producto II",
+                        "archivo": "Desarrollo_de_producto_II.pdf"
+                    },
+                    {
+                        "nombre": "Mercadotecnia",
+                        "archivo": "Mercadotecnia.pdf"
+                    }
+                ]
+            }
+        }
+    }
+}

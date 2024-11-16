@@ -1,0 +1,192 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2020",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Introducción al cómputo cientifíco",
+                        "archivo": "221101 _Introduccion al Computo_Cientifico.PDF"
+                      },
+                      {
+                        "nombre": "Modelación estadística",
+                        "archivo": "221102_Modelacion_estadistica.PDF"
+                      },
+                      {
+                      "nombre": "Técnicas  de modelación matemática",
+                      "archivo": "221103_Tecnicas_de_modelacion_matematica.PDF"
+                    }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Construcción de modelos matemáticos",
+                        "archivo": "221201_Construccion_de_modelos_matematicos.PDF"
+                    },
+                    {
+                        "nombre": "Optativa I"
+                    },
+                    {
+                        "nombre": "Optativa II"
+                    }
+                    
+                    
+                ]
+            },
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Seminario de Tesis I",
+                            "archivo":"221301_Seminario_de_tesis_I.PDF" 
+                        },
+                        {
+                            "nombre": "Optativa III"
+                        },
+                        {
+                            "nombre": "Optativa IV"
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Seminario de Tesis IV",
+                            "archivo":"221401_Seminario_de_tesis_II.PDF"
+                        },  
+                        {
+                            "nombre": "Optativa V"
+                        }                     
+                ]
+            },   
+            "Optativas":{
+                "numero": 5,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Ecuaciones Diferenciales Ordinarias",
+                            "archivo":"221501ED_Ecuaciones_diferenciales_ordinarias.PDF"
+                        },  
+                        {
+                            "nombre": "Ecuaciones Diferenciales Parciales",
+                            "archivo":"221502ED_Ecuaciones diferenciales_parciales.PDF"
+                        },  
+                        {
+                            "nombre": "Temas Selectos de Cómputo Científico",
+                            "archivo":"221503ED_Temas_selectos_de_computo_cientifico.PDF"
+                        },  
+                        {
+                            "nombre": "Análisis Matemático",
+                            "archivo":"221504ED_Analisis_matematico.PDF"
+                        },  
+                        {
+                            "nombre": "Biología Matemática",
+                            "archivo":"221505ED_Biologia_matematica.PDF"
+                        },  
+                        {
+                            "nombre": "Problemas Inversos",
+                            "archivo":"221506ED_Problemas_inversos.PDF"
+                        },  
+                        {
+                            "nombre": "Análisis Funcional",
+                            "archivo":"221507ED_Analisis_funcional.PDF"
+                        },  
+                        {
+                            "nombre": "Análisis Asimétrico",
+                            "archivo":"221508OA_Analisis_asimetrico.PDF"
+                        },  
+                        {
+                            "nombre": "Introducción a la Teoría de la Aproximación",
+                            "archivo":"221509OA_Introduccion_a_la_teoria_de_aproximacion.PDF"
+                        },  
+                        {
+                            "nombre": "Introducción a la Teoria de Optmización",
+                            "archivo":"221510OA_Introduccion_a_la_teoria_de_optimizacion.PDF"
+                        },  
+                        {
+                            "nombre": "Optimización Aplicada",
+                            "archivo":"221511OA_Optimizacion_aplicada.PDF"
+                        },  
+                        {
+                            "nombre": "Investigación de Operaciones",
+                            "archivo":"221513OA_Investigacion_de_operaciones.PDF"
+                        },  
+                        
+                        {
+                            "nombre": "Métodos Computacionales en Estadística",
+                            "archivo":"221514EE_Metodos_computacionales_en_estadistica.PDF"
+                        },  
+                        {
+                            "nombre": "Modelos Lineales",
+                            "archivo":"221515EE_Modelos_lineales.PDF"
+                        },  
+                        {
+                            "nombre": "Teoría de Inversiones",
+                            "archivo":"221516EE_Teoria_de_Inversiones.PDF"
+                        },  
+                        {
+                            "nombre": "Modelación Financiera I",
+                            "archivo":"221517EE_Modelacion_financiera_I.PDF"
+                        },  
+                        {
+                            "nombre": "Procesos Estocásticos",
+                            "archivo":"221518EE_Procesos_Estocasticos.PDF"
+                        },  
+                        {
+                            "nombre": "Series de Tiempo",
+                            "archivo":"221519EE_Series_de_tiempo.PDF"
+                        },  
+                        {
+                            "nombre": "Estadística Bayesiana",
+                            "archivo":"221520EE_Estadística_bayesiana.PDF"
+                        },  
+                        {
+                            "nombre": "Análisis Multivariado",
+                            "archivo":"221521EE_Analisis_multivariado.PDF"
+                        },  
+                        {
+                            "nombre": "Modelación Financiera II",
+                            "archivo":"221522EE_Modelacion_Financiera_II.PDF"
+                        },  
+                        {
+                            "nombre": "Sistemas Dinámicos Discretos",
+                            "archivo":"221523TS_Sistemas_dinamicos_discretos.PDF"
+                        },  
+                        {
+                            "nombre": "Ecuaciones en Diferencias I",
+                            "archivo":"221524TS_Ecuaciones_en_diferencia_I.PDF"
+                        },  
+                        {
+                            "nombre": "Dinámica Topológica",
+                            "archivo":"221525TS_Dinamica_topologica.PDF"
+                        },  
+                        {
+                            "nombre": "Modelos Matemáticos en Biología mediante Sistemas Dinámicos Discretos",
+                            "archivo":"221516TS_Modelos_matemáticos_en_biologia_mediante_sistemas_dinamicos_discretos.PDF"
+                        },  
+                        {
+                            "nombre": "Dinámica Colectiva",
+                            "archivo":"221527TS_Dinamica_colectiva.PDF"
+                        },  
+                        {
+                            "nombre": "Ecuaciones en Diferencias II",
+                            "archivo":"221518TS_Ecuaciones_en_diferencias_II.PDF"
+                        },  
+                        {
+                            "nombre": "Modelos Matemáticos en Economía y Finanzas mediante Sistemas Dinámicos Discretos",
+                            "archivo":"221529TS_Modelos_matematicos_en_economia_y_finanzas_mediante_sistemas_dinámicos_discretos.PDF"
+                        } 
+                ]
+            }                       
+        }
+    }
+}

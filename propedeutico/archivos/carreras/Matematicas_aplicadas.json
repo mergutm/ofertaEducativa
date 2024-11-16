@@ -1,0 +1,327 @@
+{
+    "actual": {
+        "plan": "Plan 2021",
+        "contenido": {
+            "Primero": {
+                "numero": 1,
+                "materias": [{
+                        "nombre": "Matemáticas Básicas",
+                        "archivo": "Matematicas_Basicas.pdf"
+                    },
+                    {
+                        "nombre": "Geometría Euclidiana",
+                        "archivo": "Geometria_Euclidiana.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Programación Estructurada",
+                        "archivo": "Fundamentos_De_Programacion_Estructurada.pdf"
+                    },
+                    {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "Historia_Del_Pensamiento_Filosofico.pdf"
+                    }
+                ]
+            },
+            "Segundo": {
+                "numero": 2,
+                "materias": [{
+                        "nombre": "Álgebra Superior",
+                        "archivo": "Algebra_Superior.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo Diferencial",
+                        "archivo": "Calculo_Diferencial.pdf"
+                    },
+                    {
+                        "nombre": "Geometría Analítica",
+                        "archivo": "Geometria_Analitica.pdf"
+                    },
+                    {
+                        "nombre": "Elementos de Estructura de Datos",
+                        "archivo": "Elementos_De_Estructura_De_Datos.pdf"
+                    },
+                    {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "Teoria_General_De_Sistemas.pdf"
+                    }
+                ]
+            },
+            "Tercero": {
+                "numero": 3,
+                "materias": [{
+                        "nombre": "Álgebra Lineal I",
+                        "archivo": "Algebra_Lineal_I.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo Integral",
+                        "archivo": "Calculo_Integral.pdf"
+                    },
+                    {
+                        "nombre": "Matemáticas Discretas",
+                        "archivo": "Matematicas_Discretas.pdf"
+                    },
+                    {
+                        "nombre": "Herramientas Computacionales",
+                        "archivo": "Herramientas_Computacionales.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica",
+                        "archivo": "Mecanica.pdf"
+                    }
+                ]
+            },
+            "Cuarto": {
+                "numero": 4,
+                "materias": [{
+                        "nombre": "Álgebra Lineal II",
+                        "archivo": "Algebra_Lineal_II.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo Diferencial en Varias Variables",
+                        "archivo": "Calculo_Diferencial_En_Varias_Variables.pdf"
+                    },
+                    {
+                        "nombre": "Ecuaciones Diferenciales Ordinarias",
+                        "archivo": "Ecuaciones_Diferenciales_Ordinarias.pdf"
+                    },
+                    {
+                        "nombre": "Análisis Numérico I",
+                        "archivo": "Analisis_Numerico_I.pdf"
+                    },
+                    {
+                        "nombre": "Análisis de Algoritmos",
+                        "archivo": "Analisis_De_Algoritmos.pdf"
+                    }
+                ]
+            },
+            "Quinto": {
+                "numero": 5,
+                "materias": [{
+                        "nombre": "Álgebra Moderna I",
+                        "archivo": "Algebra_Moderna_I.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo Integral en Varias Variables",
+                        "archivo": "Calculo_Integral_En_Varias_Variables.pdf"
+                    },
+                    {
+                        "nombre": "Lógica Matemática",
+                        "archivo": "Logica_Matematica.pdf"
+                    },
+                    {
+                        "nombre": "Análisis Numérico II",
+                        "archivo": "Analisis_Numerico_II.pdf"
+                    },
+                    {
+                        "nombre": "Probabilidad",
+                        "archivo": "Probabilidad.pdf"
+                    }
+                ]
+            },
+            "Sexto": {
+                "numero": 6,
+                "materias": [{
+                        "nombre": "Álgebra Moderna II",
+                        "archivo": "Algebra_Moderna_II.pdf"
+                    },
+                    {
+                        "nombre": "Análisis Matemático I",
+                        "archivo": "Analisis_Matematico_I.pdf"
+                    },
+                    {
+                        "nombre": "Ecuaciones Diferenciales Parciales",
+                        "archivo": "Ecuaciones_Diferenciales_Parciales.pdf"
+                    },
+                    {
+                        "nombre": "Procesos Estocásticos",
+                        "archivo": "Procesos_Estocasticos.pdf"
+                    }
+                ]
+            },
+            "Séptimo": {
+                "numero": 7,
+                "materias": [{
+                        "nombre": "Teoría de Optimización",
+                        "archivo": "Teoria_De_Optimizacion.pdf"
+                    },
+                    {
+                        "nombre": "Análisis Matemático II",
+                        "archivo": "Analisis_Matematico_II.pdf"
+                    },
+                    {
+                        "nombre": "Topología General",
+                        "archivo": "Topologia_General.pdf"
+                    },
+                    {
+                        "nombre": "Inteligencia Artificial",
+                        "archivo": "Inteligencia_Artificial.pdf"
+                    },
+                    {
+                        "nombre": "Estadística",
+                        "archivo": "Estadistica.pdf"
+                    }
+                ]
+            },
+            "Octavo": {
+                "numero": 8,
+                "materias": [{
+                        "nombre": "Teoría de la Medida",
+                        "archivo": "Teoria_De_La_Medida.pdf"
+                    },
+                    {
+                        "nombre": "Sistemas Dinámicos Continuos",
+                        "archivo": "Sistemas_Dinamicos_Continuos.pdf"
+                    },
+                    {
+                        "nombre": "Introducción a la Ciencia de Datos",
+                        "archivo": "Introduccion_A_La_Ciencia_De_Datos.pdf"
+                    },
+                    {
+                        "optativa": [
+
+                            {
+                                "nombre": "Redes Neuronales Artificiales",
+                                "archivo": "Optativa_I_Redes_Neuronales_Artificiales.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Teoría de Inversiones",
+                                "archivo": "Optativa_I_Teoria_De_Inversiones.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Investigación de Operaciones",
+                                "archivo": "Optativa_I_Investigacion_De_Operaciones.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Dinámica de poblaciones",
+                                "archivo": "Optativa_I_Dinamica_De_Poblaciones.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Introducción a Sistemas Dinámicos Discretos",
+                                "archivo": "Optativa_I_Introduccion_A_Sistemas_Dinamicos_Discretos.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Simulación Estadística con R",
+                                "archivo": "Optativa_I_Simulacion_Estadistica_Con_R.pdf",
+                                "optativa": 1
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Temas de Estadística Aplicada",
+                        "archivo": "Temas_De_Estadistica_Aplicada.pdf"
+                    }
+                ]
+            },
+            "Noveno": {
+                "numero": 9,
+                "materias": [{
+                        "nombre": "Análisis de Fourier",
+                        "archivo": "Analisis_De_Fourier.pdf"
+                    },
+                    {
+                        "nombre": "Variable compleja",
+                        "archivo": "Variable_Compleja.pdf"
+                    },
+                    {
+                        "nombre": "Modelación Matemática",
+                        "archivo": "Modelacion_Matematica.pdf"
+                    },
+                    {
+                        "optativa": [{
+                                "nombre": "Minería de Datos Estáticos",
+                                "archivo": "Optativa_II_Mineria_De_Datos_Estaticos.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Modelación Financiera I",
+                                "archivo": "Optativa_II_Modelacion_Financiera_I.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Introducción a la Teoría de Aproximación",
+                                "archivo": "Optativa_II_Introduccion_A_La_Teoria_De_Aproximacion.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Estimación de parámetros",
+                                "archivo": "Optativa_II_Estimacion_De_Parametros.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Geometría computacional",
+                                "archivo": "Optativa_II_Geometria_Computacional.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Series de Tiempo",
+                                "archivo": "Optativa_II_Series_De_Tiempo.pdf",
+                                "optativa": 2
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Metodología de la Investigación",
+                        "archivo": "Metodologia_De_La_Investigacion.pdf"
+                    }
+                ]
+            },
+            "Décimo": {
+                "numero": 10,
+                "materias": [{
+                        "nombre": "Análisis Funcional",
+                        "archivo": "Analisis_Funcional.pdf"
+                    },
+                    {
+                        "nombre": "Economía Matemática",
+                        "archivo": "Economia_Matematica.pdf"
+                    },
+                    {
+                        "nombre": "Seminario de Tesis",
+                        "archivo": "Seminario_De_Tesis.pdf"
+                    },
+                    {
+                        "optativa": [
+
+                            {
+                                "nombre": "Datos Masivos",
+                                "archivo": "Optativa_III_Datos_Masivos.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Modelación Financiera II",
+                                "archivo": "Optativa_III_Modelacion_Financiera_II.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Métodos de Optimización No Lineal",
+                                "archivo": "Optativa_III_Metodos_De_Optimizacion_No_Lineal.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Temas Selectos de Biología Matemática",
+                                "archivo": "Optativa_III_Temas_Selectos_De_Biologia_Matematica.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Análisis Topológico de Datos",
+                                "archivo": "Optativa_III_Analisis_Topologico_De_Datos.pdf",
+                                "optativa": 3
+                            },
+
+                            {
+                                "nombre": "Teoría de Muestreo",
+                                "archivo": "Optativa_III_Teoria_De_Muestreo.pdf",
+                                "optativa": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

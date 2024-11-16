@@ -1,0 +1,279 @@
+:root {
+    --primary: #5a0c0c;
+    --link: #006493;
+    --info: #fcdfa6;
+    --text: #333333;
+    --background: #ffffff;
+    --border: #dbdbdb;
+    --hover: #f5f5f5;
+    --transition-duration: 0.3s;
+    --transition-timing: ease-in-out;
+}
+
+body {
+    font-family: "Libre Baskerville", serif;
+    color: var(--text);
+    background-color: var(--background);
+    line-height: 1.6;
+    transition: background-color var(--transition-duration) var(--transition-timing);
+}
+
+
+/* Responsive utilities */
+
+.for-movile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .for-movile {
+        display: block;
+        animation: fadeIn var(--transition-duration) var(--transition-timing);
+    }
+    .for-desktop {
+        display: none;
+        animation: fadeOut var(--transition-duration) var(--transition-timing);
+    }
+}
+
+
+/* Collapsible component */
+
+.btn-collapsible {
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    transition: all var(--transition-duration) var(--transition-timing);
+}
+
+.btn-collapsible:hover,
+.btn-collapsible.active {
+    background-color: var(--hover);
+    transform: translateY(-2px);
+}
+
+.btn-collapsible::after {
+    content: "\002B";
+    color: var(--text);
+    font-weight: bold;
+    float: right;
+    margin-left: 0.5rem;
+    transition: transform var(--transition-duration) var(--transition-timing);
+}
+
+.btn-collapsible.active::after {
+    content: "\2212";
+    transform: rotate(180deg);
+}
+
+.coll-content {
+    padding: 0 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--transition-duration) var(--transition-timing), opacity var(--transition-duration) var(--transition-timing);
+    background-color: transparent;
+    opacity: 0;
+}
+
+.coll-content.active {
+    max-height: 1000px;
+    opacity: 1;
+}
+
+
+/* Panel component */
+
+.panel-tabs {
+    display: flex;
+    font-size: 0.875rem;
+    justify-content: center;
+    background-color: transparent;
+    border-bottom: 1px solid var(--border);
+    transition: border-color var(--transition-duration) var(--transition-timing);
+}
+
+.panel-tabs a {
+    padding: 0.5rem 1rem;
+    color: var(--text);
+    text-decoration: none;
+    transition: all var(--transition-duration) var(--transition-timing);
+}
+
+.panel-tabs a.is-active {
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
+    transform: translateY(-2px);
+}
+
+.panel.is-primary .panel-block.is-active .panel-icon,
+.is-active-element i {
+    color: var(--primary);
+    transition: color var(--transition-duration) var(--transition-timing);
+}
+
+
+/* Custom components */
+
+.info-modal {
+    background-color: var(--info);
+    padding: 1rem;
+    border-radius: 4px;
+    transition: all var(--transition-duration) var(--transition-timing);
+}
+
+.info-modal:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.semestre-border,
+.semestre {
+    border-bottom: 2px solid var(--border);
+    transition: border-color var(--transition-duration) var(--transition-timing);
+}
+
+.semestre {
+    background-color: rgba(255, 223, 155, 0.65);
+    transition: background-color var(--transition-duration) var(--transition-timing);
+}
+
+.btn-active {
+    background-color: rgba(255, 223, 155, 0.65);
+    transition: background-color var(--transition-duration) var(--transition-timing);
+}
+
+.is-semestre-text {
+    position: relative;
+    top: 85px;
+    transform: rotate(-90deg);
+    font-style: italic;
+    font-size: 1rem;
+    transition: all var(--transition-duration) var(--transition-timing);
+}
+
+.is-semestrep-text {
+    top: 5px;
+    position: relative;
+    font-style: italic;
+    font-size: 1rem;
+    transition: all var(--transition-duration) var(--transition-timing);
+}
+
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        animation: none !important;
+    }
+}
+
+
+/* Print styles */
+
+@media print {
+    .btn-collapsible,
+    .panel-tabs {
+        display: none;
+    }
+    .coll-content {
+        max-height: none;
+        overflow: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.slide {
+    flex: 0 0 100%;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: rgb(255, 79, 79);
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.slider-btn:hover {
+    background-color: #5a0c0c;
+    opacity: 1;
+}
+
+.prev-btn {
+    left: 15px;
+}
+
+.next-btn {
+    right: 15px;
+}

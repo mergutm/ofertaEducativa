@@ -1,0 +1,151 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Procesos de Manufactura",
+                        "archivo": "190101_Procesos_de_Manufactura.PDF"
+                      },
+                      {
+                        "nombre": "Diseño, Manufactura e Ingeniería asistida por Computadora ",
+                        "archivo": "190102_Diseño_Manufactura_e_Ingenieria_asistida_por_Computadora.PDF"
+                      },
+                      {
+                      "nombre": "Ingeniería de Materiales",
+                      "archivo": "190103_Ingenieria_de_Materiales.PDF"
+                    },
+                    {
+                        "nombre": "Administración de la Manufactura",
+                        "archivo": "190104_Administracion_de_la_Manufactura.PDF"
+                    }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Diseño y Desarrollo de Productos",
+                        "archivo": "190201_Diseño_y_Desarrollo_de_Productos.PDF"
+                    },
+                      
+                    {
+                        "nombre": "Tecnología de la Información en la Manufactura",
+                        "archivo": "190202_Tecnologia_de_la_Informacion_en_la_Manufactura.PDF"
+                    },
+                    {
+                        "nombre": "Optativa I"
+                    },
+                    {
+                        "nombre": "Optativa II"
+                    }
+                    
+                ]
+            },
+
+     
+        
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Proyecto de Tesis I",
+                            "archivo":"190301_Proyecto_de_Tesis_I.PDF" 
+                        },
+                        {
+                            "nombre": "Optativa III"
+                        },
+                        {
+                            "nombre": "Optativa IV"
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Proyecto de Tesis II",
+                            "archivo":"190401_Proyecto_de_Tesis_II.PDF"
+                        },
+                        {
+                            "nombre":"Optativa V"
+                        }
+
+                ]
+            },    
+            "Optativas":{
+                "numero": 5,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Procesos Avanzados de Manufactura I",
+                            "archivo":"190501_Procesos_Avanzados_de_Manufactura_I.PDF"
+                        },
+                        {
+                            "nombre": "Tópicos Selectos de Automatización Industrial",
+                            "archivo": "190502_Topicos_selectos_de_automatizacion_industrial.PDF"
+                        },
+                        {
+                            "nombre": "Procesos Avanzados de Manufactura II",
+                            "archivo": "190503_Procesos_avanzados_de_manufactura_II.PDF"
+                        },
+                        {
+                            "nombre": "Planeación de Procesos Asistido por Computadora",
+                            "archivo": "190504_Planeacion_de_procesos_asistidos_por_computadora.PDF"
+                        },
+                        {
+                            "nombre": "Tópicos de Robótica",
+                            "archivo": "190505_Topicos_de_Robotica.PDF"
+                        },
+                        {
+                            "nombre": "Automatización de la Manufactura",
+                            "archivo": "190506_Automatizacion_de_la_Manufactura.PDF"
+                        },
+                        {
+                            "nombre": "Administración y Dirección de Proyectos de Ingenieria",
+                            "archivo": "190507_Administracion_y_direccion_de_proyectos_de_ingenieria.PDF"
+                        },
+                        {
+                            "nombre": "Simulación y Optimización",
+                            "archivo": "190508_Simulacion_y_optimizacion.PDF"
+                        },
+                        {
+                            "nombre": "Manufactura Integrada por Computadora",
+                            "archivo": "190509_Manufactura_integrada_por_computadora.PDF"
+                        },
+                        {
+                            "nombre": "Robótica Industrial",
+                            "archivo": "190510_Robotica_Industrial.PDF"
+                        },
+                        {
+                            "nombre": "Sistemas Integrados de Manufactura",
+                            "archivo": "190511_Sistemas_Integrados_de_manufactura.PDF"
+                        },
+                        {
+                            "nombre": "Control Estadístico de Procesos",
+                            "archivo": "190512_Control_estadistico_de_procesos.PDF"
+                        },
+                        {
+                            "nombre": "Sistemas Flexibles de Manufactura",
+                            "archivo": "190513_Sistemas_flexibles_de_manufactura.PDF"
+                        },
+                        {
+                            "nombre": "Mantenimiento Productivo Total",
+                            "archivo": "190514_Mantenimiento_productivo_total.PDF"
+                        },
+                        {
+                             "nombre": "Ingeniería de Confiabilidad",
+                             "archivo": "190515_Ingenieria_de_confiabilidad.PDF"
+                        }
+                ]
+            }    
+        }
+    }
+}

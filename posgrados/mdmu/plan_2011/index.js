@@ -1,6 +1,6 @@
 let datos;
 
-fetch("../../../archivos/posgrados/mdmu.json")
+fetch("../../../archivos/posgrados/mdm.json")
     .then((response) => response.json())
     .then((data) => {
             datos = data;
@@ -22,7 +22,7 @@ fetch("../../../archivos/posgrados/mdmu.json")
             i == semestre.length - 1 ? 'class="semestre-border"' : ""
           }>
                     <td >${m.nombre}</td>
-                    <td>
+                    <td id='${m.nombre}'>
                         <div class="is-flex is-justify-content-center">
                             <p class="buttons">
                                 <a class="button is-small has-tooltip-arrow has-tooltip-multiline" href="../archivos/planes/plan_2011/${
@@ -288,4 +288,26 @@ function mostrarToast() {
     closeOnClick: true,
     duration: 90000,
   });
+}
+
+
+
+
+window.onload = corregir_optativas(  );  
+function corregir_optativas(  ) {
+  setTimeout(() => {
+    //console.log("Delayed for 3 second.");
+    var matches = document.querySelectorAll("td");
+      matches.forEach( (item ) => {
+        
+
+        if ( item.id.includes('Optativa') ){
+          item.innerHTML='&nbsp;';
+        }
+      }
+      );
+  }, 3000);
+
+
+  
 }

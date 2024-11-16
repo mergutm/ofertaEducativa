@@ -1,0 +1,47 @@
+/* siempre visible */
+#expandir .fijo {
+	padding:1em;
+	border:1px solid #ddd;
+	margin:0;
+bgcolor="#ffffcc"; 	background-color: #FFFFCC;
+}
+#expandir .fijo a img {border:none; }
+#expandir .fijo p {padding:0; margin:20px; text-align: justify; text-decoration: none;}
+#expandir .fijo p.bold {font-weight:bold; text-align:center; color: #291801;}
+#expandir .fijo p.centro {text-align:center; }
+#expandir .fijo p a {color:#000; text-decoration:none;}
+#expandir .fijo p a:hover {color:#666;}
+#expandir .fijo h2 {margin:0; padding:0; color: #291801;}
+#expandir .fijo h2 a {text-decoration:none; color: #291801;}
+#expandir .fijo h3 {margin:10px 0 10px 15px; padding:0; color: #A4231A;}
+#expandir .fijo h3 a {text-decoration:none; color: #A4231A;}
+#expandir .fijo ul {float:left; margin:0 8px 1px 7px; padding-left:24px; text-align: justify; width:379px;}
+#expandir .fijo ul.extendido {width:620px;padding-left:50px;}
+#expandir .fijo li {list-style-image: url(../images/flecha.png); margin-bottom:5px;}
+#expandir .fijo li a {color:#000; text-decoration:none;}
+#expandir .fijo li a:hover {color:#666;}
+#expandir .fijo img.flotando{float:left; padding: 5px 10px 5px 20px;}
+
+/* estilo div.mas lo que esta escondido*/
+#expandir div.mas i {float:right; margin-right:-10px 10px 0 0; cursor:pointer; color:#c00; font-weight:bold;}
+#expandir div.mas i.hide {display:none;}
+#expandir div.mas p {display:none;}
+#expandir div.mas img {display:none;}
+#expandir div.mas ul {display:none;}
+#expandir div.mas h4 {display:none;}
+#expandir div.mas table.info {display:none;}
+#expandir div.mas .menusec dl{display:none;}
+#expandir div.mas ul.listado {display:none;}
+
+/* estilo div.mostrar lo como se muestra cuando se muestra*/
+#expandir div.mostrar i.show {display:none;}
+#expandir div.mostrar i.hide {display:block;}
+#expandir div.mostrar p {display:block;}
+#expandir div.mostrar img {display:block; float:left; padding: 5px 10px 5px 20px;}
+#expandir div.mostrar img.arroba {display:inline;float:none;padding: 0;}
+#expandir div.mostrar ul {display:block;}
+#expandir div.mostrar table.info {display:block; border: 2px solid #877238; text-align:left; padding: 2px 2px 2px 2px; margin: 0 5px 0 0;}
+#expandir div.mostrar td.info2 {border: 1px solid #877238; padding: 5px 5px 5px 0;}
+#expandir div.mostrar h4 {display:block; margin:15px 0 15px 15px; color: #A4231A; font-weight:bold; font-size: 14px; text-align:center;}
+#expandir div.mostrar .menusec dl{display:block;}
+#expandir div.mostrar ul.listado {display:block; width:620px; margin-left:18px;}

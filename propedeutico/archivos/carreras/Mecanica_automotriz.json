@@ -1,0 +1,299 @@
+{
+    "actual":{
+        "plan": "Plan",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo Diferencial",
+                        "archivo": "Calculo_Diferencial.pdf"
+                    },
+                    {
+                        "nombre": "Química General",
+                        "archivo": "Quimica_General.pdf"
+                    },
+                    {
+                        "nombre": "Programación Estructurada",
+                        "archivo": "Programacion_Estructurada.pdf"
+                    },
+                    {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "Historia_del_Pensamiento_Filosofico.pdf"
+                    },
+                    {
+                        "nombre": "Taller Automotriz I",
+                        "archivo": "Taller_Automotriz_I.pdf"
+                    }
+                ]
+            },
+
+            "Segundo":{
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo Integral",
+                        "archivo": "Calculo_Integral.pdf"
+                    },
+                    {
+                        "nombre": "Álgebra Lineal",
+                        "archivo": "Algebra_Lineal.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería de Materiales",
+                        "archivo": "Ingenieria_de_Materiales.pdf"
+                    },
+                    {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "Teoria_General_de_Sistemas.pdf"
+                    },
+                    {
+                        "nombre": "Dibujo Asistido por Computadora",
+                        "archivo": "Dibujo_Asistido_por_Computadora.pdf"
+                    }
+                ]
+            },
+
+            "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo Vectorial",
+                        "archivo": "Calculo_Vectorial.pdf"
+                    },
+                    {
+                        "nombre": "Ecuaciones Diferenciales",
+                        "archivo": "Ecuaciones_Diferenciales.pdf"
+                    },
+                    {
+                        "nombre": "Estática",
+                        "archivo": "Estatica.pdf"
+                    },
+                    {
+                        "nombre": "Electromagnetismo",
+                        "archivo": "Electromagnetismo.pdf"
+                    },
+                    {
+                        "nombre": "Taller Automotriz II",
+                        "archivo": "Taller_Automotriz_II.pdf"
+                    }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                    {
+                        "nombre": "Probabilidad y Estadística",
+                        "archivo": "Probabilidad_y_Estadistica.pdf"
+                    },
+                    {
+                        "nombre": "Métodos Numéricos",
+                        "archivo": "Metodos_Numericos.pdf"
+                    },
+                    {
+                        "nombre": "Dinámica",
+                        "archivo": "Dinamica.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica de Materiales",
+                        "archivo": "Mecanica_de_Materiales.pdf"
+                    },
+                    {
+                        "nombre": "Circuitos Eléctricos",
+                        "archivo": "Circuitos_Electricos.pdf"
+                    }
+                ]
+            },
+
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Máquinas Eléctricas",
+                        "archivo": "Maquinas_Electricas.pdf"
+                    },
+                    {
+                        "nombre": "Mecanismos",
+                        "archivo": "Mecanismos.pdf"
+                    },
+                    {
+                        "nombre": "Termodinámica y Máquinas Térmicas",
+                        "archivo": "Termodinamica_y_Maquinas_Termicas.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Electrónica",
+                        "archivo": "Fundamentos_de_Electronica.pdf"
+                    },
+                    {
+                        "nombre": "Taller Automotriz III",
+                        "archivo": "Taller_Automotriz_III.pdf"
+                    }
+                ]
+            },
+
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Procesos de Manufactura",
+                        "archivo": "Procesos_de_Manufactura.pdf"
+                    },
+                    {
+                        "nombre": "Diseño de Elementos de Máquinas",
+                        "archivo": "Diseno_de_Elementos_de_Maquinas.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica de Fluidos y Máquinas Hidráulicas",
+                        "archivo": "Mecanica_de_Fluidos_y_Maquinas_Hidraulicas.pdf"
+                    },
+                    {
+                        "nombre": "Análisis de Vibraciones Mecánicas",
+                        "archivo": "Analisis_de_Vibraciones_Mecanicas.pdf"
+                    },
+                    {
+                        "nombre": "Metrología y Transductores",
+                        "archivo": "Metrologia_y_Transductores.pdf"
+                    }
+                ]
+            },
+
+            "Séptimo":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Elemento Finito",
+                        "archivo": "Elemento_Finito.pdf"
+                    },
+                    {
+                        "nombre": "Diseño Asistido por Computadora",
+                        "archivo": "Diseno_Asistido_por_Computadora.pdf"
+                    },
+                    {
+                        "nombre": "Transferencia de Calor",
+                        "archivo": "Transferencia_de_Calor.pdf"
+                    },
+                    {
+                        "nombre": "Electrónica de Potencia",
+                        "archivo": "Electronica_de_Potencia.pdf"
+                    },
+                    {
+                        "nombre": "Microcontroladores",
+                        "archivo": "Microcontroladores.pdf"
+                    }
+                ]
+            },
+
+            "Octavo":{
+                "numero": 8,
+                "materias" : [
+                    {
+                        "nombre": "Administración de Empresas Automotrices",
+                        "archivo": "Administracion_de_Empresas_Automotrices.pdf"
+                    },
+                    {
+                        "nombre": "Manufactura Asistida por Computadora",
+                        "archivo": "Manufactura_Asistida_por_Computadora.pdf"
+                    },
+                    {
+                        "nombre": "Máquinas de Combustión Interna",
+                        "archivo": "Maquinas_de_Combustion_Interna.pdf"
+                    },
+                    {
+                        "nombre": "Diseño de Herramentales",
+                        "archivo": "Diseno_de_Herramentales.pdf"
+                    },
+                    {
+                        "nombre": "Sistema Eléctrico Automotriz",
+                        "archivo": "Sistema_Electrico_Automotriz.pdf"
+                    }
+                ]
+            },
+
+            "Noveno":{
+                "numero": 9,
+                "materias" : [
+                    {
+                        "nombre": "Ecología y Desarrollo Automotriz",
+                        "archivo": "Ecologia_y_Desarrollo_Automotriz.pdf"
+                    },
+                    {
+                        "nombre": "Sistema Mecánico Automotriz",
+                        "archivo": "Sistema_Mecanico_Automotriz.pdf"
+                    },
+                    {
+                        "nombre": "Sistema Electrónico Automotriz",
+                        "archivo": "Sistema_Electronico_Automotriz.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Automatización Industrial",
+                                "archivo": "Automatizacion_Industrial.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Celdas de Combustible",
+                                "archivo": "Celdas_de_Combustible.pdf",
+                                "optativa": 1
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "nombre": "Desarrollo de Proyecto Automotriz I",
+                        "archivo": "Desarrollo_de_Proyecto_Automotriz_I.pdf"
+                    }
+                ]
+            },
+
+            "Décimo":{
+                "numero": 10,
+                "materias" : [
+                    {
+                        "nombre": "Administración del Trabajo Interdisciplinario",
+                        "archivo": "Administracion_del_Trabajo_Interdisciplinario.pdf"
+                    },
+                    {
+                        "nombre": "Análisis Digital Automotriz",
+                        "archivo": "Analisis_Digital_Automotriz.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Control y Sistemas de Calidad",
+                                "archivo": "Control_y_Sistemas_de_Calidad.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Motores Eléctricos Automotrices",
+                                "archivo": "Motores_Electricos_Automotrices.pdf",
+                                "optativa": 2
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Líneas de Ensamblaje Automotriz",
+                                "archivo": "Lineas_de_Ensamblaje_Automotriz.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Tecnología Híbrida Automotriz",
+                                "archivo": "Tecnologia_Hibrida_Automotriz.pdf",
+                                "optativa": 3
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "nombre": "Desarrollo de Proyecto Automotriz II",
+                        "archivo": "Desarrollo_de_Proyecto_Automotriz_II.pdf"
+                    }
+                ]
+            }
+        }
+    }
+}

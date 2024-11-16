@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="../../css/ofertaEducativa.css" />
+		<script type="text/javascript" src="../../js/BulmaJS-master/dist/bulma.js"></script>
+
+		<link rel="stylesheet" href="../../css/bubbler/bubbler.min.css" />
+		<script type="text/javascript" src="../../css/bubbler/bubbler.min.js"></script>
+
+		<title>Ingeniería en Computación</title>
+		<link rel="icon" type="image/x-icon" href="../../archivos/favicon.ico" />
+
+		<!-- Fuentes -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<section
+			class="hero is-small"
+			style="border: solid 0.1px transparent; box-shadow: 5px 3px 30px #bcb8b5"
+		>
+			<!-- Hero content: will be in the middle -->
+			<div class="hero-body" style="position: sticky">
+				<div class="container has-text-centered">
+					<div class="columns">
+						<div class="column for-desktop">
+							<img
+								src="../../archivos/Img/logo_utm.png"
+								alt=""
+								style="height: 100px; width: auto"
+							/>
+						</div>
+
+						<div class="column for-movile">
+							<img
+								src="../../archivos/Img/logo_utm.png"
+								alt=""
+								style="height: 70px; width: auto"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<div class="card">
+					<div class="card-content">
+						<div class="is-flex is-justify-content-center pb-4">
+							<figure class="image is-128x128">
+								<img st src="../../archivos/logos/computacion.jpg" />
+							</figure>
+						</div>
+
+						<p
+							class="card-header-title is-centered is-size-3-desktop is-size-5-mobile is-size-5-tablet mb-5"
+							style="color: var(--primary)"
+						>
+							Ingeniería en Computación
+						</p>
+
+						<div class="columns p-5">
+							<div class="column">
+								<div
+									class="box is-clickable is-shadowless info-modal"
+									id="modal-cont-1"
+									onclick="desplegar('1')"
+								>
+									<p style="text-align: center">
+										<strong>Misión y Visión</strong>
+									</p>
+								</div>
+							</div>
+
+							<div id="modal-info-1" class="modal">
+								<div class="modal-background"></div>
+								<div class="modal-card">
+									<header class="modal-card-head">
+										<p
+											class="modal-card-title"
+											style="
+												font-size: 1.25rem;
+												text-align: center;
+												font-weight: bold;
+											"
+										>
+											Misión y Visión
+										</p>
+										<button class="delete" aria-label="close"></button>
+									</header>
+									<section class="modal-card-body">
+										<div class="block">
+											<h5 class="title is-5">
+												Misión de Ingeniería en Computación
+											</h5>
+											<p class="has-text-justified">
+												Formar de manera integral Ingenieros en Computación
+												altamente capacitados, que sean competitivos y
+												comprometidos con la sociedad. Que tengan la actitud
+												y conocimientos necesarios para incorporarse en el
+												sector productivo, a un posgrado o iniciar su propia
+												empresa. Es decir, formar profesionistas con una
+												amplia visión y convicción no sólo para adaptarse a
+												su entorno de desarrollo, sino con la capacidad de
+												transformarlo, esto como resultado del trabajo y
+												disciplina constantes.
+											</p>
+										</div>
+										<div class="block">
+											<h5 class="title is-5">
+												Visión de Ingeniería en Computación
+											</h5>
+											<p class="has-text-justified">
+												Lograr que sea la mejor opción en el país, para los
+												aspirantes a estudiar una carrera en el área de
+												cómputo con el perfil de ingeniero en computación.
+												Además que nuestro plan de estudios se mantenga
+												acorde con los continuos cambios que la tecnología
+												demanda y que nuestros profesores estén en constante
+												actualización en los nuevos conocimientos y
+												tecnología. Para que se consoliden en sus líneas de
+												investigación y puedan transmitir esos conocimientos
+												a nuestros estudiantes y de esta manera generar
+												egresados alcancen el éxito profesional en el país o
+												en el extranjero.
+											</p>
+										</div>
+									</section>
+									<footer class="modal-card-foot">
+										<a
+											class="button"
+											href="archivos/Mision_y_Vision_Ingenieria_Computacion.pdf"
+											target="_blank"
+											download="Mision_y_Vision_Ingenieria_Computacion"
+										>
+											<span class="icon is-small">
+												<i class="fas fa-download"></i>
+											</span>
+											<span>Descargar</span>
+										</a>
+									</footer>
+								</div>
+							</div>
+
+							<div class="column">
+								<div
+									class="box is-clickable is-shadowless info-modal"
+									id="modal-cont-2"
+									onclick="desplegar('2')"
+								>
+									<p style="text-align: center">
+										<strong>Objetivo General</strong>
+									</p>
+								</div>
+							</div>
+
+							<div id="modal-info-2" class="modal">
+								<div class="modal-background"></div>
+								<div class="modal-card">
+									<header class="modal-card-head">
+										<p
+											class="modal-card-title"
+											style="
+												font-size: 1.25rem;
+												text-align: center;
+												font-weight: bold;
+											"
+										>
+											Objetivo General
+										</p>
+										<button class="delete" aria-label="close"></button>
+									</header>
+									<section class="modal-card-body">
+										<div class="block">
+											<h5 class="title is-5">Objetivo General</h5>
+											<p class="has-text-justified">
+												Formar profesionistas hab con los conocimientos, un
+												ilidades, aptitudes y valores relevantes para
+												Ingeniero en Computación, que no solamente le
+												permitan integrarse inmediatamente a los económicos
+												y sociales, sino que además sector es le permita ser
+												un motor para transformar su en torno.
+											</p>
+										</div>
+									</section>
+									<footer class="modal-card-foot">
+										<a
+											class="button"
+											href="archivos/Objetivo_General_Ingenieria_Computacion.pdf"
+											target="_blank"
+											download="Objetivo_General_Ingenieria_Computacion"
+										>
+											<span class="icon is-small">
+												<i class="fas fa-download"></i>
+											</span>
+											<span>Descargar</span>
+										</a>
+									</footer>
+								</div>
+							</div>
+
+							<div class="column">
+								<div
+									class="box is-clickable is-shadowless info-modal"
+									id="modal-cont-3"
+									onclick="desplegar('3')"
+								>
+									<p style="text-align: center">
+										<strong>Perfil de Ingreso</strong>
+									</p>
+								</div>
+							</div>
+
+							<div id="modal-info-3" class="modal">
+								<div class="modal-background"></div>
+								<div class="modal-card">
+									<header class="modal-card-head">
+										<p
+											class="modal-card-title"
+											style="
+												font-size: 1.25rem;
+												text-align: center;
+												font-weight: bold;
+											"
+										>
+											Perfil de Ingreso
+										</p>
+										<button class="delete" aria-label="close"></button>
+									</header>
+									<section class="modal-card-body">
+										<div class="block">
+											<h5 class="title is-5">
+												Ingeniería en Computación Perfil de Ingreso
+											</h5>
+											<p class="has-text-justified">
+												El aspirante a ingresar a la carrera de Ingeniería
+												en Computación debe poseer:
+											</p>
+											<div class="content">
+												<ul>
+													<li>
+														<p class="has-text-justified">
+															Bachillerato terminado, preferentemente
+															con especialidad en Informática o en el
+															área de Físico-Matemáticas.
+														</p>
+													</li>
+													<li>
+														<p class="has-text-justified">
+															Aptitud para analizar y proponer
+															soluciones prácticas a problemas lógicos
+															y matemáticos.
+														</p>
+													</li>
+													<li>
+														<p class="has-text-justified">
+															Habilidad en la planeación y realización
+															de tareas individuales y colectivas.
+														</p>
+													</li>
+													<li>
+														<p class="has-text-justified">
+															Compromiso, disciplina y constancia.
+														</p>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</section>
+									<footer class="modal-card-foot">
+										<a
+											class="button"
+											href="archivos/Perfil_Ingreso_Ingenieria_Computacion.pdf"
+											target="_blank"
+											download="Perfil_Ingreso_Ingenieria_Computacion"
+										>
+											<span class="icon is-small">
+												<i class="fas fa-download"></i>
+											</span>
+											<span>Descargar</span>
+										</a>
+									</footer>
+								</div>
+							</div>
+
+							<div class="column">
+								<div
+									class="box is-clickable is-shadowless info-modal"
+									id="modal-cont-3"
+									onclick="desplegar('4')"
+								>
+									<p style="text-align: center">
+										<strong>Perfil del Egresado</strong>
+									</p>
+								</div>
+							</div>
+
+							<div id="modal-info-4" class="modal">
+								<div class="modal-background"></div>
+								<div class="modal-card">
+									<header class="modal-card-head">
+										<p
+											class="modal-card-title"
+											style="
+												font-size: 1.25rem;
+												text-align: center;
+												font-weight: bold;
+											"
+										>
+											Perfil del Egresado
+										</p>
+										<button class="delete" aria-label="close"></button>
+									</header>
+									<section class="modal-card-body">
+										<div class="block">
+											<h5 class="title is-5">
+												Ingeniería en Computación Perfil de Egreso
+											</h5>
+											<p class="has-text-justified">
+												Los egresados de la Ingeniería en Computación son
+												profesionistas con las siguientes características:
+											</p>
+											<div class="content">
+												<ul>
+													<li>
+														<p class="has-text-justified">
+															Formación sólida en matemáticas, teoría
+															de la computación, programación de
+															sistemas, paradigmas de programación y
+															sistemas de gestión de bases de datos.
+														</p>
+													</li>
+													<li>
+														<p class="has-text-justified">
+															Conocimientos en Inteligencia
+															Artificial, Redes de Computadoras,
+															Ingeniería de Software, y la
+															especialización en alguna de ellas.
+														</p>
+													</li>
+													<li>
+														<p class="has-text-justified"></p>
+														Habilidad para poder realizar trabajo en
+														equipo y ser líder de los mismos.
+													</li>
+													<li>
+														<p class="has-text-justified">
+															Capacidad para realizar estudios de
+															posgrado, incorporación al sector
+															productivo o para crear su propia
+															empresa.
+														</p>
+													</li>
+													<li>
+														<p class="has-text-justified">
+															Profesional responsable, solidario,
+															ético, comprometido con la sociedad y el
+															medio ambiente.
+														</p>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</section>
+									<footer class="modal-card-foot">
+										<a
+											class="button"
+											href="archivos/Perfil_Egreso_Ingenieria_Computacion.pdf"
+											target="_blank"
+											download="Perfil_Egreso_Ingenieria_Computacion"
+										>
+											<span class="icon is-small">
+												<i class="fas fa-download"></i>
+											</span>
+											<span>Descargar</span>
+										</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+						<nav class="panel is-shadowless">
+							<!-- Planes de Estudio Tabs -->
+							<p
+								class="panel-heading has-background-light"
+								style="font-size: 16px; text-align: center; font-weight: bold"
+							>
+								Planes Vigentes
+							</p>
+							<p class="panel-tabs" style="font-size: 16px">
+								<a class="is-active" data-target="planes">Planes</a>
+								<a data-target="mapas">Mapas Curriculares</a>
+							</p>
+
+							<div class="" style="font-size: 15px">
+								<a class="panel-block" data-category="planes" href="plan-5/">
+									<span class="panel-icon">
+										<i class="fas fa-book" aria-hidden="true"></i>
+									</span>
+									Plan 5 (2016)
+								</a>
+							</div>
+
+							<div class="" style="font-size: 15px">
+								<a
+									class="panel-block"
+									data-category="mapas"
+									href="archivos/mapas/mapaCurricular5.pdf"
+									target="_blank"
+								>
+									<span class="panel-icon">
+										<i class="fas fa-book"></i>
+									</span>
+									Mapa Curricular 5
+								</a>
+							</div>
+						</nav>
+
+						<!-- <div class="column">
+                        <nav class="panel is-shadowless">
+                            <p class="panel-heading has-background-light"
+                                style="font-size: 16px; text-align: center; font-weight: bold;">Mapas Curriculares</p>
+                            <div class="mapas" style="font-size: 15px;">
+                                <a class="panel-block" href="">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-book" aria-hidden="true"></i>
+                                    </span>
+                                    Mapa Curricular 5
+                                </a>
+                            </div>
+                        </nav>
+                    </div> -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Importamos Js -->
+		<script type="text/javascript" src="../../js/float_btn.js"></script>
+		<script type="text/javascript" src="../../js/oferta_educativa.js"></script>
+
+		<script>
+			// Obtenemos ruta de donde se encuentra el logo de la carrera
+			let logoCarrera = "../../archivos/logos/";
+
+			// Inicializamos el botón flotante
+			bubble = inicializarBtn(logoCarrera, "computacion");
+			btn = new Bubbler(bubble);
+		</script>
+	</body>
+</html>

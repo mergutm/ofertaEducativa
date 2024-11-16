@@ -1,0 +1,261 @@
+{
+    "actual": {
+        "plan": "Plan 2024",
+        "contenido": {
+            "Primero": {
+                "numero": 1,
+                "materias": [{
+                        "nombre": "Álgebra Lineal",
+                        "archivo": "Algebra_Lineal.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo Diferencial",
+                        "archivo": "Calculo_Diferencial.pdf"
+                    },
+                    {
+                        "nombre": "Ciencia, Tecnología y Sociedad ",
+                        "archivo": "Ciencia_Tecnologia_y_Sociedad.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de la Ciencia Química Sostenible",
+                        "archivo": "Fundamentos_de_la_Ciencia_Quimica_Sostenible.pdf"
+                    },
+                    {
+                        "nombre": "Introducción a la Ingeniería Química",
+                        "archivo": "Introduccion_a_la_Ingenieria_Quimica.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica Clásica ",
+                        "archivo": "Mecanica_Clasica.pdf"
+                    }
+                ]
+            },
+            "Segundo": {
+                "numero": 2,
+                "materias": [{
+                        "nombre": "Algoritmos y Programación  ",
+                        "archivo": "Algoritmos_y_Programacion.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo Integral ",
+                        "archivo": "Calculo_Integral.pdf"
+                    },
+                    {
+                        "nombre": "Electricidad y Magnetismo ",
+                        "archivo": "Electricidad_y_Magnetismo.pdf"
+                    },
+                    {
+                        "nombre": "Género y Construcción de la Paz",
+                        "archivo": "Genero_y_Construccion_de_la_Paz.pdf"
+                    },
+                    {
+                        "nombre": "Introducción a Procesos Sostenibles ",
+                        "archivo": "Introduccion_a_Procesos_Sostenibles.pdf"
+                    },
+                    {
+                        "nombre": "Química Sostenible",
+                        "archivo": "Quimica_Sostenible.pdf"
+                    }
+                ]
+            },
+            "Tercero": {
+                "numero": 3,
+                "materias": [{
+                        "nombre": "Algoritmos de Solución Numérica  ",
+                        "archivo": "Algoritmos_de_Solucion_Numerica.pdf"
+                    },
+                    {
+                        "nombre": "Balance de Materia ",
+                        "archivo": "Balance_de_Materia.pdf"
+                    },
+                    {
+                        "nombre": "Ecuaciones Diferenciales Ordinarias",
+                        "archivo": "Ecuaciones_Diferenciales_Ordinarias.pdf"
+                    },
+                    {
+                        "nombre": "Estadística para Experimentadores",
+                        "archivo": "Estadistica_para_Experimentadores.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Termodinámica",
+                        "archivo": "Fundamentos_de_Termodinamica.pdf"
+                    },
+                    {
+                        "nombre": "Tecnologías para Química Sostenible",
+                        "archivo": "Tecnologias_para_Quimica_Sostenible.pdf"
+                    }
+                ]
+            },
+            "Cuarto": {
+                "numero": 4,
+                "materias": [{
+                        "nombre": "Almacenamiento de Energía Térmica",
+                        "archivo": "Almacenamiento_de_Energia_Termica.pdf"
+                    },
+                    {
+                        "nombre": "Balance de Energía",
+                        "archivo": "Balance_de_Energia.pdf"
+                    },
+                    {
+                        "nombre": "Diseño de Experimentos ",
+                        "archivo": "Diseno_de_Experimentos.pdf"
+                    },
+                    {
+                        "nombre": "Electricidad a partir de Energías Renovables",
+                        "archivo": "Electricidad_a_partir_de_Energias_Renovables.pdf"
+                    },
+                    {
+                        "nombre": "Espectroscopía y Espectrometría",
+                        "archivo": "Espectroscopia_y_Espectrometria.pdf"
+                    },
+                    {
+                        "nombre": "Química Analítica Verde ",
+                        "archivo": "Quimica_Analitica_Verde.pdf"
+                    }
+                ]
+            },
+            "Quinto": {
+                "numero": 5,
+                "materias": [{
+                        "nombre": "Ciencia de Datos para Ingenieros ",
+                        "archivo": "Ciencia_de_Datos_para_Ingenieros.pdf"
+                    },
+                    {
+                        "nombre": "Cultura y Sociedad",
+                        "archivo": "Cultura_y_Sociedad.pdf"
+                    },
+                    {
+                        "nombre": "Economía Circular",
+                        "archivo": "Economia_Circular.pdf"
+                    },
+                    {
+                        "nombre": "Química Orgánica ",
+                        "archivo": "Quimica_Organica.pdf"
+                    },
+                    {
+                        "nombre": "Transferencia de Calor y Masa",
+                        "archivo": "Transferencia_de_Calor_y_Masa.pdf"
+                    }
+                ]
+            },
+            "Sexto": {
+                "numero": 6,
+                "materias": [{
+                        "nombre": "Ingeniería de Mecánica de Fluidos ",
+                        "archivo": "Ingenieria_de_Mecanica_de_Fluidos.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería de Procesos de Separación",
+                        "archivo": "Ingenieria_de_Procesos_de_Separacion.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería de Reactores",
+                        "archivo": "Ingenieria_de_Reactores.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería Termodinámica",
+                        "archivo": "Ingenieria_Termodinamica.pdf"
+                    },
+                    {
+                        "nombre": "Innovación y Emprendimiento Sostenible",
+                        "archivo": "Innovacion_y_Emprendimiento_Sostenible.pdf"
+                    }
+                ]
+            },
+            "Séptimo": {
+                "numero": 7,
+                "materias": [{
+                        "nombre": "Contabilidad y Control Gerencial ",
+                        "archivo": "Contabilidad_y_Control_Gerencial.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería de Producto, Procesos y Producción",
+                        "archivo": "Ingenieria_de_Producto,_Procesos_y_Produccion.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería en Instrumentación y Control",
+                        "archivo": "Ingenieria_en_Instrumentacion_y_Control.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería en Proyectos",
+                        "archivo": "Ingenieria_en_Proyectos.pdf"
+                    },
+                    {
+                        "nombre": "Ingenieria Termodinámica de Equilibrio",
+                        "archivo": "Ingenieria_Termodinamica_de_Equilibrio.pdf"
+                    },
+                    {
+                        "nombre": "Investigación de Operaciones",
+                        "archivo": "Investigacion_de_Operaciones.pdf"
+                    }
+                ]
+            },
+            "Octavo": {
+                "numero": 8,
+                "materias": [{
+                        "nombre": "Ingeniería de Diseño y Seguridad de Plantas",
+                        "archivo": "Ingenieria_de_Diseno_y_Seguridad_de_Plantas.pdf"
+                    },
+                    {
+                        "nombre": "Liderazgo Organizacional",
+                        "archivo": "Liderazgo_Organizacional.pdf"
+                    },
+                    {
+                        "nombre": "Modelación y Optimización de Procesos Sostenibles",
+                        "archivo": "Modelacion_y_Opt_Proc_Sust.pdf"
+                    },
+                    {
+                        "optativa": [{
+                                "nombre": "Alimentos y Plantas Bioactivas Promotoras de la Salud",
+                                "archivo": "Alimentos_y_Plantas_Bioactivas_Promotoras_de_la_Salud.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Disponibilidad y Gestión Sostenible del Agua",
+                                "archivo": "Disp_y_Gestion_Sost_del_Agua.pdf"
+                            }
+
+                        ]
+                    },
+                    {
+                        "optativa": [{
+                                "nombre": "Producción Segura y Sostenible de Alimentos",
+                                "archivo": "Produccion_Segura_y_Sostenible_de_Alimentos.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Manejo de Residuos Sólidos",
+                                "archivo": "Manejo_de_Residuos_Solidos.pdf",
+                                "optativa": 2
+                            }
+
+                        ]
+                    },
+                    {
+                        "optativa": [{
+                                "nombre": "Sostenibilidad, Seguridad y Acceso a los Alimentos ",
+                                "archivo": "Sostenibilidad,_Seguridad_y_Acceso_a_los_Alimentos.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Tratamiento de Aguas Residuales",
+                                "archivo": "Tratamiento_de_Aguas_Residuales.pdf",
+                                "optativa": 3
+                            }
+
+                        ]
+                    }
+                ]
+            },
+            "Noveno": {
+                "numero": 9,
+                "materias": [{
+                        "nombre": "Estancia Profesional",
+                        "archivo": "Estancia_Profesional.pdf"
+                    }
+
+                ]
+            }
+        }
+    }
+}

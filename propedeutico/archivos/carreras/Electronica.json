@@ -1,0 +1,301 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2022",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo I",
+                        "archivo": "Calculo_I.pdf"
+                    },
+                    {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "Historia_Del_Pensamiento_Filosofico.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Sistemas Electrónicos",
+                        "archivo": "Fundamentos_De_Sistemas_Electronicos.pdf"
+                    },
+                    {
+                        "nombre": "Mecánica para Ingeniería",
+                        "archivo": "Mecanica_Para_Ingenieria.pdf"
+                    },
+                    {
+                        "nombre": "Programación Estructurada",
+                        "archivo": "Programacion_Estructurada.pdf"
+                    }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Álgebra Lineal",
+                        "archivo": "Algebra_Lineal.pdf"
+                    },
+                    {
+                        "nombre": "Cálculo II",
+                        "archivo": "Calculo_II.pdf"
+                    },
+                    {
+                        "nombre": "Instrumentación Electrónica",
+                        "archivo": "Instrumentacion_Electronica.pdf"
+                    },
+                    {
+                        "nombre": "Estructura de Datos",
+                        "archivo": "Estructura_De_Datos.pdf"
+                    },
+                    {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "Teoria_General_De_Sistemas.pdf"
+                    }
+                ]
+            },
+
+            "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    {
+                        "nombre": "Análisis Vectorial",
+                        "archivo": "Analisis_Vectorial.pdf"
+                    },
+                    {
+                        "nombre": "Circuitos Eléctricos I",
+                        "archivo": "Circuitos_Electricos_I.pdf"
+                    },
+                    {
+                        "nombre": "Ecuaciones Diferenciales",
+                        "archivo": "Ecuaciones_Diferenciales.pdf"
+                    },
+                    {
+                        "nombre": "Programación Orientada a Objetos",
+                        "archivo": "Programacion_Orientada_A_Objetos.pdf"
+                    },
+                    {
+                        "nombre": "Construcción de Sistemas Electrónicos",
+                        "archivo": "Construccion_De_Sistemas_Electronicos.pdf"
+                    }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                    {
+                        "nombre": "Circuitos Eléctricos II",
+                        "archivo": "Circuitos_Electricos_II.pdf"
+                    },
+                    {
+                        "nombre": "Circuitos Lógicos",
+                        "archivo": "Circuitos_Logicos.pdf"
+                    },
+                    {
+                        "nombre": "Electricidad y Magnetismo",
+                        "archivo": "Electricidad_Y_Magnetismo.pdf"
+                    },
+                    {
+                        "nombre": "Transformadas para Ingeniería",
+                        "archivo": "Transformadas_Para_Ingenieria.pdf"
+                    },
+                    {
+                        "nombre": "Programación Visual",
+                        "archivo": "Programacion_Visual.pdf"
+                    }
+                ]
+            },
+
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Circuitos Electrónicos",
+                        "archivo": "Circuitos_Electronicos.pdf"
+                    },
+                    {
+                        "nombre": "Química para Ingeniería",
+                        "archivo": "Quimica_Para_Ingenieria.pdf"
+                    },
+                    {
+                        "nombre": "Métodos Numéricos",
+                        "archivo": "Metodos_Numericos.pdf"
+                    },
+                    {
+                        "nombre": "Circuitos Digitales Reconfigurables",
+                        "archivo": "Circuitos_Digitales_Reconfigurables.pdf"
+                    },
+                    {
+                        "nombre": "Sensores y Actuadores",
+                        "archivo": "Sensores_Y_Actuadores.pdf"
+                    }
+                ]
+            },
+
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Fundamentos de Administración",
+                        "archivo": "Fundamentos_De_Administracion.pdf"
+                    },
+                    {
+                        "nombre": "Microcontroladores",
+                        "archivo": "Microcontroladores.pdf"
+                    },
+                    {
+                        "nombre": "Sistemas de Control",
+                        "archivo": "Sistemas_De_Control.pdf"
+                    },
+                    {
+                        "nombre": "Electrónica de Potencia",
+                        "archivo": "Electronica_De_Potencia.pdf"
+                    },
+                    {
+                        "nombre": "Comunicación de Datos",
+                        "archivo": "Comunicacion_De_Datos.pdf"
+                    }
+                ]
+            },
+
+            "Séptimo":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Dirección de Empresas",
+                        "archivo": "Direccion_De_Empresas.pdf"
+                    },
+                    {
+                        "nombre": "Microcontroladores Avanzados",
+                        "archivo": "Microcontroladores_Avanzados.pdf"
+                    },
+                    {
+                        "nombre": "Máquinas Eléctricas",
+                        "archivo": "Maquinas_Electricas.pdf"
+                    },
+                    {
+                        "nombre": "Procesamiento de Señales",
+                        "archivo": "Procesamiento_De_Señales.pdf"
+                    },
+                    {
+                        "nombre": "Redes de Computadoras",
+                        "archivo": "Redes_De_Computadoras.pdf"
+                    }
+                ]
+            },
+
+            "Octavo":{
+                "numero": 8,
+                "materias" : [
+                    {
+                        "nombre": "Derecho Mercantil, Laboral y Propiedad Industrial",
+                        "archivo": "Derecho_Mercantil,_Laboral_Y_Propiedad_Industrial.pdf"
+                    },
+                    {
+                        "nombre": "Sistemas Operativos Empotrados",
+                        "archivo": "Sistemas_Operativos_Empotrados.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Robótica",
+                        "archivo": "Fundamentos_De_Robotica.pdf"
+                    },
+                    {
+                        "nombre": "Administración de Redes",
+                        "archivo": "Administracion_De_Redes.pdf"
+                    },
+                    {
+                        "nombre": "Fundamentos de Internet de las Cosas",
+                        "archivo": "Fundamentos_De_Internet_De_Las_Cosas.pdf"
+                    }
+                ]
+            },
+
+            "Noveno":{
+                "numero": 9,
+                "materias" : [
+                    {
+                        "nombre": "Arquitectura de Computadoras",
+                        "archivo": "Arquitectura_De_Computadoras.pdf"
+                    },
+                    {
+                        "nombre": "Ingeniería de Sistemas Empotrados",
+                        "archivo": "Ingenieria_De_Sistemas_Empotrados.pdf"
+                    },
+                    {
+                        "nombre": "Inteligencia Artificial",
+                        "archivo": "Inteligencia_Artificial.pdf"
+                    },
+                    {
+                        "nombre": "Redes Industriales",
+                        "archivo": "Redes_Industriales.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Internet de las Cosas",
+                                "archivo": "Internet_De_Las_Cosas.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Energías Renovables",
+                                "archivo": "Energias_Renovables.pdf",
+                                "optativa": 1
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+
+            "Décimo":{
+                "numero": 10,
+                "materias" : [
+                    {
+                        "nombre": "Proyecto Terminal",
+                        "archivo": "Proyecto_Terminal.pdf"
+                    },
+                    {
+                        "nombre": "Controladores Lógicos Programables",
+                        "archivo": "Controladores_Logicos_Programables.pdf"
+                    },
+                    {
+                        "nombre": "Visión Artificial",
+                        "archivo": "Vision_Artificial.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Análisis de Datos",
+                                "archivo": "Analisis_De_Datos.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Tópicos Selectos de Control",
+                                "archivo": "Topicos_Selectos_De_Control.pdf",
+                                "optativa": 2
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre":"Desarrollo de Soluciones IoT",
+                                "archivo": "Desarrollo_De_Soluciones_Iot.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Sistemas de Accionamiento Eléctrico",
+                                "archivo": "Sistemas_De_Accionamiento_Electrico.pdf",
+                                "optativa": 3
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+            
+        }
+    }
+}

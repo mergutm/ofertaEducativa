@@ -1,0 +1,219 @@
+/* CSS Document */
+body {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif; margin-top: 0; margin-bottom: 0;
+	background-color: #9C5811;
+	} 
+	
+.izquierda{
+	background:url(./margen2.png) repeat-y;
+}	
+
+.derecha{
+	background:url(./margen.png) repeat-y;
+}
+	
+#menu {list-style-type:none; 
+margin:10px 0 0 2px; 
+padding:0;
+color: #291801;}
+
+/*menú superior*/
+#menu li {display:block; float:left; position:relative; z-index:100; margin-right:1px;}
+#menu li span {display:block; z-index:100; background:#291801; padding: 5px 11px;font-size:11px;}
+#menu li a, #menu li a:visited {display:block; padding:0;}
+
+#menu dl {position:absolute; top:0; left:0; margin: 0; padding: 0;}
+#menu dt {background: #291801; margin:0; font-size: 11px; float:left;}
+#menu dd {display:none; background: #291801; clear:left; margin:0; padding:0; color: #fff; font-size: 10px; text-align:left;}
+
+#menu dt a, #menu dt a:visited {display:block; color:#FFFF99 ; padding: 5px 11px; text-decoration:none;}
+#menu dd a, #menu dd a:visited {background:#A40400; color:#ff8; text-decoration:none; display:block; padding: 3px 10px;}
+
+#menu li a:hover {border:0;}
+
+/*menú Inferior*/
+#menu li:hover dd, #menu li a:hover dd {display:block;}
+#menu li:hover dt a, #menu li a:hover dt a, #menu dd a:hover {background: #877238; color:#fff;}
+
+.menu2 li:hover dd, #menu li a:hover dd {display:block;}
+
+
+.menu2{
+	color:#877238; padding: 5px 10px; text-decoration:none; text-align:center;
+}
+
+.menu2 a{
+	color:#877238; padding: 5px 10px; text-decoration:none; text-align:center;
+}
+	
+.ligas {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/**********pie de página******************/
+.pie {
+	height:70px;
+	vertical-align:middle;
+	color:#808785;
+	font-size:11px;
+	}		
+td.pie table td {font-size:11px;}	
+td.pie a {color:#fff;}
+/*td.pie a:hover {}*/
+
+td.direc{
+	font-size:11px; color:#808785;
+}
+
+.piep{
+	background:url(../images/pie.png) repeat-x;
+}
+
+.enlaces {
+	background-color: #FFFFCC;
+	width:195px;
+	height:215px;
+	vertical-align:top;
+}
+
+.enlaces img {
+    border: none;
+}
+
+.enlaces a {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	text-decoration: none;
+}
+
+.enlaces a:hover{
+	color: #ff0000;
+
+}
+/*para pie*/
+.enlacesp {
+	vertical-align:top;
+}
+
+.enlacesp img {
+    border: none;
+}
+
+.enlacesp a {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	text-decoration: none;
+}
+
+.enlacesp a:hover{
+	color: #ff0000;
+
+}
+/*fin de pie*/
+.irinicio a{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #877238;
+	text-decoration: none;
+	padding:6px 5px 6px 0;
+}
+
+.irinicio a:hover{
+	color: #ff0000;
+
+}
+
+.Titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #291801;
+	text-align: center;
+}
+
+.Subtitulo{
+	font-size: 14px;
+	font-weight: bold;
+	color: #877238;
+	margin-left: 5px;
+}
+/*empieza el menú para la info de las carreras*/
+#menuc dl {width: 200px; margin: 0 auto; padding: 0 0 10px 0; background: #291801 url(../images/bottom.gif) no-repeat bottom left;}
+#menuc dt {margin:0; padding: 10px; font-size: 0.4em; font-weight:bold; color: #fff; border-bottom:1px solid #fff; background: #291801 url(../images/top.gif) no-repeat top left;}
+#menuc dd {margin:0; padding:0; color: #fff; font-size: 1em; border-bottom:1px solid #fff; background: #877238;}
+
+#gallery a, #gallery a:visited {color:#fff; text-decoration:none; display:block; padding:5px 5px 5px 20px;
+background: #877238 url(../images/arrow.gif) no-repeat 10px 10px; width:175px;
+}
+#gallery a:hover {background: #291801 url(../images/arrowr.gif) no-repeat 11px 10px; color:#877238;}
+
+.subir a{
+	font-family: Arial, Helvetica, sans-serif; font-size: 11px; color:#ff0000; text-decoration: none; margin-right: 8px;
+}
+
+.subir a:hover{
+	color:#FF9900; font-weight: bold;
+}
+
+.tablap {
+border: 2px solid #877238; align:center; padding: 2px 2px 2px 2px;
+}
+
+.tablai {
+border: 1px solid #877238; align:center; padding: 5px 5px 5px 0;
+}
+
+div.lista {
+	float:none;
+	width:700px;
+	overflow:auto;
+	}
+div.lista ul {
+	margin:10px 8px 10px 7px;
+	padding-left:24px;
+	}
+div.lista li {
+	font-size:12px; text-align: justify;
+	line-height:12px;
+	list-style-image: url(../images/flecha.png);
+	margin-bottom:5px;
+	margin-left:8px;
+	margin-right:4px;
+	}	
+div.lista a {
+	color:#000;
+	}	
+div.lista a:hover {
+	color:#666;
+	}
+	
+.justificar{
+	text-align: justify;
+	margin-left:4px;
+	margin-right:4px;
+}
+
+p#rector a{	text-decoration:none; color:#877238; font-weight: bold; }
+
+.pie #foot img {border:none;}
+
+/*menusecundario*/
+.menusec dl {width: 200px; margin: 0 auto; padding: 0 0 10px 0; background: #877238 url(../images/bottom.gif) no-repeat bottom left;}
+.menusec dt {margin:0; padding: 10px; font-size: 1.1em; font-weight:bold; color: #fff; border-bottom:1px solid #fff; background: #877238 url(../images/top.gif) no-repeat top left;}
+.menusec dd {margin:0; padding:0; color: #fff; font-size: .9em; border-bottom:1px solid #877238; background: #EEE8D7;}
+.secmenu a, .secmenu a:visited {color:#877238; text-decoration:none; display:block; padding:5px 5px 5px 20px;background: #EEE8D7 url(../images/arrows.gif) no-repeat 10px 10px; width:175px;}
+.secmenu a:hover {background: #877238 url(../images/arrow.gif) no-repeat 11px 10px; color:#ffffff;}
+
+td.thumb img{border:none;}
+
+
+/*Elementos de estilo para COMPUTACIÓN */
+.tcompu		{ width: 850px; table-layout:fixed }
+.tcompu th, .tcompu td	{ padding: 10px; }
+.ttcompu td	{ width: 300px; }
+.tcompu th	{ background-color: #877238; color: white; }
+.tcompu	td	{ background-color: #EEE8D7; vertical-align: top; }

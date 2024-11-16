@@ -1,0 +1,299 @@
+{
+  "actual": {
+    "plan": "Plan 5 (2016)",
+    "contenido": {
+      "Primero": {
+        "numero": 1,
+        "materias": [
+          {
+            "nombre": "Programación Estructurada",
+            "archivo": "Progr._Estructurada.pdf"
+          },
+          {
+            "nombre": "Precálculo",
+            "archivo": "Precalculo.pdf"
+          },
+          {
+            "nombre": "Química General para Ingeniería",
+            "archivo": "Quimica_General_para_Ingenieria.pdf"
+          },
+          {
+            "nombre": "Física para Ingeniería",
+            "archivo": "Fisica_para_Ingenieria.pdf"
+          },
+          {
+            "nombre": "Historia del Pensamiento Filosofico",
+            "archivo": "Historia_del_Pensamiento_Filosofico.pdf"
+          }
+        ]
+      },
+
+      "Segundo": {
+        "numero": 2,
+        "materias": [
+          {
+            "nombre": "Estructura de Datos",
+            "archivo": "Estructura_de_Datos.pdf"
+          },
+          {
+            "nombre": "Cálculo Diferencial para Ingeniería",
+            "archivo": "Calculo_Diferencial_para_Ingenieria.pdf"
+          },
+          {
+            "nombre": "Álgebra Lineal para Ingeniería",
+            "archivo": "Algebra_Lineal_para_Ingenieria.pdf"
+          },
+          {
+            "nombre": "Principios de Electrónica Analógica",
+            "archivo": "Principios_de_Electronica_Analogica.pdf"
+          },
+          {
+            "nombre": "Teoría General de Sistemas",
+            "archivo": "Teoria_General_de_Sistemas.pdf"
+          }
+        ]
+      },
+      "Tercero": {
+        "numero": 3,
+        "materias": [
+          {
+            "nombre": "Programación Orientada a Objetos",
+            "archivo": "Programacion_Orientada_a_Objetos.pdf"
+          },
+          {
+            "nombre": "Cálculo Integral para Ingeniería",
+            "archivo": "Calculo_Integral_para_Ingenieria.pdf"
+          },
+          {
+            "nombre": "Teoría de la Computación",
+            "archivo": "Teoria_de_la_Computacion.pdf"
+          },
+          {
+            "nombre": "Diseño Digital",
+            "archivo": "Diseno_Digital.pdf"
+          },
+          {
+            "nombre": "Matemáticas Discretas",
+            "archivo": "Matematicas_Discretas.pdf"
+          }
+        ]
+      },
+      "Cuarto": {
+        "numero": 4,
+        "materias": [
+          {
+            "nombre": "Análisis de Algorítmos",
+            "archivo": "Analisis_de_Algoritmos.pdf"
+          },
+          {
+            "nombre": "Ecuaciones Diferenciales",
+            "archivo": "Ecuaciones_Diferenciales.pdf"
+          },
+          {
+            "nombre": "Lenguaje Ensamblador",
+            "archivo": "Lenguaje_Ensamblador.pdf"
+          },
+          {
+            "nombre": "Cómputo Reconfigurable",
+            "archivo": "Computo_Reconfigurable.pdf"
+          },
+          {
+            "nombre": "Bases de Datos",
+            "archivo": "Bases_de_Datos.pdf"
+          }
+        ]
+      },
+      "Quinto": {
+        "numero": 5,
+        "materias": [
+          {
+            "nombre": "Ingeniería de Software",
+            "archivo": "Ingenieria_de_Software.pdf"
+          },
+          {
+            "nombre": "Métodos Numéricos",
+            "archivo": "Metodos_Numericos.pdf"
+          },
+          {
+            "nombre": "Compiladores",
+            "archivo": "Compiladores.pdf"
+          },
+          {
+            "nombre": "Arquitectura y Organización de Computadoras",
+            "archivo": "Arquitectura_y_Organizacion_de_Computadoras.pdf"
+          },
+          {
+            "nombre": "Programación Web I",
+            "archivo": "Programacion_Web_I.pdf"
+          }
+        ]
+      },
+      "Sexto": {
+        "numero": 6,
+        "materias": [
+          {
+            "nombre": "Desarrollo de Software Orientado a Objetos",
+            "archivo": "Desarrollo_de_Software_Orientado_a_Objetos.pdf"
+          },
+          {
+            "nombre": "Sistemas Operativos",
+            "archivo": "Sistemas_Operativos.pdf"
+          },
+          {
+            "nombre": "Redes de Computadoras I",
+            "archivo": "Redes_de_Computadoras_I.pdf"
+          },
+          {
+            "nombre": "Sistemas Embebidos",
+            "archivo": "Sistemas_Embebidos.pdf"
+          },
+          {
+            "nombre": "Programación Web II",
+            "archivo": "Programacion_Web_II.pdf"
+          }
+        ]
+      },
+      "Séptimo": {
+        "numero": 7,
+        "materias": [
+          {
+            "nombre": "Interacción Humano-Computadora",
+            "archivo": "Interaccion_Humano-Computadora.pdf"
+          },
+          {
+            "nombre": "Probabilidad y estadística",
+            "archivo": "Probabilidad_y_Estadistica.pdf"
+          },
+          {
+            "nombre": "Redes de Computadoras II",
+            "archivo": "Redes_de_Computadoras_II.pdf"
+          },
+          {
+            "nombre": "Administración y Dirección Empresarial",
+            "archivo": "Administracion_y_Direccion_Empresarial.pdf"
+          },
+          {
+            "nombre": "Programación Funcional",
+            "archivo": "Programacion_Funcional.pdf"
+          }
+        ]
+      },
+      "Octavo": {
+        "numero": 8,
+        "materias": [
+          {
+            "nombre": "Desarrollo Ágil de Software",
+            "archivo": "Desarrollo_Agil_de_Software.pdf"
+          },
+          {
+            "nombre": "Desarrollo de Aplicaciones para Dispositivos Móviles",
+            "archivo": "Desarrollo_de_Aplicaciones_para_Dispositivos_Moviles.pdf"
+          },
+          {
+            "nombre": "Sistemas de Cómputo Paralelo y Distribuido",
+            "archivo": "Sistemas_de_Computo_Paralelo_y_Distribuido.pdf"
+          },
+          {
+            "nombre": "Mercadotecnia",
+            "archivo": "Mercadotecnia.pdf"
+          },
+          {
+            "nombre": "Inteligencia artificial",
+            "archivo": "Inteligencia_Artificial.pdf"
+          }
+        ]
+      },
+
+      "Noveno": {
+        "numero": 9,
+        "materias": [
+          {
+            "optativa": [
+              {
+                "nombre": "Procesamiento digital de imágenes",
+                "archivo": "Procesamiento_Digital_de_Imagenes.pdf",
+                "optativa": 1
+              },
+              {
+                "nombre": "Ingeniería de Requerimientos",
+                "archivo": "Ingenieria_de_Requerimientos.pdf",
+                "optativa": 1
+              }
+            ]
+          },
+          {
+            "optativa": [
+              {
+                "nombre": "Computación Flexible",
+                "archivo": "Computacion_Flexible.pdf",
+                "optativa": 2
+              },
+              {
+                "nombre": "Pruebas de Software",
+                "archivo": "Pruebas_de_Software.pdf",
+                "optativa": 2
+              }
+            ]
+          },
+          {
+            "nombre": "Administración de Redes",
+            "archivo": "Administracion_de_Redes.pdf"
+          },
+          {
+            "nombre": "Desarrollo de Videojuegos",
+            "archivo": "Desarrollo_de_Videojuegos.pdf"
+          },
+          {
+            "nombre": "Investigación de Operaciones",
+            "archivo": "Investigacion_de_Operaciones.pdf"
+          }
+        ]
+      },
+      "Décimo": {
+        "numero": 10,
+        "materias": [
+          {
+            "optativa": [
+              {
+                "nombre": "Reconocimiento de Patrones",
+                "archivo": "Reconocimiento_de_Patrones.pdf",
+                "optativa": 3
+              },
+              {
+                "nombre": "Administración de Proyectos",
+                "archivo": "Administracion_de_Proyectos.pdf",
+                "optativa": 3
+              }
+            ]
+          },
+          {
+            "optativa": [
+              {
+                "nombre": "Metahuristicas",
+                "archivo": "Metaheuristicas.pdf",
+                "optativa": 4
+              },
+              {
+                "nombre": "Desarrollo de la Interacción Humano-Computadora",
+                "archivo": "Desarrollo_de_la_Interaccion_Humano-Computadora.pdf",
+                "optativa": 4
+              }
+            ]
+          },
+          {
+            "nombre": "Formulación y Evaluación de Proyectos",
+            "archivo": "Formulacion_y_Evaluacion_de_Proyectos.pdf"
+          },
+          {
+            "nombre": "Metodología de la Investigación",
+            "archivo": "Metodologia_de_la_Investigacion.pdf"
+          },
+          {
+            "nombre": "Ética y Profesionalismo",
+            "archivo": "Etica_y_Profesionalismo.pdf"
+          }
+        ]
+      }
+    }
+  }
+}

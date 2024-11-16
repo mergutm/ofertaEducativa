@@ -1,0 +1,38 @@
+/*\*//*/
+   @import "jd.layout-ie.css";
+/**/
+
+/* Prevent background image flickering in IE6 SP1+ */
+* html 
+{
+      filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+ul#nav
+{ 
+	z-index: 20;
+}
+
+#galleryContainer
+{
+	width: 724px;
+	height: 349px;
+	margin: 0;
+	position:relative;
+}
+
+
+
+#myGallery
+{
+	width: 724px;
+	height: 347px;
+	z-index: 5;
+	display: none;
+	position: absolute;
+	margin: 1px;
+	background-image: url('images/slides/uno.jpg');
+	left: 0px;
+
+
+}

@@ -1,0 +1,108 @@
+h2.trigger {
+	padding: 0 10px 0 20px;
+	margin: 0 0 2px 20px;
+	background-color:#CC9;
+	height: 46px;
+	line-height: 46px;
+	width: 650px;
+	font-size: 2em;
+	font-weight: normal;
+	float: left; font-family:Georgia, "Times New Roman", Times, serif;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+}
+h2.trigger a {
+	color: #993333;
+	text-decoration: none;
+	display: block;
+}
+h2.trigger a:hover { color: #333333; }
+h2.active {background-position: left bottom;} /*--When toggle is triggered, it will shift the image to the bottom to show its "opened" state--*/
+.toggle_container {
+	margin: 0 0 5px 20px;
+	padding: 0;
+	border-top: 1px solid #d6d6d6;
+	background: #f0f0f0 url(../images/labs/toggle_block_stretch.gif) repeat-y left top;
+	overflow: hidden;
+	font-size: 1.2em;
+	width: 680px;
+	clear: both;
+}
+.toggle_container .block {
+	padding: 20px; /*--Padding of Container--*/
+	background: url(../images/labs/toggle_block_btm.gif) no-repeat left bottom; /*--Bottom rounded corners--*/
+}
+.toggle_container .block p {
+	padding: 5px 0; text-align:justify; font-size:12px;
+	margin: 5px 0;
+}
+
+.toggle_container .block ul {
+	margin: 5px; padding-left:15px; text-align:justify;
+}
+
+.toggle_container .block li { list-style-image:url(../images/b1.gif); line-height:16px; font-size:12px;
+}
+.toggle_container h3 {
+	font: 2.5em normal Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 10px;
+	padding: 0 0 5px 0;
+	border-bottom: 1px dashed #ccc;
+}
+.toggle_container img {
+	float: left;
+	margin: 10px 15px 15px 0;
+	padding: 5px;
+	background: #ddd;
+	border: 1px solid #ccc;
+}
+
+.toggle_container .block img.arrobalab {display:inline; padding:0; float:none; margin:0; clear:both; border:0;}
+
+.toggle_container .block p.centrolab { text-align:center; font-weight:bold; font-size:14px; text-decoration:underline; color: #993333;}
+
+.toggle_container .block p.centrolab2 { text-align:center;}
+
+/*para títulos*/
+.gale{ font-family:Verdana, Geneva, sans-serif; font-size:14px; letter-spacing:2; color:#993333; font-weight:bold;}
+
+/*para galería*/
+.galleryf{
+	padding: 0; width: 680px;
+}
+.galleryf ul{
+	list-style: none;
+}
+.galleryf ul li{
+	display: inline;
+}
+.galleryf ul img{
+	margin: 10px 15px 15px 0;
+	padding: 5px;
+	background: #ddd;
+	border: 1px solid #ccc;
+}
+.galleryf ul a:hover img{
+	margin: 10px 15px 15px 0;
+	padding: 5px;
+	background: #ddd;
+	border: 1px solid #ccc;
+}
+.galleryf ul a:hover{
+	color: #fff;
+}
+
+/*para tablas mostradas en la info*/
+.tablab { border-bottom: #202F2E solid 2px; border-top: #202F2E solid 2px; color:#000; background-color:#DDCC62; padding:5px;}
+.tablab th { border-bottom: #202F2E solid 2px; border-top: #202F2E solid 2px; color:#000; background-color:#DDCC62; padding:5px;}
+
+.tablab2 { border-bottom: #202F2E solid 2px; padding:5px; font-size:11px; text-align:center; background-color:#ffffff;}
+.tablab2 td,th { border-bottom: #202F2E solid 2px; padding:5px; font-size:14px; text-align:center; background-color:#ffffff; }
+/*extra oferta educativa */
+.tablab2 td a { text-decoration-line: none; }
+.tablab2 td a:link 	{ color: #000; }
+.tablab2 td a:hover 	{ color: #0000ff; }
+.tablab2 td a:visited 	{ color: #000; }
+
+.tablab3 { border-bottom: #202F2E solid 2px; padding:5px; font-size:11px; text-align:justify;}
+

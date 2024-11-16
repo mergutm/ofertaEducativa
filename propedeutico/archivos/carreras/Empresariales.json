@@ -1,0 +1,258 @@
+{
+    "actual":{
+        "plan": "Plan 2018",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Matemáticas para Ciencias Empresariales",
+                        "archivo": "Matematicas_Para_Ciencias_Empresariales.pdf"
+                    },
+                    {
+                        "nombre": "Introducción a las Ciencias Administrativas",
+                        "archivo": "Introduccion_A_Las_Ciencias_Administrativas.pdf"
+                    },
+                    {
+                        "nombre": "Introducción a la Contabilidad",
+                        "archivo": "Introduccion_A_La_Contabilidad.pdf"
+                    },
+                    {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "Historia_Del_Pensamiento_Filosofico.pdf"
+                    },
+                    {
+                        "nombre": "Informática Empresarial",
+                        "archivo": "Informatica_Empresarial.pdf"
+                    }
+                ]
+            },
+            "Segundo":{
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Probabilidad y Estadística Descriptiva",
+                        "archivo": "Probabilidad_Y_Estadistica_Descriptiva.pdf"
+                    },
+                    {
+                        "nombre": "Administración de Recursos Humanos I",
+                        "archivo": "Administracion_De_Recursos_Humanos_I.pdf"
+                    },
+                    {
+                        "nombre": "Contabilidad Financiera",
+                        "archivo": "Contabilidad_Financiera.pdf"
+                    },
+                    {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "Teoria_General_De_Sistemas.pdf"
+                    },
+                    {
+                        "nombre": "Introducción al Derecho",
+                        "archivo": "Introduccion_Al_Derecho.pdf"
+                    }
+                ]
+            },
+            "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    {
+                        "nombre": "Estadística Inferencial",
+                        "archivo": "Estadistica_Inferencial.pdf"
+                    },
+                    {
+                        "nombre": "Administración de Recursos Humanos II",
+                        "archivo": "Administracion_De_Recursos_Humanos_II.pdf"
+                    },
+                    {
+                        "nombre": "Administración de Compras e Inventarios",
+                        "archivo": "Administracion_De_Compras_E_Inventarios.pdf"
+                    },
+                    {
+                        "nombre": "Contabilidad de Costos",
+                        "archivo": "Contabilidad_De_Costos.pdf"
+                    },
+                    {
+                        "nombre": "Derecho Mercantil",
+                        "archivo": "Derecho_Mercantil.pdf"
+                    }
+                ]
+            },
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                    {
+                        "nombre": "Fundamentos de la Mercadotecnia",
+                        "archivo": "Fundamentos_De_La_Mercadotecnia.pdf"
+                    },
+                    {
+                        "nombre": "Matemáticas Financieras",
+                        "archivo": "Matematicas_Financieras.pdf"
+                    },
+                    {
+                        "nombre": "Microeconomía",
+                        "archivo": "Microeconomia.pdf"
+                    },
+                    {
+                        "nombre": "Metodología de la Investigación",
+                        "archivo": "Metodologia_De_La_Investigacion.pdf"
+                    },
+                    {
+                        "nombre": "Derecho Laboral",
+                        "archivo": "Derecho_Laboral.pdf"
+                    }
+                ]
+            },
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Administración de Sueldos y Salarios",
+                        "archivo": "Administracion_De_Sueldos_Y_Salarios.pdf"
+                    },
+                    {
+                        "nombre": "Finanzas Empresariales I",
+                        "archivo": "Finanzas_Empresariales_I.pdf"
+                    },
+                    {
+                        "nombre": "Macroeconomía",
+                        "archivo": "Macroeconomia.pdf"
+                    },
+                    {
+                        "nombre": "Taller de Metodología de la Investigación",
+                        "archivo": "Taller_De_Metodologia_De_La_Investigacion.pdf"
+                    },
+                    {
+                        "nombre": "Derecho Fiscal",
+                        "archivo": "Derecho_Fiscal.pdf"
+                    }
+                ]
+            },
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Desarrollo Sustentable y Empresa",
+                        "archivo": "Desarrollo_Sustentable_Y_Empresa.pdf"
+                    },
+                    {
+                        "nombre": "Finanzas Empresariales II",
+                        "archivo": "Finanzas_Empresariales_II.pdf"
+                    },
+                    {
+                        "nombre": "Investigación de Mercados",
+                        "archivo": "Investigacion_De_Mercados.pdf"
+                    },
+                    {
+                        "nombre": "Economía Internacional",
+                        "archivo": "Economia_Internacional.pdf"
+                    },
+                    {
+                        "nombre": "Sistema de Información Gerencial",
+                        "archivo": "Sistema_De_Informacion_Gerencial.pdf"
+                    }
+                ]
+            },
+            "Séptimo":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Investigación de Operaciones",
+                        "archivo": "Investigacion_De_Operaciones.pdf"
+                    },
+                    {
+                        "nombre": "Planeación Estratégica",
+                        "archivo": "Planeacion_Estrategica.pdf"
+                    },
+                    {
+                        "nombre": "Administración Estratégica de Ventas",
+                        "archivo": "Administracion_Estrategica_De_Ventas.pdf"
+                    },
+                    {
+                        "nombre": "Sistema Financiero",
+                        "archivo": "Sistema_Financiero.pdf"
+                    },
+                    {
+                        "nombre": "Economía del Sector Público Mexicano",
+                        "archivo": "Economia_Del_Sector_Publico_Mexicano.pdf"
+                    }
+                ]
+            },
+            "Octavo":{
+                "numero": 8,
+                "materias" : [
+                    {
+                        "nombre": "Desarrollo Organizacional",
+                        "archivo": "Desarrollo_Organizacional.pdf"
+                    },
+                    {
+                        "nombre": "Dirección Comercial",
+                        "archivo": "Direccion_Comercial.pdf"
+                    },
+                    {
+                        "nombre": "Emprendedurismo",
+                        "archivo": "Emprendedurismo.pdf"
+                    },
+                    {
+                        "nombre": "Presupuestos",
+                        "archivo": "Presupuestos.pdf"
+                    },
+                    {
+                        "nombre": "Desarrollo Regional",
+                        "archivo": "Desarrollo_Regional.pdf"
+                    }
+                ]
+            },
+            "Noveno":{
+                "numero": 9,
+                "materias" : [
+                    {
+                        "nombre": "Cultura Empresarial",
+                        "archivo": "Cultura_Empresarial.pdf"
+                    },
+                    {
+                        "nombre": "Gestión de la Calidad",
+                        "archivo": "Gestion_De_La_Calidad.pdf"
+                    },
+                    {
+                        "nombre": "Emprendimiento de Negocios",
+                        "archivo": "Emprendimiento_De_Negocios.pdf"
+                    },
+                    {
+                        "nombre": "Finanzas Corporativas",
+                        "archivo": "Finanzas_Corporativas.pdf"
+                    },
+                    {
+                        "nombre": "Comercio Exterior",
+                        "archivo": "Comercio_Exterior.pdf"
+                    }
+                ]
+            },
+            "Décimo":{
+                "numero": 10,
+                "materias" : [
+                    {
+                        "nombre": "Dirección y Liderazgo",
+                        "archivo": "Direccion_Y_Liderazgo.pdf"
+                    },
+                    {
+                        "nombre": "Estrategia Publicitaria y Promocional",
+                        "archivo": "Estrategia_Publicitaria_Y_Promocional.pdf"
+                    },
+                    {
+                        "nombre": "Desarrollo y Evaluación de Proyectos de Inversión",
+                        "archivo": "Desarrollo_Y_Evaluacion_De_Proyectos_De_Inversion.pdf"
+                    },
+                    {
+                        "nombre": "Toma de Decisiones Financieras",
+                        "archivo": "Toma_De_Decisiones_Financieras.pdf"
+                    },
+                    {
+                        "nombre": "Mercadotecnica Digital",
+                        "archivo": "Mercadotecnica_Digital.pdf"
+                    }
+                ]
+            }
+
+        }
+    }
+}

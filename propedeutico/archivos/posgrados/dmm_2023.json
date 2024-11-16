@@ -1,0 +1,205 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2023",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Modelación matemática",
+                        "archivo": "292101_MODELACION_MATEMATICA.PDF"
+                    },
+                    {
+                        "nombre": "Modelación Estadística",
+                        "archivo": "292102_MODELACION_ESTADISTICA.PDF"
+                    },
+                    {
+                        "nombre": "Seminario de tesis",
+                        "archivo": "292103_SEMINARIO_DE_TESIS.PDF"
+                    } 
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Modelación Avanzada para Ciencia de datos",
+                        "archivo": "292201_MODELACION AVANZADA_PARA_CIENCIA_DE_DATOS.PDF"
+                    },
+                    { 
+                        "nombre": "Optativa I"
+                    },
+                    {
+                        "nombre": "Seminario de tesis I",
+                        "archivo": "292202_SEMINARIO_DE_INVESTICACION_I.PDF"
+                    }
+
+                ]
+            },
+
+             
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Optativa II"
+                            
+                        },
+                        { 
+                        "nombre": "Seminario de Investigación II",
+                        "archivo": "292301_SEMINARIO_DE_INVESTIGACION_II.PDF"                        
+                        }     
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Optativa III"
+                            
+                        },
+                        {
+                            "nombre": "Seminario de Investigación III",
+                            "archivo": "292401_SEMINARIO_DE_INVESTIGACION_III.PDF"
+                        }                           
+
+                ]
+            },
+
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de Investigación IV",
+                        "archivo":"292501_SEMINARIO_DE_INVESTIGACION_IV.PDF"
+                    }
+                ]
+            },
+
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de Investigación V",
+                        "archivo":"292601_SEMINARIO_DE_INVESTIGACION_V.PDF"
+                    }        
+                ]
+            },    
+            "Séptimo":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de Investigación VI",
+                        "archivo":"292701_SEMINARIO_DE_INVESTIGACION_VI.PDF"
+                    }        
+                ]
+            }, 
+            "Octavo":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de Investigación VII",
+                        "archivo":"292801_SEMINARIO_DE_INVESTIGACIÓN_VII.PDF"
+                    }        
+                ]
+            },  
+            "Optativas":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Biomatemática",
+                        "archivo": "292901_BIOMATEMATICA.PDF"
+                    },
+                    {
+                        "nombre": "Ecuaciones Diferenciales Parciales",
+                        "archivo": "292902_ECUACIONES_DIFERENCIALES_PARCIALES.PDF"
+                    },
+                    {
+                        "nombre": "Problemas Inversos",
+                        "archivo": "292903_PROBLEMAS_INVERSOS.PDF"
+                    },
+                    {
+                        "nombre": "Espacios de Sobolev y Aplicaciones",
+                        "archivo": "292904_ESPACIOS_DE_SOBOLEV_Y_APLICACIONES.PDF"
+                    },
+                    {
+                        "nombre": "Espacios de Complejidad de Algoritmos",
+                        "archivo": "292905_ESPACIOS_DE_COMPLEJIDAD_DE_ALGORITMOS.PDF"
+                    },
+                    {
+                        "nombre": "Introducción a la Teoría de Aproximación",
+                        "archivo": "292906_INTRODUCCION_A_LA_TEORIA_DE_APROX.PDF"
+                    },                    
+                    {
+                        "nombre": "Optimización Aplicada",
+                        "archivo": "292907_OPTIMIZACION_APLICADA.PDF"
+                    },
+                    {
+                        "nombre": "Lattices de Banach y Operadores Positivos",
+                        "archivo": "292908_LATTICES_DE BANACH_Y_OPERADORES POSITIVOS.PDF"
+                    },
+                    
+                    {
+                        "nombre": "Modelación Financiera Aplicada",
+                        "archivo": "292909_MODELACION_FINANCIERA_AVANZADA.PDF"
+                    },
+                    {
+                        "nombre": "Procesos Estocásticos Avanzados",
+                        "archivo": "292910_PROCESOS_ESTOCASTICOS_AVANZADOS.PDF"
+                    },
+                    
+                    {
+                        "nombre": "Análisis Multivariado",
+                        "archivo": "292911_ANALISIS_MULTIVARIADO.PDF"
+                    },
+                    {
+                        "nombre": "Series de Tiempo",
+                        "archivo": "292912_SERIES_DE_TIEMPO.PDF"
+                    },
+                    {
+                        "nombre": "Ecuaciones en Diferencias",
+                        "archivo": "292913_ECUACIONES_EN_DIFERENCIAS.PDF"
+                    },
+                    {
+                        "nombre": "Dinámica Colectiva",
+                        "archivo": "292914_DINAMICA_COLECTIVA.PDF"
+                    },
+                    {
+                        "nombre": "Modelos Matemáticos en Economía y Finanzas Mediante Sistemas Dinámicos Discretos",
+                        "archivo": "292915_MODELOS_MATEMATICOS_EN_ECONOMIA_Y_FINANZAS.PDF"
+                    }, 
+                    {
+                        "nombre": "Modelos Matemáticos en Biología Mediante Sistemas Dinámicos Discretos",
+                        "archivo": "292916_MODELOS_MATEMATICOS_EN_BIOLOGIA.PDF"
+                    },
+                    {
+                        "nombre": "Herramientas Computacionales para Ciencia de Datos",
+                        "archivo": "292917_HERRAMIENTAS_COMPUTACIONALES_PARA_CIENCIA_DE_DATOS.PDF"
+                    },
+
+                    {
+                        "nombre": "Modelos para Ingeniería de Variables",
+                        "archivo": "292918_MODELOS_PARA_INGENIERIA_DE_VARIABLES.PDF"
+                    },
+                    {
+                        "nombre": "Modelación para Aprendizaje Máquina y Aprendizaje Profundo",
+                        "archivo": "292919_MODELACION_PARA_APRENDIZAJE_MAQUINA.PDF"
+                    },
+                    {
+                        "nombre": "Análisis de Big Data",
+                        "archivo": "292920_ANALISIS_DE_BIG_DATA.PDF"
+                    }
+
+
+                    
+
+                ]
+            }                        
+        }
+    }
+}

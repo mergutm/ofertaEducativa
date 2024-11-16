@@ -1,6 +1,6 @@
 let datos;
 
-fetch("../../../archivos/posgrados/mcpnyal.json")
+fetch("../../../archivos/posgrados/mcpnya.json")
     .then((response) => response.json())
     .then((data) => {
             datos = data;
@@ -8,7 +8,7 @@ fetch("../../../archivos/posgrados/mcpnyal.json")
             const tbody = document.getElementById("temario-tbody-content");
 
             const semestres = Object.keys(contenido).filter(
-                (key) => contenido[key].numero <= 1
+                (key) => contenido[key].numero <= 8
             );
 
             // itera sobre cada key (semestre) del objeto contenido (hasta 8vo semestre)
@@ -22,7 +22,7 @@ fetch("../../../archivos/posgrados/mcpnyal.json")
             i == semestre.length - 1 ? 'class="semestre-border"' : ""
           }>
                     <td >${m.nombre}</td>
-                    <td>
+                    <td id='${m.nombre}'>
                         <div class="is-flex is-justify-content-center">
                             <p class="buttons">
                                 <a class="button is-small has-tooltip-arrow has-tooltip-multiline" href="../archivos/planes/plan_2017/${
@@ -67,7 +67,7 @@ fetch("../../../archivos/posgrados/mcpnyal.json")
 
             // Para 9no y 10mo semestre
             const semestresOptativas = Object.keys(contenido).filter(
-                (key) => contenido[key].numero > 1
+                (key) => contenido[key].numero > 8
             );
 
             semestresOptativas.forEach((key) => {
@@ -94,16 +94,22 @@ fetch("../../../archivos/posgrados/mcpnyal.json")
                                 ${
                                   m.nombre == undefined
                                     ? `<div>
-                                            <button id="ep_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(1,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Estudio de principios bioactivos a partir de fuentes naturales">
+                                            <button id="es_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(1,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Estructuras y Sismicidad">
                                                 <span class="icon is-small">
-                                                    <i class="has-text-weight-bold"> EP </i>
+                                                    <i class="has-text-weight-bold"> ES </i>
                                                 </span>
                                             </button>
-                                            <button id="ip_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(2,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Ingeniería de procesos biotecnológicos sustentables">
+                                            <button id="aa_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(2,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Área Administrativa	">
                                                 <span class="icon is-small">
-                                                  <i class="has-text-weight-bold"> IP </i>
+                                                  <i class="has-text-weight-bold"> AA </i>
                                                 </span>
                                             </button>
+                                            <button id="vt_${m.optativa[0].optativa}" class="button is-small has-tooltip-arrow has-tooltip-multiline" onclick="cambioOptativa(3,'op${m.optativa[0].optativa}', '${key}', this); mostrarToast()" data-tooltip="Vías Terrestres	">
+                                                <span class="icon is-small">
+                                                  <i class="has-text-weight-bold"> VT </i>
+                                                </span>
+                                            </button>
+
                                         </div>`
                                     : ""
                                 }
@@ -160,30 +166,37 @@ function cambioOptativa(optativa, id, semestre, e) {
 
   const idOrignal = id.split("op")[1];
 
-  const btnEP = document.getElementById(`ep_${idOrignal}`);
-  const btnIP = document.getElementById(`ip_${idOrignal}`);
-  
+  const btnES = document.getElementById(`es_${idOrignal}`);
+  const btnAA = document.getElementById(`aa_${idOrignal}`);
+  const btnVT = document.getElementById(`vt_${idOrignal}`);
 
   // establece el nuevo boton activo con la clase is-active
-  if (btnEP.id == e.id) {
-    btnEP.classList.add("is-active");
-    btnEP.classList.add("btn-active");
-    btnIP.classList.remove("is-active");
-    btnIP.classList.remove("btn-active");
-    
-    
+  if (btnES.id == e.id) {
+    btnES.classList.add("is-active");
+    btnES.classList.add("btn-active");
+    btnAA.classList.remove("is-active");
+    btnAA.classList.remove("btn-active");
+    btnVT.classList.remove("is-active");
+    btnVT.classList.remove("btn-active");
   } 
-  else if (btnIP.id == e.id) 
+  else if (btnAA.id == e.id) 
   {
-    btnIP.classList.add("is-active");
-    btnIP.classList.add("btn-active");
-    btnEP.classList.remove("is-active");
-    btnEP.classList.remove("btn-active");
-    
-    
+    btnAA.classList.add("is-active");
+    btnAA.classList.add("btn-active");
+    btnES.classList.remove("is-active");
+    btnES.classList.remove("btn-active");
+    btnVT.classList.remove("is-active");
+    btnVT.classList.remove("btn-active");
   }   
-  
-  
+  else if (btnVT.id == e.id) 
+  {
+    btnVT.classList.add("is-active");
+    btnVT.classList.add("btn-active");
+    btnES.classList.remove("is-active");
+    btnES.classList.remove("btn-active");    
+    btnAA.classList.remove("is-active");
+    btnAA.classList.remove("btn-active");
+  }
 
   const dwnElement = document.getElementById(`dwn_${idOrignal}`);
   const vwElement = document.getElementById(`vw_${idOrignal}`);
@@ -263,7 +276,7 @@ function mostrarToast() {
 
   // Crea el elemento HTML que tendra el texto del toast 
   const textoToast = document.createElement("div");
-  textoToast.innerHTML = "Recuerda que tras elegir una optativa en primer semestre, solo podrás cursar materias de esa optativa en los siguientes semestres.";
+  textoToast.innerHTML = "Recuerda que tras elegir una optativa en octavo semestre, solo podrás cursar materias de esa optativa en los siguientes semestres.";
   textoToast.classList.add("has-text-centered", "has-text-weight-bold", "has-text-info-dark");
   
   // Crea el toast con BulmaToast
@@ -275,4 +288,26 @@ function mostrarToast() {
     closeOnClick: true,
     duration: 90000,
   });
+}
+
+
+
+
+window.onload = corregir_optativas(  );  
+function corregir_optativas(  ) {
+  setTimeout(() => {
+    //console.log("Delayed for 3 second.");
+    var matches = document.querySelectorAll("td");
+      matches.forEach( (item ) => {
+        
+
+        if ( item.id.includes('Optativa') ){
+          item.innerHTML='&nbsp;';
+        }
+      }
+      );
+  }, 3000);
+
+
+  
 }

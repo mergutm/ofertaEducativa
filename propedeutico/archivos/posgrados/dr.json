@@ -1,0 +1,116 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2011",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Tópicos selectos de matemáticas",
+                        "archivo": "280102_Topicos_Selectos_de_Matematicas.PDF"
+                      },
+                      {
+                        "nombre": "Seminario de tesis I",
+                        "archivo": "280101_Seminario_de_Tesis_I.PDF"
+                      },
+                      { 
+                        "nombre": "Optativa I"
+                    }            
+                    
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de tesis II",
+                        "archivo": "280201_Seminario_de_Tesis_II.PDF"
+                    },
+                    {
+                        "nombre": "Tópicos selectos de programación",
+                        "archivo": "280202_Topicos_selectos_de_programacion.PDF"
+                    },
+                    { 
+                        "nombre": "Optativa II"
+                    } 
+
+                ]
+            },
+
+             
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Seminario de tesis III",
+                            "archivo":"280301_Seminario_de_Tesis_III.PDF" 
+                        }
+   
+                        
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Seminario de tesis e investigación IV",
+                            "archivo":"280401_Seminario_de_Tesis_IV.PDF"
+                        }                      
+
+                ]
+            },
+
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de tesis e investigación V ",
+                        "archivo":"280501_Seminario_de_Tesis_V.PDF"
+                    }
+                ]
+            },
+
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Seminario de tesis e investigación VI",
+                        "archivo":"280601_Seminario_de_Tesis_VI.PDF"
+                    }        
+                ]
+            },
+            
+            "Optativas":{
+                "numero": 7,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Robótica Inteligente",
+                            "archivo": "280701_Robotica_Inteligente.PDF"
+                        },
+                        {
+                            "nombre": "Visión por computadora",
+                            "archivo": "280702_Vision_por_computadora.PDF"
+                        },
+                        {
+                            "nombre": "Sistemas de diálogo multimodal",
+                            "archivo": "280703_Sistema_de_dialogo_multimodal.PDF"
+                        },
+                        {
+                            "nombre": "Tópicos selectos de mécanica",
+                            "archivo": "280704_Topicos_selectos_de_Mecanica.PDF"
+                        }           
+                        
+                         
+                ]
+            }
+            
+
+        }
+    }
+}

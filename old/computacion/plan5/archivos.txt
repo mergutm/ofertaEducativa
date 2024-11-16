@@ -1,0 +1,15 @@
+Fisica_para_Ingenieria.pdf
+Historia_del_Pensamiento_Filosofico.pdf
+Precalculo.pdf
+Progr._Estructurada.pdf
+Quimica_General_para_Ingenieria.pdf
+Algebra_Lineal_para_Ingenieria.pdf
+Calculo_Diferencial_para_Ingenieria.pdf
+Estructura_de_Datos.pdf
+Principios_de_Electronica_Analogica.pdf
+Teoria_General_de_Sistemas.pdf
+Algebra_Lineal_para_Ingenieria.pdf
+Calculo_Diferencial_para_Ingenieria.pdf
+Estructura_de_Datos.pdf
+Principios_de_Electronica_Analogica.pdf
+Teoria_General_de_Sistemas.pdf

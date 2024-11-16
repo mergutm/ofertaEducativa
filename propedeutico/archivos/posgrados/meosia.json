@@ -1,0 +1,118 @@
+
+{
+    "actual" : {
+        "plan": "Plan 2009",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Matemáticas",
+                        "archivo": "210101_Matematicas.PDF"
+                      },
+                      {
+                        "nombre": "Lógica Reconfigurable",
+                        "archivo": "210102 _Logica _Reconfigurable.PDF"
+                      },
+                      {
+                      "nombre": "Microprocesadores",
+                      "archivo": "210103_Microprocesadores.PDF"
+                    },
+                    {
+                        "nombre": "Control lineal",
+                        "archivo": "210104 _Control_lineal.PDF"
+                      },
+                      {
+                        "nombre": "Seminario de Investigación",
+                        "archivo": "210105_Seminario_de_Investigacion.PDF"
+                      }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Arquitectura de computadoras",
+                        "archivo": "210201_Arquitectura_de_Computadoras.PDF"
+                    },
+                      
+                    {
+                        "nombre": "Metodología de diseño",
+                        "archivo": "210202_Metodologias_de_Diseño.PDF"
+                    },
+                    {
+                        "nombre": "Programación de Interfaces",
+                        "archivo": "210203 _Programacion_de_Interfaces.PDF"
+                    },
+                    {
+                        "nombre": "Optativa I"
+                    },
+                    {
+                        "nombre": "Optativa II"
+                    }
+                    
+                ]
+            },
+
+     
+        
+                "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Seminario de Tesis I",
+                            "archivo":"210301_Seminario_de_Tesis _I.PDF" 
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Seminario de Investigación II",
+                            "archivo":"210401 _Seminario_de_Tesis_II.PDF"
+                        }                        
+
+                ]
+            },
+
+            "Optativas":{
+                "numero": 5,
+                 "materias" : [                     
+                    {
+                      "nombre": "Procesamiento de Imágenes",
+                      "archivo": "210501V_Procesamiento_de_Imagenes.PDF"
+                    },
+                    {
+                      "nombre": "Reconocimiento de patrones",
+                      "archivo": "210502V_Reconocimiento_de_Patrones.PDF"
+                    },
+                    {
+                        "nombre": "Redes Neuronales Artificiales",
+                        "archivo": "210503V_Redes_neuronales_artificiales.PDF"
+                    },
+                    {
+                        "nombre": "Visión por Computadora",
+                        "archivo": "210504V_Vision_por_computadora.PDF"
+                    },
+                    {
+                        "nombre": "Introducción al control no lineal",
+                        "archivo": "210505S_Introduccion_al_control_no_lineal.PDF"
+                    },
+                    {
+                        "nombre": "Electrónica de Potencia",
+                        "archivo": "210506S_Electronica_de_potencia.PDF"
+                    },
+                    {
+                        "nombre": "Control no Lineal",
+                        "archivo": "210507S_Control_no-lineal.PDF"
+                    }    
+                  ]
+                }                       
+        }
+    }
+}
