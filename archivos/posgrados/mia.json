@@ -112,15 +112,23 @@
                         "archivo": "341208GC_APRENDIZAJE_AUTOMATICO_EN_PROBLEMAS_GEOESPACIALES.PDF"
                     },
                     {
-                        "nombre": "Procesamientode Imágenes con Redes Neuronales",
+                        "nombre": "Procesamiento de Imágenes con Redes Neuronales",
                         "archivo":"341303PS_PROCESAMIENTO_DE_IMAGENES_CON_REDES_NEURONALES.PDF" 
+                    },
+                    {
+                        "nombre": "Visión Computacional",
+                        "archivo":"341304PS _VISION _COMPUTACIONAL.PDF"
+                    },
+                    {
+                        "nombre": "Procesamiento de Lenguaje Natural",
+                        "archivo": "341305LN _PROCESAMIENTO _DE_LENGUAJE_NATURAL.PDF"
                     },
                     {
                         "nombre": "Razonamiento no Clásico",
                         "archivo":"341306RA_RAZONAMIENTO_NO_CLASICO.PDF" 
                     },
                     {
-                        "nombre": "Visulación de Datos Aplicada a Aprendizaje Automático",
+                        "nombre": "Visualización de Datos Aplicada a Aprendizaje Automático",
                         "archivo":"341307GC_VISUALIZACION_DE_DATOS_APLICADA_A_APRENDIZAJE_AUTOMATICO.PDF" 
                     }
                         

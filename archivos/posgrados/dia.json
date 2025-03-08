@@ -6,15 +6,15 @@
                 "numero": 1,
                 "materias" : [
                     {
-                        "nombre": "Seminario de tesis e investigación I",
+                        "nombre": "Seminario de Tesis e Investigación I",
                         "archivo": "351101_SEMINARIO_DE_TESIS.PDF"
                     },
                     {
-                        "nombre": "Modelado estocástico",
+                        "nombre": "Modelado Estocástico",
                         "archivo": "351102_MODELADO_ESTOCASTICO.PDF"
                     },
                     {
-                        "nombre": "Datos e información",
+                        "nombre": "Datos e Información",
                         "archivo": "351103_DATOS_E_INFORMACION.PDF"
                     },
                     { 
@@ -27,7 +27,7 @@
                 "numero": 2,
                 "materias" : [
                     {
-                        "nombre": "Aprendizaje profundo avanzado",
+                        "nombre": "Aprendizaje Profundo Avanzado",
                         "archivo": "351201_APRENDIZAJE_PROFUNDO_AVANZADO.PDF"
                     },
                   
@@ -43,13 +43,12 @@
                 "materias" : [
                     
                         {
-                            "nombre": "Cómputo cuántico",
+                            "nombre": "Cómputo Cuántico",
                             "archivo":"351301_COMPUTO_CUANTICO.PDF" 
                         },
-   
                         { 
                             "nombre": "Optativa III"
-                        }       
+                        }  
                 ]
             },
 
@@ -58,7 +57,7 @@
                 "materias" : [
                                             
                         {
-                            "nombre": "Seminario de tesis e investigación",
+                            "nombre": "Seminario de Tesis e Investigación II",
                             "archivo":"351401_SEMINARIO_DE_TESIS_II.PDF"
                         }                      
 
@@ -69,7 +68,7 @@
                 "numero": 5,
                 "materias" : [
                     {
-                        "nombre": "Seminario de tesis e investigación ",
+                        "nombre": "Seminario de Tesis e Investigación III",
                         "archivo":"351501_SEMINARIO_DE_TESIS_III.PDF"
                     }
                 ]
@@ -79,7 +78,7 @@
                 "numero": 6,
                 "materias" : [
                     {
-                        "nombre": "Seminario de tesis e investigación IV",
+                        "nombre": "Seminario de Tesis e Investigación IV",
                         "archivo":"351601_SEMINARIO_DE_TESIS_IV.PDF"
                     }        
                 ]
@@ -88,63 +87,59 @@
                 "numero": 7,
                 "materias": [
                     {
-                        "nombre": "Filtrado de señales",
+                        "nombre": "Filtrado de Señales",
                         "archivo": "351104PS_FILTRADO_DE_SEÑALES.PDF"
                     },
                     {
-                        "nombre": "Procesamiento del habla",
+                        "nombre": "Procesamiento del Habla",
                         "archivo": "351105LN_PROCESAMIENTO_DEL_HABLA.PDF"
                     },
                     {
-                        "nombre": "Minería de datos",
+                        "nombre": "Minería de Datos",
                         "archivo": "351106RA_MINERIA_DE_DATOS.PDF"
                     },
                     {
-                        "nombre": "Sistema de información geográfica",
+                        "nombre": "Sistema de Información Geográfica",
                         "archivo": "351107GC_SISTEMA_DE_INFORMACION.PDF"
                     },
                     {
-                        "nombre": "Procesamiento avanzado de imágenes",
+                        "nombre": "Procesamiento Avanzado de Imágenes",
                         "archivo": "351202PS_PROCESAMIENTO_AVANZADO.PDF"
                     },
                     {
-                        "nombre": "Computación flexible",
+                        "nombre": "Computación Flexible",
                         "archivo": "351203PS_COMPUTACION_FLEXIBLE.PDF"
                     },
                     {
-                        "nombre": "Temas selectos de lingüistica computacional",
+                        "nombre": "Temas Selectos de Lingüística Computacional",
                         "archivo": "351204LN_TEMAS_SELECTOS_DE_LINGUISTICA.PDF"
                     },
                     {
-                        "nombre": "Análisis de datos y modelos de aprendizaje máquina",
-                        "archivo": "351204LN_TEMAS_SELECTOS_DE_LINGUISTICA.PDF"
+                        "nombre": "Análisis de Datos y Modelos de Aprendizaje Máquina",
+                        "archivo": "351205RA _ANALISIS_DE_DATOS.PDF"
                     },
                     {
-                        "nombre": "Optimización númerica con aplicaciones geoespaciales",
+                        "nombre": "Optimización Numérica con Aplicaciones Geoespaciales",
                         "archivo": "351206GC_OPTIMIZACION_NUMERICA.PDF"
                     },
                     {
-                        "nombre": "Temas selectos de visión por computadora",
+                        "nombre": "Temas Selectos de Visión por Computadora",
                         "archivo":"351302PS_TEMAS_SELECTOS.PDF" 
                     },
                     {
-                        "nombre": "Cómputo paralelo y distribuido",
+                        "nombre": "Cómputo Paralelo y Distribuido",
                         "archivo":"351303PS_COMPUTO_PARALELO.PDF" 
                     },
                     {
-                        "nombre": "Cómputo paralelo y distribuido",
-                        "archivo":"351303PS_COMPUTO_PARALELO.PDF" 
-                    },
-                    {
-                        "nombre": "Temas selectos de procesamiento de lenguaje natural",
+                        "nombre": "Temas Selectos de Procesamiento de Lenguaje Natural",
                         "archivo":"351304LN_TEMAS_SELECTOS_DE_PROCESAMIENTO.PDF" 
                     },
                     {
-                        "nombre": "Modelos especializados de aprendizaje máquina",
+                        "nombre": "Modelos Especializados de Aprendizaje Máquina",
                         "archivo":"351305RA_MODELOS_ESPECIALIZADOS.PDF" 
                     },
                     {
-                        "nombre": "Aprendizaje automático en redes complejas",
+                        "nombre": "Aprendizaje Automático en Redes Complejas",
                         "archivo":"351306GC_APRENDIZAJE_AUTOMATICO.PDF" 
                     }
                 ]

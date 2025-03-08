@@ -1,0 +1,352 @@
+{
+    "actual" : {
+        "plan": "Plan 2008",
+        "contenido":{
+            "Primero":{
+                "numero": 1,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo Differencial",
+                        "archivo": "CALCULO_DIFERENCIAL.pdf"
+                      },
+                      {
+                        "nombre": "Historia del Pensamiento Filosófico",
+                        "archivo": "HISTORIA_DEL_PENSAMIENTO_FILOSOFICO.pdf"
+                      },
+                      {
+                        "nombre": "Introducción a la Ingeniería en Electrónica",
+                        "archivo": "INTRODUCCION_A_LA_INGENIERIA_EN_ELECTRONICA.pdf"
+                      },
+                      
+                      {
+                        "nombre": "Mecánica clásica",
+                        "archivo": "MECANICA_CLASICA.pdf"
+                      },
+                      {
+                        "nombre": "Programación Estructurada",
+                        "archivo": "PROGRAMACION_ESTRUCTURADA.pdf"
+                      }
+                ]
+            },
+
+            "Segundo": {
+                "numero": 2,
+                "materias" : [
+                    {
+                        "nombre": "Cálculo Integral",
+                        "archivo": "CALCULO_INTEGRAL.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Álgebra Lineal",
+                        "archivo": "ALGEBRA_LINEAL.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Teoría General de Sistemas",
+                        "archivo": "TEORIA_GENERAL_DE_SISTEMAS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Progrmación Orientada a Objetos",
+                        "archivo": "PROGRAMACION_ORIENTADA_A_OBJETOS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Metrología e Instrumentación",
+                        "archivo": "METROLOGIA_E_INSTRUMENTACION.pdf"
+                      }
+                ]
+            },
+
+            "Tercero":{
+                "numero": 3,
+                "materias" : [
+                    
+                        {
+                            "nombre": "Análisis Vectorial",
+                            "archivo":"ANALISIS_VECTORIAL.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Ecuaciones Diferenciales",
+                            "archivo":"ECUACIONES_DIFERENCIALES.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Circuitos Eléctricos I",
+                            "archivo":"CIRCUITOS_ELECTRICOS_I.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Programación Visual",
+                            "archivo":"PROGRAMACION_VISUAL.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Tópicos de Química General",
+                            "archivo":"TOPICOS_DE_QUIMICA_GENERAL.pdf"
+                        }
+                ]
+            },
+
+            "Cuarto":{
+                "numero": 4,
+                "materias" : [
+                                            
+                        {
+                            "nombre": "Métodos Numéricos",
+                            "archivo":"METODOS_NUMERICOS.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Electricidad y Magnetismo",
+                            "archivo":"ELECTRICIDAD_Y_MAGNETISMO.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Circuitos Eléctricos II",
+                            "archivo":"CIRCUITOS_ELECTRICOS_II.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Sensores y transductores",
+                            "archivo":"SENSORES_Y_TRANSDUCTORES.pdf"
+                        },
+                        
+                        {
+                            "nombre": "Circuitos Lógicos",
+                            "archivo":"CIRCUITOS_LOGICOS.pdf"
+                        }
+                ]
+            },
+
+            "Quinto":{
+                "numero": 5,
+                "materias" : [
+                    {
+                        "nombre": "Probabilidad y Estadística",
+                        "archivo":"PROBABILIDAD_Y_ESTADISTICA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Teoría Electro-Magnética",
+                        "archivo":"TEORIA_ELECTROMAGNETICA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Física de los Semiconductores",
+                        "archivo":"FISICA_DE_LOS_SEMICONDUCTORES.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Circuitos Electrónicos I",
+                        "archivo":"CIRCUITOS_ELECTRONICOS_I.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Sistemas Digitales",
+                        "archivo":"SISTEMAS_DIGITALES.pdf"
+                      }
+                ]
+            },
+
+            "Sexto":{
+                "numero": 6,
+                "materias" : [
+                    {
+                        "nombre": "Óptica",
+                        "archivo":"OPTICA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Teoría de Comunicaciones",
+                        "archivo":"TEORIA_DE_COMUNICACIONES.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Electrónica de Potencia",
+                        "archivo":"ELECTRONICA_DE_POTENCIA.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Circuitos Electrónicos II",
+                        "archivo":"CIRCUITOS_ELECTRONICOS_II.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Microcontroladores",
+                        "archivo":"MICROCONTROLADORES.pdf"
+                      }
+                      
+                ]
+            },
+
+            "Séptimo":{
+                "numero": 7,
+                "materias" : [
+                    {
+                        "nombre": "Ingeniería de Sistemas",
+                        "archivo":"INGENIERIA_DE_SISTEMAS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Comunicaciones Analógicas",
+                        "archivo":"COMUNICACIONES_ANALOGICAS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Máquinas Eléctricas",
+                        "archivo":"MAQUINAS_ELECTRICAS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Sistemas de Control",
+                        "archivo":"SISTEMAS_DE_CONTROL.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Arquitectura de Computadoras",
+                        "archivo":"ARQUITECTURA_DE_COMPUTADORAS.pdf"
+                      }
+                ]
+            },
+
+            "Octavo":{
+                "numero": 8,
+                "materias" : [
+                    {
+                        "nombre": "Fundamentos de Administración",
+                        "archivo":"FUNDAMENTOS_DE_ADMINISTRACION.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Comunicaciones Digitales",
+                        "archivo":"COMUNICACIONES_DIGITALES.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Sistemas Operativos",
+                        "archivo":"SISTEMAS_OPERATIVOS.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Control Dígital",
+                        "archivo":"CONTROL_DIGITAL.pdf"
+                      },
+                      
+                       {
+                        "nombre": "Procesamiento Digital de Señales",
+                        "archivo":"PROCESAMIENTO_DIGITAL_DE_SENALES.pdf"
+                      }
+                ]
+            },
+
+            "Noveno":{
+                "numero": 9,
+                "materias" : [
+                       {
+                        "nombre": "Desarrollo Empresarial I",
+                        "archivo":"DESARROLLO_EMPRESARIAL_I.pdf"
+                        },
+
+                        {
+                        "nombre": "Redes de Computadoras I",
+                        "archivo":"REDES_DE_COMPUTADORAS.pdf"
+                        },
+
+                        {
+                        "nombre": "Proyecto Terminal I",
+                        "archivo":"PROYECTO_TERMINAL_I.pdf"
+                        },
+                    {
+                        "optativa":[ 
+                            {
+                                "nombre": "Electrónica de Potencia II",
+                                "archivo":"APLICACIONES_DE_ELECTRONICA_DE_POTENCIA.pdf",
+                                "optativa": 2
+                            },
+                            {
+                                "nombre": "Fibra Óptica",
+                                "archivo":"FIBRA_OPTICA.pdf",
+                                "optativa": 2
+                            }
+
+                            
+                        ]
+                    },
+                    {
+                        "optativa":[
+                           
+                            {
+                                "nombre": "Tópicos Selectos de Control",
+                                "archivo":"TOPICOS_SELECTOS_DE_CONTROL.pdf",
+                                "optativa": 1
+                            },
+                            {
+                                "nombre": "Microondas y Satélites",
+                                "archivo":"MICROONDAS_Y_SATELITES.pdf",
+                                "optativa": 1
+                            } 
+                            
+                        ]
+                    }
+                ]
+            },
+
+            "Décimo":{
+                "numero": 10,
+                "materias" : [
+                    {
+                        "nombre": "Desarrollo Empresarial II",
+                        "archivo":"DESARROLLO_EMPRESARIAL_II.pdf"
+                    },
+                      
+                    {
+                        "nombre": "Dirección de Empresas",
+                        "archivo":"DIRECCION_DE_EMPRESAS.pdf"
+                    },
+                      
+                    {
+                        "nombre": "Proyecto Terminal II",
+                        "archivo":"PROYECTO_TERMINAL_II.pdf"
+                    },
+                    {
+                        "optativa":[
+                            {
+                                "nombre": "Robótica",
+                                "archivo":"ROBOTICA.pdf",
+                                "optativa": 3
+                            },
+                            {
+                                "nombre": "Redes de Computadoras II",
+                                "archivo":"APLICACIONES_EN_REDES_DE_COMPUTADORAS.pdf",
+                                "optativa": 3
+                            }
+                            
+                        ]
+                    },
+
+                    {
+                        "optativa":[
+                            {
+                                "nombre": "Controladores Lógicos Programables",
+                                "archivo":"CONTROLADORES_LOGICOS_PROGRAMABLES.pdf",
+                                "optativa": 4
+                            },
+                            {
+                                "nombre": "Telefonía y Comunicaciones Inalámbricas",
+                                "archivo":"TELEFONIA_Y_COMUNICACIONES_INALAMBRICAS.pdf",
+                                "optativa": 4
+                            }
+                            
+                        ]
+                    }
+
+
+                ]
+            }
+            
+        }
+    }
+}

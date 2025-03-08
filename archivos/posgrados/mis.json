@@ -7,16 +7,16 @@
                 "numero": 1,
                 "materias" : [
                     {
-                        "nombre": "Ingenieria de Requisitos",
+                        "nombre": "Ingeniería de Requisitos",
                         "archivo": "132101_Ingenieria_de_Requisitos.PDF"
                       },
                       {
                         "nombre": "Gestión de Proyectos de Software",
-                        "archivo": "132102_Gestion_de_Proyectos_de_software.pdf"
+                        "archivo": "132102_Gestion_de_Proyectos_de_software.PDF"
                       },
                       {
                       "nombre": "Seminario de Tesis I",
-                      "archivo": "132103_Seminario_de_Tesis_I.pdf"
+                      "archivo": "132103_Seminario_de_Tesis_I.PDF"
                       },
                       {
                         "nombre": "Optativa I"

@@ -7,11 +7,11 @@
                 "numero": 1,
                 "materias" : [
                     {
-                        "nombre": "Tópicos selectos de matemáticas",
+                        "nombre": "Tópicos Selectos de Matemáticas",
                         "archivo": "280102_Topicos_Selectos_de_Matematicas.PDF"
                       },
                       {
-                        "nombre": "Seminario de tesis I",
+                        "nombre": "Seminario de Tesis I",
                         "archivo": "280101_Seminario_de_Tesis_I.PDF"
                       },
                       { 
@@ -25,11 +25,11 @@
                 "numero": 2,
                 "materias" : [
                     {
-                        "nombre": "Seminario de tesis II",
+                        "nombre": "Seminario de Tesis II",
                         "archivo": "280201_Seminario_de_Tesis_II.PDF"
                     },
                     {
-                        "nombre": "Tópicos selectos de programación",
+                        "nombre": "Tópicos Selectos de Programación",
                         "archivo": "280202_Topicos_selectos_de_programacion.PDF"
                     },
                     { 
@@ -45,7 +45,7 @@
                 "materias" : [
                     
                         {
-                            "nombre": "Seminario de tesis III",
+                            "nombre": "Seminario de Tesis III",
                             "archivo":"280301_Seminario_de_Tesis_III.PDF" 
                         }
    
@@ -58,7 +58,7 @@
                 "materias" : [
                                             
                         {
-                            "nombre": "Seminario de tesis e investigación IV",
+                            "nombre": "Seminario de Tesis e Investigación IV",
                             "archivo":"280401_Seminario_de_Tesis_IV.PDF"
                         }                      
 
@@ -69,7 +69,7 @@
                 "numero": 5,
                 "materias" : [
                     {
-                        "nombre": "Seminario de tesis e investigación V ",
+                        "nombre": "Seminario de Tesis e Investigación V ",
                         "archivo":"280501_Seminario_de_Tesis_V.PDF"
                     }
                 ]
@@ -79,7 +79,7 @@
                 "numero": 6,
                 "materias" : [
                     {
-                        "nombre": "Seminario de tesis e investigación VI",
+                        "nombre": "Seminario de Tesis e Investigación VI",
                         "archivo":"280601_Seminario_de_Tesis_VI.PDF"
                     }        
                 ]
@@ -94,15 +94,15 @@
                             "archivo": "280701_Robotica_Inteligente.PDF"
                         },
                         {
-                            "nombre": "Visión por computadora",
+                            "nombre": "Visión por Computadora",
                             "archivo": "280702_Vision_por_computadora.PDF"
                         },
                         {
-                            "nombre": "Sistemas de diálogo multimodal",
+                            "nombre": "Sistemas de Diálogo Multimodal",
                             "archivo": "280703_Sistema_de_dialogo_multimodal.PDF"
                         },
                         {
-                            "nombre": "Tópicos selectos de mécanica",
+                            "nombre": "Tópicos Selectos de Mecánica",
                             "archivo": "280704_Topicos_selectos_de_Mecanica.PDF"
                         }           
                         

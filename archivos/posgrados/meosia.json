@@ -19,7 +19,7 @@
                       "archivo": "210103_Microprocesadores.PDF"
                     },
                     {
-                        "nombre": "Control lineal",
+                        "nombre": "Control Lineal",
                         "archivo": "210104 _Control_lineal.PDF"
                       },
                       {
@@ -33,12 +33,12 @@
                 "numero": 2,
                 "materias" : [
                     {
-                        "nombre": "Arquitectura de computadoras",
+                        "nombre": "Arquitectura de Computadoras",
                         "archivo": "210201_Arquitectura_de_Computadoras.PDF"
                     },
                       
                     {
-                        "nombre": "Metodología de diseño",
+                        "nombre": "Metodologías de Diseño",
                         "archivo": "210202_Metodologias_de_Diseño.PDF"
                     },
                     {
@@ -64,7 +64,11 @@
                         {
                             "nombre": "Seminario de Tesis I",
                             "archivo":"210301_Seminario_de_Tesis _I.PDF" 
+                        },
+                        {
+                            "nombre": "Optativa III"
                         }
+
                 ]
             },
 
@@ -88,7 +92,7 @@
                       "archivo": "210501V_Procesamiento_de_Imagenes.PDF"
                     },
                     {
-                      "nombre": "Reconocimiento de patrones",
+                      "nombre": "Reconocimiento de Patrones",
                       "archivo": "210502V_Reconocimiento_de_Patrones.PDF"
                     },
                     {
@@ -100,7 +104,7 @@
                         "archivo": "210504V_Vision_por_computadora.PDF"
                     },
                     {
-                        "nombre": "Introducción al control no lineal",
+                        "nombre": "Introducción al Control no Lineal",
                         "archivo": "210505S_Introduccion_al_control_no_lineal.PDF"
                     },
                     {
@@ -108,7 +112,7 @@
                         "archivo": "210506S_Electronica_de_potencia.PDF"
                     },
                     {
-                        "nombre": "Control no Lineal",
+                        "nombre": "Control no-Lineal",
                         "archivo": "210507S_Control_no-lineal.PDF"
                     }    
                   ]

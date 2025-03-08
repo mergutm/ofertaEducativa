@@ -7,7 +7,7 @@
                 "numero": 1,
                 "materias" : [
                     {
-                        "nombre": "Modelación matemática",
+                        "nombre": "Modelación Matemática",
                         "archivo": "292101_MODELACION_MATEMATICA.PDF"
                     },
                     {
@@ -15,7 +15,7 @@
                         "archivo": "292102_MODELACION_ESTADISTICA.PDF"
                     },
                     {
-                        "nombre": "Seminario de tesis",
+                        "nombre": "Seminario de Tesis",
                         "archivo": "292103_SEMINARIO_DE_TESIS.PDF"
                     } 
                 ]
@@ -32,7 +32,7 @@
                         "nombre": "Optativa I"
                     },
                     {
-                        "nombre": "Seminario de tesis I",
+                        "nombre": "Seminario de Investigación I",
                         "archivo": "292202_SEMINARIO_DE_INVESTICACION_I.PDF"
                     }
 
@@ -100,7 +100,7 @@
                 ]
             }, 
             "Octavo":{
-                "numero": 7,
+                "numero": 8,
                 "materias" : [
                     {
                         "nombre": "Seminario de Investigación VII",
@@ -109,7 +109,7 @@
                 ]
             },  
             "Optativas":{
-                "numero": 7,
+                "numero": 9,
                 "materias" : [
                     {
                         "nombre": "Biomatemática",

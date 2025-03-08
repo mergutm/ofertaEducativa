@@ -46,7 +46,7 @@
                         "archivo": "160203_Mercadotecnia.PDF"
                     },
                     {
-                        "nombre": "Interacción Humano-Computadora I",
+                        "nombre": "Interacción Humano Computadora I",
                         "archivo": "160204_Interaccion_Humano-Computadora I.PDF"
                     },
                     {
@@ -64,7 +64,7 @@
                 "materias" : [
                     
                         {
-                            "nombre": "Interacción Humano-Computadora II",
+                            "nombre": "Interacción Humano Computadora II",
                             "archivo":"160301_Interaccion_Humano_Computadora_II.PDF" 
                         },
                         {
@@ -116,7 +116,7 @@
                             "archivo":"160503_Programacion_Avanzada.PDF"
                         },
                         {
-                            "nombre": "Programación Digital de Imágenes y Sonido",
+                            "nombre": "Procesamiento Digital de Imágenes y Sonido",
                             "archivo":"160504_Procesamiento_Digital_de_Imagenes_y_Sonido.PDF"
                         },
                         {

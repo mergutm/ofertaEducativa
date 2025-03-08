@@ -19,7 +19,7 @@
                       "archivo": "153103_LIDERAZGO_Y_CULTURA_ORGANIZACIONAL.PDF"
                     },
                     {
-                        "nombre": "Seminario de Investigación en Ciencias Económico-Administrativo I",
+                        "nombre": "Seminario de Investigación en Ciencias Económico-Administrativas I",
                         "archivo": "153104_SEMINARIO_DE_INVESTIGACION_EN_CEA_I.PDF"
                       }
                 ]
@@ -74,7 +74,7 @@
                 "materias" : [
                                             
                         {
-                            "nombre": "Seminario de Investigación en Ciencias Económico-Administrativa IV",
+                            "nombre": "Seminario de Investigación en Ciencias Económico-Administrativas IV",
                             "archivo":"153401_SEMINARIO_DE_INVESTIGACION_EN_CEA_IV.PDF"
                         },
                         {
@@ -90,15 +90,15 @@
                                             
                         {
                             "nombre": "Formulación y Evaluación de Proyectos de Inversión",
-                            "archivo":"153401_SEMINARIO_DE_INVESTIGACION_EN_CEA_IV.PDF"
+                            "archivo":"153303ID_FORMULACIÓN_Y_EVALUACION_DE_PROYECTOS_DE_INVERSION.PDF"
                         },
                         {
                             "nombre": "Administración Estratégica de la Cadena de Valor",
-                            "archivo":"153402ID_APOYOS_FINANCIEROS.PDF"
+                            "archivo":"153304CE_ADMINISTRACION_ESTRATEGICA_DE_LA_CADENA_DE_VALOR.PDF"
                         },
                         {
                             "nombre": "Apoyos Financieros para el Emprendimiento",
-                            "archivo":"153403CE_DIRECCION_ESTRATEGICA_Y_COMPLEJIDAD.PDF"
+                            "archivo":"153402ID_APOYOS_FINANCIEROS.PDF"
                         },
                         {
                             "nombre": "Dirección Estratégica y Competitividad",

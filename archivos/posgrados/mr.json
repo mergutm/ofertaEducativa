@@ -9,23 +9,27 @@
                     {
                         "nombre": "Fundamentos matemáticos para la Robótica I",
                         "archivo": "252101_Fundamentos_Matematicos_para_la_Robotica_I.PDF"
-                      },
-                      {
+                    },
+                    {
                         "nombre": "Robótica de manipuladores ",
                         "archivo": "252102_Robotica_de_Manipuladores.PDF"
-                      },
-                      {
+                    },
+                    {
+                        "nombre": "Control de Robots",
+                        "archivo": "252103_Control_de_Robots.PDF"
+                    },
+                    {
                       "nombre": "Programación Concurrente y En Tiempo Real",
                       "archivo": "252104_Programacion_Concurrente_y_en_Tiempo_Real.PDF"
                     },
                     {
                         "nombre": "Seminario de Sensores y Adquisición de Datos",
                         "archivo": "252105_Seminario_de_Sensores_y_Adquisición_de_Datos.PDF"
-                      },
-                      {
+                    },
+                    {
                         "nombre": "Seminario de Tesis I: Protocolo",
                         "archivo": "252106_Seminario_de_Tesis_I_Protocolo.PDF"
-                      }
+                    }
                 ]
             },
 

@@ -11,11 +11,11 @@
                         "archivo": "221101 _Introduccion al Computo_Cientifico.PDF"
                       },
                       {
-                        "nombre": "Modelación estadística",
+                        "nombre": "Modelación Estadística",
                         "archivo": "221102_Modelacion_estadistica.PDF"
                       },
                       {
-                      "nombre": "Técnicas  de modelación matemática",
+                      "nombre": "Técnicas de Modelación Matemática",
                       "archivo": "221103_Tecnicas_de_modelacion_matematica.PDF"
                     }
                 ]
@@ -25,7 +25,7 @@
                 "numero": 2,
                 "materias" : [
                     {
-                        "nombre": "Construcción de modelos matemáticos",
+                        "nombre": "Construcción de Modelos Matemáticos",
                         "archivo": "221201_Construccion_de_modelos_matematicos.PDF"
                     },
                     {
@@ -60,7 +60,7 @@
                 "materias" : [
                                             
                         {
-                            "nombre": "Seminario de Tesis IV",
+                            "nombre": "Seminario de Tesis II",
                             "archivo":"221401_Seminario_de_tesis_II.PDF"
                         },  
                         {

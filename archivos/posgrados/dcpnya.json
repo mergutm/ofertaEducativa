@@ -7,15 +7,15 @@
                 "numero": 1,
                 "materias" : [
                     {
-                        "nombre": "Principios Bioactivos",
+                        "nombre": "Principios Bioactivos de Productos Naturales y Alimentos",
                         "archivo": "331101_PRINCIPIOS_BIOACTIVOS.PDF"
                       },
                       {
-                        "nombre": "Seminario de Investigación I",
+                        "nombre": "Seminario de Tesis I",
                         "archivo": "331102_SEMINARIO_DE_TESIS_I.PDF"
                       },
                       {
-                        "nombre": "Laboratorio",
+                        "nombre": "Laboratorio de Investigación I",
                         "archivo": "331103_LABORATORIO.PDF"
                       }
                     
@@ -29,11 +29,11 @@
                         "archivo": "331201_CIENCIAS_OMICAS.PDF"
                     },
                     {
-                        "nombre": "Laboratorio",
+                        "nombre": "Laboratorio de Investigación II",
                         "archivo": "331203_LABORATORIO.PDF"
                     },                     
                     {
-                        "nombre": "Seminario de Investigación II",
+                        "nombre": "Seminario de Tesis II",
                         "archivo": "331202_SEMINARIO_DE_TESIS_II.PDF"
                     }
 
@@ -117,7 +117,7 @@
                         "nombre": "LGAC 1. Estudio de Principios Bioactivos a Partir de Fuentes Naturales"
                     },
                     {
-                        "nombre": "Formulación y Transporte de Principios Bioactivas",
+                        "nombre": "Formulación y Transporte de Principios Bioactivos",
                         "archivo":"331403EP_ESTEREOQUIMICA_DE_PRINCIPIOS.PDF"
                     },
                     {
